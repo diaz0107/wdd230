@@ -31,6 +31,12 @@
   main {
     display: block;
   }
+
+  .h2Name {
+      margin-bottom: 15px;
+      margin-top: 0px;
+  }
+  
   
   /**
    * Correct the font size and margin on `h1` elements within `section` and
