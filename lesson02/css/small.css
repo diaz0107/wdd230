@@ -1,0 +1,16 @@
+
+/*Lesson 2 - Ben Diaz - Phone view*/
+
+main {
+    grid-template-columns: 1fr;
+    grid-gap: 20px 0;
+}
+main > section {
+    grid-column: 1;
+    width: 90%;
+    max-width: 450px;
+    justify-self: center;
+}
+section img {
+    max-width: 400px;
+}
