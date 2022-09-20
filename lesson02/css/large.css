@@ -70,10 +70,26 @@ section img {
 }
 
 footer {
-    text-align: center;
     background-color: rgb(46, 120, 139);
-    border-radius: 10px 10px 0 0;
-    padding: 1em;
+    position: relative;
+    color: white;
+    padding: 0.75em;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 10;
+}
+.yellow-text-footer {
+    color:yellow;
+    margin-block: 5px;
+}
+footer a {
+    color: white;
+    text-decoration: underline lightblue;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+footer a:hover {
+    color: lightgreen;
+    text-shadow: 1px 1px 10px lightblue;
 }
 #lst-updt {
     padding-top: 5px;
