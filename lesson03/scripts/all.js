@@ -1,5 +1,0 @@
-function allMyFunctions(){
-    lastUpdated(); 
-    year(); 
-} 
-    
