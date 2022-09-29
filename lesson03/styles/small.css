@@ -22,13 +22,13 @@ p {
 header {
 
     color: white;
-    background-color: #156160;
+    background-color: rgb(46, 120, 139);
     text-align: center;
     padding: .2rem;
 }
 
 nav {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .headingpage1,
@@ -36,7 +36,7 @@ nav {
 .headingpage3,
 .headingpage4 {
     font-size: 25px;
-    color: #156160;
+    color: rgb(46, 120, 139);
 }
 
 
@@ -64,7 +64,7 @@ ol {
 
 footer {
     color: white;
-    background-color: #15616D;
+    background-color: rgb(46, 120, 139);
     padding: 1rem;
     text-align: center;
 }
