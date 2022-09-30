@@ -6,19 +6,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Lesson 03 - Site Planning Home Page</title>
     <meta name="description" content="This page will contain my Chamber of Commerce site planning document Home Page.">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link href="styles/small.css" rel="stylesheet">
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/large.css" rel="stylesheet">
+
+    <script src="scripts/all.js"></script>
+    <script src="scripts/currentyear.js"></script>
+    <script src="scripts/lastmodified.js"></script>
 </head>
 
 <body onload="allMyFunctions()">
     <header>
         <h1>WDD 230 - W03 Assignment</h1>
-        <h2>Benjamin Diaz</h2>
+        <h2 class="h2Name">Benjamin Diaz</h2>
     </header>
-    
-    <nav> 
+
+    <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="target-audience.html">Target Audience</a></li>
@@ -26,26 +31,26 @@
             <li><a href="typography.html">Typography</a></li>
         </ul>
     </nav>
-    
+
     <main>
-        <h2 class="headingpage1">Website Planning Document</h2>
+        <h2 class="text-shadow-content">Website Planning Document</h2>
         <hr>
         <section>
             <h3>Site Name</h3>
             <p>The site is going to be called "Ottawa Chamber of Commerce."</p>
 
         </section>
-        
+
         <section>
             <h3>Site Purpose</h3>
 
-            <p>The main purpose of the site Ottawa Chamber of Commerce is a chamber of commerce located 
-			   in the city of Ottawa in the country of Canada.
+            <p>The main purpose of the site Ottawa Chamber of Commerce is a chamber of commerce located
+                in the city of Ottawa in the country of Canada.
             </p>
 
-            <p>The Ottawa Chamber of Commerce is a local organization of businesses and companies in Ottawa 
-			with the intention to develop and further the interests of local companies and businesses in Canada. 
-			Many businesses are international operating companies with offices in Canada.</p>
+            <p>The Ottawa Chamber of Commerce is a local organization of businesses and companies in Ottawa
+                with the intention to develop and further the interests of local companies and businesses in Canada.
+                Many businesses are international operating companies with offices in Canada.</p>
         </section>
 
         <section>
@@ -58,18 +63,18 @@
             <img src="images/favicon.jpg"
                 alt="This is the image of the Ottawa Chamber of Commerce icon. It shows lighting the way for our community.">
         </section>
-		
-		</main>
-        <footer>
-            <div class="footer-line">&copy; <span id="currentyear"></span> | Ben Diaz | Ottawa, Canada | <a
-                    href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
-            </div>
-            <div class="yellow-text-footer">
-                Last Updated:
-                <span id="lastmodified"></span>
-            </div>
-    
-        </footer>
-    </body>
-    
-    </html>
+
+    </main>
+    <footer>
+        <div class="footer-line">&copy; <span id="currentyear"></span> | Ben Diaz | Ottawa, Canada | <a
+                href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        </div>
+        <div class="yellow-text-footer">
+            Last Updated:
+            <span id="lastmodified"></span>
+        </div>
+
+    </footer>
+</body>
+
+</html>
