@@ -34,18 +34,19 @@ body {
 }
 header {
     padding: 20px;
-    display: grid;
+    /* display: grid; */
     background-color: rgb(46, 120, 139);
     /* grid-template-columns: 22% 34%; */
     border-radius: 5px;
-    z-index: 15;
+    /* z-index: 15; */
     /* justify-content: space-around; */
     box-shadow: 1px 1px 25px black;
 }
 h1 {
-    font-size: 30px;
+    font-size: 2em;
     color: white;
     align-self: center;
+    margin-bottom: 0.25em;
 }
 header > img {
     width: 100%;
