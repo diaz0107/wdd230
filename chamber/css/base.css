@@ -26,11 +26,15 @@ footer {
 }
 
 header {
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-direction: row; the row value stacks the flex items horinzontally (from left to right)
+    align-items: center; Perfect centering: Set both the justify-content and align-items properties to center, and the flex items will be perfectly centered
+    justify-content: center; */
     display: flex;
-    flex-direction: row; /*the row value stacks the flex items horinzontally (from left to right)*/
-    align-items: center; /* Perfect centering: Set both the justify-content and align-items properties to center, and the flex items will be perfectly centered*/
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-
 }
 
 .heading {
@@ -39,8 +43,8 @@ header {
 }
 
 header img {
-    width: 80px;
-    height: auto;
+    /* width: 80px;
+    height: auto; */
 }
 
 .heading h1 {
@@ -160,8 +164,9 @@ nav a:hover {
 nav ul.hide {
     display: none;
 }
-
-.contentbox {
+/* 
+.contentbox1 {
+    grid-area: s1;
     display: block;
     margin: 10px auto;
     border: .5px solid black;
@@ -171,6 +176,101 @@ nav ul.hide {
     font-family: 'Yusei Magic', sans-serif;
     font-size: 20px;
 }
+.contentbox2 {
+    grid-area: s2;
+    display: block;
+    margin: 10px auto;
+    border: .5px solid black;
+    padding: 15px;
+    background-color: #FFECD1;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
+.contentbox3 {
+    grid-area: s3;
+    display: block;
+    margin: 10px auto;
+    border: .5px solid black;
+    padding: 15px;
+    background-color: #FFECD1;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
+.contentbox4 {
+    grid-area: s4;
+    display: block;
+    margin: 10px auto;
+    border: .5px solid black;
+    padding: 15px;
+    background-color: #FFECD1;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
+.contentbox5 {
+    grid-area: s5;
+    display: block;
+    margin: 10px auto;
+    border: .5px solid black;
+    padding: 15px;
+    background-color: #FFECD1;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
+.contentbox6 {
+    grid-area: s6;
+    display: block;
+    margin: 10px auto;
+    border: .5px solid black;
+    padding: 15px;
+    background-color: #FFECD1;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
+.contentbox7 {
+    grid-area: s7;
+    display: block;
+    margin: 10px auto;
+    border: .5px solid black;
+    padding: 15px;
+    background-color: #FFECD1;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
+.contentbox8 {
+    grid-area: s8;
+    display: block;
+    margin: 10px auto;
+    border: .5px solid black;
+    padding: 15px;
+    background-color: #FFECD1;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+} */
+/*
+.grid-holder {
+    display: grid;
+    grid-template-areas:
+      's2 s1 s1 s1 s1 s1 s1 s6'
+      's3 s1 s1 s1 s1 s1 s1 s7'
+      's5 s4 s4 s4 s4 s4 s4 s8'; 
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    justify-content: center;
+  }
+
+.spotlight-field{
+    grid-area: s6;
+    gap:0px
+} */
+
 
 #copy {
     font-size: 20px;
