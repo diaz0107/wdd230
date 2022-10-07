@@ -50,16 +50,6 @@
 
 }
 
-footer {
-	background-color: #0C1D47;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-    color: #dee5e5;
-}
-
 .contentbox1 {
     /* grid-area: s1; */
     /* display: block; */
@@ -249,21 +239,4 @@ footer {
     /* font-size: 20px; */
     grid-column: 1/8;
     grid-row: auto;
-}
-
-footer {
-	display: flex;
-	padding: 1rem;
-	justify-content: space-between;
-	font-weight: 700;
-    margin-top: 1rem;
-}
-
-display: flex;
-flex-direction: column;
-text-align: center;
-}
-
-.date-header {
-text-align: center;
 }
