@@ -45,7 +45,6 @@ h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
 }
 
-
 header {
 	
 	background-color: #15616D;
@@ -89,7 +88,7 @@ footer {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	padding: 5px;
+	padding: 3px;
     color: white;
 }
 
@@ -204,7 +203,7 @@ header div nav {
 footer {
 	display: flex;
 	padding: 1rem;
-	justify-content:safe;
+	justify-content:space-between;
 	font-weight: 200;
     margin-top: 1rem;
 }
