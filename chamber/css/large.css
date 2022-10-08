@@ -77,7 +77,7 @@
         height: 100%;
     }
     
-    .wheather {
+    .weater {
         grid-column: 1/2;
         grid-row: 2/3;
         width: 100%;
@@ -93,5 +93,4 @@
     
     
     }
-    
     
