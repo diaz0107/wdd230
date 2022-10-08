@@ -89,7 +89,7 @@ footer {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	padding: 3px;
+	padding: 1px;
     color: white;
 }
 
@@ -208,6 +208,7 @@ footer {
 	justify-content:space-between;
 	font-weight: 200;
     margin-top: 1rem;
+    margin-block: 5px;
 }
 
 
@@ -244,6 +245,7 @@ footer p {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-block: 5px;
 }
 
 .date-header {
