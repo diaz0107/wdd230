@@ -17,7 +17,7 @@ day: 'numeric' };
 
 
 document.querySelector('#datetime').textContent = 
-new Date(Date.now()).toLocaleString('en-US',opciones2);
+new Date(Date.now()).toLocaleString('en-UK',opciones2);
 
 
 
