@@ -205,10 +205,9 @@ header div nav {
 footer {
 	display: flex;
 	padding: 1rem;
-	justify-content:space-between;
+	justify-content:space-evenly;
 	font-weight: 200;
     margin-top: 1rem;
-    margin-block: 5px;
 }
 
 
@@ -245,7 +244,6 @@ footer p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-block: 5px;
 }
 
 .date-header {
