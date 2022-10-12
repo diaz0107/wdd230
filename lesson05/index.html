@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ottawa Chamber of Commerce Home Page</title>
+    <meta name="description" content="This page will contain my weather site planning document Home Page.">
+
+   <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body onload="currentDate(); pancakes()">
+    <script src="js/currentdate.js"></script>
+    <script src="js/pancakes.js"></script>
+    <div id="pan" class="cakes">"Saturday = Join us for a run in the Park! 9:00 am. Saturday at the Ottawa Park."
+    </div>
+
+    <header>
+        <picture>
+            <img src="images/myicon.png" alt="Ottawa Chamber of Commerce.">
+        </picture>
+        <section class="heading">
+            <h1>Ottawa Chamber of Commerce</h1>
+            <div class="motto">Lighting the way for our Community!</div>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li> 
+                </ul>
+    </nav>
+    <main>
+        <h2>The Capital of Canada, Ottawa</h2>
+
+        <div class="banner-box">
+            <img class="banner-image" src="images/bannerimage.jpg" alt="Banner image of Ottawa">
+            <!--This is my my hero image-->
+
+            <section class="weathersummary">
+                <!--This is my weather box that is placed on my hero image-->
+                <h3>Join the Chamber!</h3>
+            </section>
+        </div>
+
+        </div>
+        <div class="contentbox">
+            <h3>Looking Forward!</h3>
+            <!--This is my article-->
+
+            <img class="balloon" src="images/ballons.jpg" alt="Hot Air Ballon Festival.">
+            <!--This is the image for my article-->
+            <p>We are proud to announce one of our most colorful and exciting events here in our beloved Ottawa City.
+                On August 12 2022, from noon until 4 pm, we will celebrate our reach
+                traditions with our yearly The Gatineau Hot Air Balloon Festival. Come ready to be amazed by the variety of colors and
+                designs that will fill the skies. This activity will be a free event sponsored by our City Council
+                members; “Watch giant balloons lift off from the festival grounds or take a ride in one and drift over 
+				the Ottawa-Gatineau region. After dark, some of the balloons are lit up during night flights!”. </p>
+            <p>Families, friends, and visitors from out of town gather year after year to spend an afternoon filled with
+                entertainment and live music provided by some of our talented local musicians. We will also have vendors
+                with delicious foods for purchase at low prices! </p>
+            <p>“This massive event launches balloons of all shapes, sizes and colours over the Ottawa-Gatineau region, and offers 
+			    concerts, fireworks, amusement rides and more,” says Ottawa Tourism.</p>
+        </div>
+
+    </main>
+
+    <footer>
+		 <picture>
+            <img src="images/myicon.png" width="50" alt="Ottawa Chamber of Commerce." align="left"
+        </picture>
+                <div class="title-footer">
+                    <h2>Ottawa Chamber of Commerce</h2> 
+                </div>
+                <div class="contact">
+                    <p>dia20010@byui.edu</p>
+                    <p>+(1) 613 8534807</p>
+                    <a href="https://www.google.com/maps/place/811+Connaught+Ave,+Ottawa,+ON+K2B+8K3/@45.3633937,-75.7865587,17z/data=!3m1!4b1!4m5!3m4!1s0x4cce01d6658241c9:0x66a49ac2304b21dd!8m2!3d45.36339!4d-75.78437">📍 Location
+                        </a>
+                            <br><br>
+                    </div>
+                <div class="info">  
+                        <span>  &copy;<span id="©">
+                        </span> Ottawa Chamber of Commerce &nbsp;</span> | Benjamin Diaz &nbsp; | WDD 230 Project &nbsp;| Last modification: &nbsp; <span id="dateMod"></span>
+                    
+                </div>            
+            </footer>
+            <script src="js/script.js"></script>
+        </body>
+        </html>
