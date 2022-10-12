@@ -32,11 +32,9 @@ footer {
     text-align: center;
     background-color: #ff7d00;
     color: black;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Yusei Magic', sans-serif;
 
 }
-
-
 
 header {
     display: flex;
@@ -107,7 +105,7 @@ h2 {
 
 }
 
-.weathersummary {
+.summary {
 
     font-family: 'Yusei Magic', sans-serif;
     /*By removing position:absolute; from my small.css I was able to let my summary show under my hero image on my small view screen*/
@@ -259,14 +257,6 @@ td {
     color: black;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 15px;
-}
-
-.social {
-    text-align: left;
-}
-
-.social img {
-    width: 35px;
 }
 
 .map {
