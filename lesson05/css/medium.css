@@ -15,21 +15,53 @@ nav ul.hide {
     display: flex;
 }
 
-.weathersummary{
+.summary{
     position: absolute;
     font-size: 15px; 
     
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
 
+.logo-footer {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 
+.title-footer {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.contact {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: end;
+}
 
+.info {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: block;
+}
 
+.info p {
+    display: block;
+    flex-direction: row;
+    width: 100%;
+}
 
+.date-footer {
+    text-align: center;
+}
 
+.info p span {
+    margin: 10px;
+}
 
-
-
-
-
+.hide-small {
+    display: inline-block;
+}
 }

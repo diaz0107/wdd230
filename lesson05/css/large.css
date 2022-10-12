@@ -28,11 +28,7 @@
         font-size: 20px;
     }
 
-    .second {
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
-    
+   
     .summary{
         position:absolute;
         font-size: 15px; 
