@@ -11,7 +11,6 @@ il {
     font-family: 'Yusei Magic', sans-serif;
 }
 
-
 nav {
     font-family: 'Lato', sans-serif;
 }
@@ -43,7 +42,6 @@ header {
     align-items: center;
     /* Perfect centering: Set both the justify-content and align-items properties to center, and the flex items will be perfectly centered*/
     justify-content: center;
-
 }
 
 .heading {
@@ -83,7 +81,6 @@ nav button {
 
 }
 
-
 h2 {
     font-size: 25px;
     text-align: center;
@@ -106,13 +103,11 @@ h2 {
 }
 
 .summary {
-
     font-family: 'Yusei Magic', sans-serif;
-    /*By removing position:absolute; from my small.css I was able to let my summary show under my hero image on my small view screen*/
-    top: 300px;
-    left: 600px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
     background: radial-gradient(#eee, #00ff00);
-    /*border: 1px solid #000;*/
     padding: 9px;
     box-shadow: 0 0 20px #111;
     opacity: .8;
@@ -144,9 +139,7 @@ footer {
     max-width: 800px;
     margin: 0 auto;
     padding-top: 5px;
-
 }
-
 
 nav {
     max-width: 800px;
@@ -161,7 +154,6 @@ picture {
 main {
     padding: 10px;
 }
-
 
 nav {
     background-color: #156160;
@@ -192,24 +184,19 @@ nav ul li a {
 nav ul li.active a {
     background-color: #001524;
     color: white;
-
-
 }
 
 /*always place .active before "hover" so it can work properly*/
-
 
 nav a:hover {
     background-color: #ff7d00;
     color: black;
     font-family: 'Source Code Pro', monospace;
-
 }
 
 nav ul.hide {
     display: none;
 }
-
 
 table,
 th,
@@ -217,15 +204,12 @@ td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 2px;
-
-
 }
 
 th,
 td {
     text-align: center;
 }
-
 
 .center {
     margin-left: auto;
