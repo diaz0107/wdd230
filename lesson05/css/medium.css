@@ -4,8 +4,7 @@
 
 @media (min-width: 37.5em) {
 	
-	
-	sidebar {
+		sidebar {
 		display: flex;
 		flex-direction: row;
 	}
