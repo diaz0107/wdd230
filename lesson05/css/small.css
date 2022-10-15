@@ -54,6 +54,14 @@ header div {
     background-color: #8cf118;
     border: none;
 }
+
+.join-us {
+    width: 100%;
+    padding: 8px;
+    background-color: #8cf118;
+    border: none;
+}
+
 header div #datetime{
     background-color: white;
     color: black;
