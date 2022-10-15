@@ -5,12 +5,12 @@
 @media (min-width: 37.5em) {
 	
 	
-	sidebar {
+	aside {
 		display: flex;
 		flex-direction: row;
 	}
 
-	sidemenu div {
+	aside div {
 		width: 100%;
 		margin: 10px;
 	}
@@ -36,16 +36,11 @@
 		grid-row: 2/3;
 	}
 
-	sidebar {
+	aside {
 		grid-column: 1/4;
 		grid-row: 3/4;
 	}
 	
-	sidebar div {
-		width: 100%;
-		margin: 10px;
-
-	}
 	.join {
 		grid-column: 1/4;
 		grid-row: 4/5;

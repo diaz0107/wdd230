@@ -1,10 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+
+.primary {
+    background-color: #15616D;
+    color: #f4f7f5;
+    height: 300px;
+}
+.secondary {
+    background-color: #156160;
+    color: #f4f7f5;
+    height: 300px;
+}
+.accent1 {
+    background-color: #d10812;
+    color: #f4f7f5;
+    height: 300px;
+}
+.accent2 {
+    background-color: #dee5e5;
+    height: 300px;
+}
+.accent3 {
+    background-color: #f4f7f5;
+    height: 300px;
+}
+
 .colored {
     background-color: white;
     color: #f4f7f5;
 }
+
 
 * {
 	margin: 0;
@@ -26,24 +52,14 @@ header {
     grid-template-columns: 5fr 1fr 1fr;
 	align-items: center;
 	justify-content: center;
-	padding: 8px;
+	padding: 10px;
 	color: #f4f7f5;
+
 }
 
 header div {
     display: flex;
     flex-flow: row;
-}
-
-.hero {
-    position: relative;
-    padding: 0;
-} 
-
-.banner {
-    position: absolute;
-    width: 100%;
-    margin: 0;
 }
 
 header div #datetime{
@@ -85,6 +101,7 @@ footer {
 	margin: 0 auto;
 }
 
+
 h1 {
 	font-size: 2rem;
 }
@@ -92,6 +109,7 @@ h2 {
 	padding: .5rem;
 	color: black;
 }
+
 
 p {
 	padding: .5rem;
@@ -114,10 +132,6 @@ a {
 
 header div a {
     margin: 1.5rem;
-}
-
-header .social a {
-    margin: auto;
 }
 
 header div nav {
@@ -171,6 +185,8 @@ header div nav ul.open {
 #hamburguerBtn.open span:nth-child(1) {display: none}
 #hamburguerBtn.open span:nth-child(2) {display: block}
 
+
+
 main {
 	align-items: center;
 	justify-content: center;
@@ -194,6 +210,7 @@ footer {
     margin-top: 1rem;
 }
 
+
 main h1, h2, h3, h4, p, li {
     padding: 10px;
 }
@@ -202,7 +219,8 @@ li {
     margin-left: 40px;
 }
 
-sidebar {
+
+aside {
     background-color: #7E7F9A;
     padding: 10px;
 }
@@ -228,9 +246,6 @@ footer p {
     text-align: center;
 }
 
-.contact a {
-    font-size: 16px;
-}
 .date-header {
     text-align: center;
 }
