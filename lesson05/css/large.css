@@ -49,16 +49,14 @@
         flex-direction: column;
     }
     
-    .spotlight1 {
-        width: 100%;
-    }
+    sidebar div {
+        margin: 0;
+        margin-bottom: 10px;
 
-    .spotlight2 {
-        width: 100%;
     }
-
     .spotlight3 {
         display: block;
+        margin-bottom: 0px;
     }
         
     sidemenu div {
