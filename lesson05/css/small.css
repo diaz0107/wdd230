@@ -1,31 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-
-.primary {
-    background-color: #15616D;
-    color: #f4f7f5;
-    height: 300px;
-}
-.secondary {
-    background-color: #156160;
-    color: #f4f7f5;
-    height: 300px;
-}
-.accent1 {
-    background-color: #d10812;
-    color: #f4f7f5;
-    height: 300px;
-}
-.accent2 {
-    background-color: #dee5e5;
-    height: 300px;
-}
-.accent3 {
-    background-color: #f4f7f5;
-    height: 300px;
-}
-
 .colored {
     background-color: white;
     color: #f4f7f5;

@@ -5,12 +5,12 @@
 @media (min-width: 37.5em) {
 	
 	
-	aside {
+	sidebar {
 		display: flex;
 		flex-direction: row;
 	}
 
-	aside div {
+	sidemenu div {
 		width: 100%;
 		margin: 10px;
 	}
