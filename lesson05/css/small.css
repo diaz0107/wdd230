@@ -41,8 +41,8 @@ header div {
 } 
 
 .banner {
-    position: absolute;
-    width: 100%;
+    position: relative;
+    max-width: 100%;
     margin: 0;
 }
 
