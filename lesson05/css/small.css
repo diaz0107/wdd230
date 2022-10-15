@@ -40,9 +40,10 @@ header div {
     padding: 10; 
 }
 .banner {
-    position: relative;
-    max-width: 100%;
+    position:relative;
     margin: 0;
+    max-width: 100%;
+    min-height: 100%;
 }
 
 .call-to-action {
