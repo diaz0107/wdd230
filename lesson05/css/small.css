@@ -105,6 +105,10 @@ header div a {
     margin: 1.5rem;
 }
 
+header .social a {
+    margin: auto;
+}
+
 header div nav {
     background-color: black;
 }
@@ -213,6 +217,9 @@ footer p {
     text-align: center;
 }
 
+.contact a {
+    font-size: 16px;
+}
 .date-header {
     text-align: center;
 }
