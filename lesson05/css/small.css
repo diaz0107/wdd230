@@ -35,6 +35,17 @@ header div {
     flex-flow: row;
 }
 
+.hero {
+    position: relative;
+    padding: 0;
+} 
+
+.banner {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+}
+
 header div #datetime{
     background-color: white;
     color: black;
