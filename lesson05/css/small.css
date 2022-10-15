@@ -117,7 +117,7 @@ header div a {
 }
 
 header .social a {
-    margin: auto;
+    margin: 0;
 }
 
 header div nav {
