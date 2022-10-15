@@ -1,68 +1,103 @@
-@media only screen and (min-width: 768px)
+/***********************************************/
+/** Media Queries for larger views *************/
+/***********************************************/
 
-    nav ul {
-        display: flex;
-    }
-    
-    nav ul li {
-        flex: 1 1 100%;
-    }
- 
- nav button {
-    display:none; 
-}
-nav ul.hide {
-    display: flex;
-}
+@media (min-width: 37.5em) {
+	
+	
+	aside {
+		display: flex;
+		flex-direction: row;
+	}
 
-.summary{
-    position: absolute;
-    font-size: 15px; 
-    
-}
+	aside div {
+		width: 100%;
+		margin: 10px;
+	}
 
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-}
+	main div {
+		min-height: 150px;
+		height: 100%;
+	}
 
-.logo-footer {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
+	main {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 1em;
+	}
 
-.title-footer {
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-.contact {
-    grid-column: 3/4;
-    grid-row: 1/2;
-    justify-self: end;
-}
+	.hero {
+		grid-column: 1/4;
+		grid-row: 1/2;
+	}
 
-.info {
-    grid-column: 1/4;
-    grid-row: 2/3;
-    display: block;
-    font-size: 14px; 
-}
+	.news {
+		grid-column: 1/4;
+		grid-row: 2/3;
+	}
 
-.info p {
-    display: block;
-    flex-direction: row;
-    width: 100%;
-}
+	aside {
+		grid-column: 1/4;
+		grid-row: 3/4;
+	}
+	
+	.join {
+		grid-column: 1/4;
+		grid-row: 4/5;
+		display: block;
+	}
 
-.date-footer {
-    text-align: center;
-}
+	.event {
+		grid-column: 1/3;
+		grid-row: 5/6;
+	}
 
-.info p span {
-    margin: 10px;
-}
+	.weater {
+		grid-column: 3/4;
+		grid-row: 5/6;
+	}
 
-.hide-small {
-    display: inline-block;
-}
+	footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr 2fr;
+	}
+	
+	.logo-footer {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+	
+	.title-footer {
+		grid-column: 2/3;
+		grid-row: 1/2;
+	}
+	.contact {
+		grid-column: 3/4;
+		grid-row: 1/2;
+		justify-self: end;
+	}
+
+	.info {
+		grid-column: 1/4;
+		grid-row: 2/3;
+		display: block;
+	}
+
+	.info p {
+		display: block;
+		flex-direction: row;
+		width: 100%;
+	}
+
+	.date-footer {
+		text-align: center;
+	}
+
+	.info p span {
+		margin: 10px;
+	}
+
+	.hide-small {
+		display: inline-block;
+	}
 }

@@ -1,260 +1,259 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Roboto+Mono:wght@500&family=Source+Code+Pro:ital@1&display=swap');
 
-header,
-h1,
-h2,
-footer,
-ul,
-il {
-    font-family: 'Yusei Magic', sans-serif;
+
+.primary {
+    background-color: #15616D;
+    color: #f4f7f5;
+    height: 300px;
+}
+.secondary {
+    background-color: #156160;
+    color: #f4f7f5;
+    height: 300px;
+}
+.accent1 {
+    background-color: #d10812;
+    color: #f4f7f5;
+    height: 300px;
+}
+.accent2 {
+    background-color: #dee5e5;
+    height: 300px;
+}
+.accent3 {
+    background-color: #f4f7f5;
+    height: 300px;
 }
 
-nav {
+.colored {
+    background-color: white;
+    color: #f4f7f5;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
     font-family: 'Lato', sans-serif;
 }
-
-header,
-footer {
-
-    color: white;
-    background-color: #156160;
-    text-align: center;
-
+body {
+	font-size: 16px;
 }
 
-.bannercontent {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 5px;
-    text-align: center;
-    background-color: #ff7d00;
-    color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    grid-gap: 10px;
-
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
 }
 
 header {
+	background-color: #15616D;
+	display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	color: #f4f7f5;
+
+}
+
+header div {
     display: flex;
-    flex-direction: row;
-    /*the row value stacks the flex items horinzontally (from left to right)*/
-    align-items: center;
-    /* Perfect centering: Set both the justify-content and align-items properties to center, and the flex items will be perfectly centered*/
-    justify-content: center;
+    flex-flow: row;
 }
 
-.heading {
-    display: flex;
-    flex-direction: column;
-}
-
-header img {
-    width: 80px;
-    height: auto;
-}
-
-.heading h1 {
-    font-size: 25px;
-    margin: 10px;
-
-}
-
-.motto {
-    font-size: 20px;
-    font-style: italic;
-    font-weight: normal;
-    margin: 5px;
-    color: white;
-}
-
-nav {
-    font-size: 20px;
-    width: 100%;
-}
-
-nav button {
-    background-color: transparent;
-    border: none;
-    font-size: 40px;
-    color: white;
-
-}
-
-h2 {
-    font-size: 25px;
-    text-align: center;
-    text-decoration: none;
+header div #datetime{
+    background-color: white;
     color: black;
+    margin: 10px;
+    padding: 10px;
+    width: 100%; 
 }
 
-.banner-box {
-    /*This is for my banner Image page*/
-    display: block;
-    position: relative;
-    
+.date-header {
+    grid-column: 1/4;
 }
 
-.banner-image {
-    /*This is to display my banner image with the right dimensions*/
-    width: 100%;
-    height: auto;
-
+.menu {
+    grid-column: 1/4;
 }
 
-.summary {
-    font-family: 'Yusei Magic', sans-serif;
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    background: radial-gradient(#eee, #00ff00);
-    padding: 9px;
-    box-shadow: 0 0 20px #111;
-    opacity: .8;
-    font-size: 12px;
-    text-align: left;
+.logo {
+    width: 4rem;
 }
-
-ul,
-li {
-    font-size: 18px;
-}
-
 
 footer {
-    color: white;
-    background-color: #156160;
-    padding: 1rem;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
+	background-color: #15616D;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+/*	padding: 1px; */
     font-size: 15px;
-
+    color: white;
 }
 
 header,
+nav,
 main,
 footer {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 5px;
-}
-
-nav {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-picture {
-    padding: 5px;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 
-main {
-    padding: 10px;
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	padding: .5rem;
+	color: black;
 }
 
-nav {
-    background-color: #156160;
-    text-align: center;
-    box-shadow: 0 5px 15px gray;
+
+p {
+	padding: .5rem;
+}
+h1, p {
+    margin: 0 2vw;
 }
 
-nav ul {
-    list-style-type: none;
-    /*this removes the bullet points on the side of each list item*/
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
+header div button, a {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #f4f7f5;
 }
 
-nav ul li a {
-    display: block;
-    /*this places the nav in a block for the small screen view*/
-    color: white;
-    text-align: center;
-    padding: 9px;
+a {
     text-decoration: none;
-    /* this removes the underline from every list item*/
-    font-size: 1rem;
 }
 
-nav ul li.active a {
-    background-color: #001524;
-    color: white;
+header div a {
+    margin: 1.5rem;
 }
 
-/*always place .active before "hover" so it can work properly*/
+header div nav {
+    background-color: black;
+}
 
-nav a:hover {
+header div nav ul {
+    list-style-type: none;
+	flex: auto;
+    padding: 0;
+    margin: 0;
+}
+
+header div nav ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header div nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+	color: #f4f7f5;
+    border-top: 1px solid rgb(46, 120, 139); ;
+    font-size: 0.8rem;
+    margin: 0;
+    text-align: center;
+}
+
+header div nav ul li.active a {
+    background-color: #7e7f9a;
+    color:#fff;
+}
+
+header div nav ul li a:hover {
     background-color: #ff7d00;
-    color: black;
-    font-family: 'Source Code Pro', monospace;
 }
 
-nav ul.hide {
+header div nav ul {
     display: none;
 }
 
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 2px;
+header div nav ul.open {
+    display: block;
 }
 
-th,
-td {
+#hamburguerBtn span:nth-child(1) {display: block}
+#hamburguerBtn span:nth-child(2) {display: none}
+
+#hamburguerBtn.open span:nth-child(1) {display: none}
+#hamburguerBtn.open span:nth-child(2) {display: block}
+
+
+
+main {
+	align-items: center;
+	justify-content: center;
+	font-size: 0.85rem;
+    padding: 0.5rem;
+}
+
+header div {
+    width: 100%;
+}
+
+header div nav {
+    width: 100%;
+}
+
+footer {
+	display: flex;
+	padding: 1rem;
+	justify-content:space-evenly;
+/*	font-weight: 200; */
+    margin-top: 1rem;
+}
+
+
+main h1, h2, h3, h4, p, li {
+    padding: 10px;
+}
+
+li {
+    margin-left: 40px;
+}
+
+
+aside {
+    background-color: #7E7F9A;
+    padding: 10px;
+}
+
+main div {
+    height: 150px;
+    background-color: #DEE5E5;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.join {
+    display: none;
+}
+
+.spotlight3 {
+    display: none;
+}
+
+footer p {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
-.center {
-    margin-left: auto;
-    margin-right: auto;
+.date-header {
+    text-align: center;
 }
 
-
-.balloon {
-    float: right;
-    box-shadow: 0 0 20px #111;
-    margin: 0 0 0 2%;
-
+.hide-small {
+    display: none;
 }
 
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    padding: 15px;
-    color: green;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 15px;
+span {
+    display: inline-block;
 }
-
-.contentbox4 {
-    display: block;
-    margin: 10px auto;
-    padding: 15px;
-    background-color: #FFECD1;
-    color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 15px;
-}
-
-.map {
-    width: 100%;
-    height: auto;
-}
-
-/*This is my Google Map*/
-
-
-#copy {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
