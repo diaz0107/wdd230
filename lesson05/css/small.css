@@ -57,7 +57,8 @@ header div {
 
 .join-us {
     width: 100%;
-    padding: 8px;
+    margin-top: 20px;
+    padding: 12px;
     background-color: #8cf118;
     border: none;
 }
