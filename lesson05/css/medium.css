@@ -4,7 +4,8 @@
 
 @media (min-width: 37.5em) {
 	
-		sidebar {
+	
+	sidebar {
 		display: flex;
 		flex-direction: row;
 	}
@@ -39,6 +40,7 @@
 		grid-column: 1/4;
 		grid-row: 3/4;
 	}
+	
 	
 	.join {
 		grid-column: 1/4;
