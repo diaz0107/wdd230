@@ -29,7 +29,6 @@ header {
 	justify-content: center;
 	padding: 10px;
 	color: #f4f7f5;
-
 }
 
 header div {
@@ -76,7 +75,6 @@ footer {
 	margin: 0 auto;
 }
 
-
 h1 {
 	font-size: 2rem;
 }
@@ -84,7 +82,6 @@ h2 {
 	padding: .5rem;
 	color: black;
 }
-
 
 p {
 	padding: .5rem;
@@ -160,8 +157,6 @@ header div nav ul.open {
 #hamburguerBtn.open span:nth-child(1) {display: none}
 #hamburguerBtn.open span:nth-child(2) {display: block}
 
-
-
 main {
 	align-items: center;
 	justify-content: center;
@@ -185,7 +180,6 @@ footer {
     margin-top: 1rem;
 }
 
-
 main h1, h2, h3, h4, p, li {
     padding: 10px;
 }
@@ -193,7 +187,6 @@ main h1, h2, h3, h4, p, li {
 li {
     margin-left: 40px;
 }
-
 
 sidebar {
     background-color: #7E7F9A;
