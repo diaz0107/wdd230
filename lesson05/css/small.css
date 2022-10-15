@@ -37,7 +37,7 @@ header div {
 
 .hero {
     position: relative;
-    padding: 0;
+    padding: 10;
 } 
 
 .banner {
@@ -48,8 +48,8 @@ header div {
 
 .call-to-action {
     position: absolute;
-    bottom: 15px;
-    right: 20px;
+    bottom: 35px;
+    right: 25px;
     padding: 8px;
     width: 50%;
     background-color: #8cf118;
