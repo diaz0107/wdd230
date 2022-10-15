@@ -37,9 +37,8 @@ header div {
 
 .hero {
     position: relative;
-    padding: 10;
-} 
-
+    padding: 10; 
+}
 .banner {
     position: relative;
     max-width: 100%;
