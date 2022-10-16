@@ -35,35 +35,6 @@ header div {
     flex-flow: row;
 }
 
-.hero {
-    position: relative;
-    padding: 10; 
-}
-.banner {
-    position:relative;
-    margin: 0;
-    max-width: 100%;
-    min-height: 100%;
-}
-
-.call-to-action {
-    position: absolute;
-    bottom: 15px;
-    right: 20px;
-    padding: 8px;
-    width: 40%;
-    background-color: #18c6f1;
-    border: none;
-}
-
-.join-us {
-    width: 100%;
-    margin-top: 20px;
-    padding: 12px;
-    background-color: #18c6f1;
-    border: none;
-}
-
 header div #datetime{
     background-color: white;
     color: black;
@@ -90,7 +61,7 @@ footer {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-/*	padding: 1px; */
+	padding: 10px; 
     font-size: 15px;
     color: white;
 }
@@ -190,7 +161,6 @@ header div nav ul.open {
 #hamburguerBtn.open span:nth-child(2) {display: block}
 
 main {
-	align-items: center;
 	justify-content: center;
 	font-size: 0.85rem;
     padding: 0.5rem;
@@ -207,8 +177,8 @@ header div nav {
 footer {
 	display: flex;
 	padding: 1rem;
-	justify-content:space-evenly;
-/*	font-weight: 200; */
+	justify-content:space-between;
+font-weight: 700; 
     margin-top: 1rem;
 }
 
@@ -226,7 +196,6 @@ sidebar {
 }
 
 main div {
-    height: 150px;
     background-color: #DEE5E5;
     margin-bottom: 10px;
     padding: 10px;
@@ -246,9 +215,7 @@ footer p {
     text-align: center;
 }
 
-.contact a {
-    font-size: 16px;
-}
+
 .date-header {
     text-align: center;
 }
@@ -259,4 +226,46 @@ footer p {
 
 span {
     display: inline-block;
+}
+
+.hero {
+    position: relative;
+    padding: 10; 
+}
+.banner {
+    position:relative;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.call-to-action {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    padding: 8px;
+    min-width: 100px;;
+    width: 40%;
+    background-color: #18c6f1;
+    box-shadow: 0 10px 30px #121335;
+    border: none;
+}
+
+.call-to-action:hover {
+    background-color: #c5b205;
+}
+
+.text-join {
+    padding: 15px;
+    text-align: center;
+}
+
+#temperature {
+    text-align: right;
+    font-size: 36px;
+    right: 15px;
+}
+
+.contact a {
+    font-size: 20px;
 }

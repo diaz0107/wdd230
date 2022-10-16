@@ -98,4 +98,22 @@
 	.hide-small {
 		display: inline-block;
 	}
+	.call-to-action {
+		right: 15px;
+		bottom:25px;
+	}
+
+	.join-us {
+		width: 100%;
+		margin-top: 20px;
+		padding: 12px;
+		background-color: #18c6f1;
+		border: none;
+	}
+	
+	.join-us:hover{
+		background-color: #c5b205;
+	}
+
 }
+
