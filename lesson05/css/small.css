@@ -241,9 +241,9 @@ span {
 
 .call-to-action {
     position: absolute;
-    bottom: 15px;
-    right: 20px;
-    padding: 8px;
+    bottom: 8px;
+    right: 0px;
+    padding: 12px;
     min-width: 100px;;
     width: 40%;
     background-color: #18c6f1;
