@@ -48,11 +48,11 @@ header div {
 
 .call-to-action {
     position: absolute;
-    bottom: 35px;
-    right: 25px;
+    bottom: 15px;
+    right: 20px;
     padding: 8px;
-    width: 50%;
-    background-color: #8cf118;
+    width: 40%;
+    background-color: #18c6f1;
     border: none;
 }
 
@@ -60,7 +60,7 @@ header div {
     width: 100%;
     margin-top: 20px;
     padding: 12px;
-    background-color: #8cf118;
+    background-color: #18c6f1;
     border: none;
 }
 
