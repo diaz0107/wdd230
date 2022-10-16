@@ -33,12 +33,12 @@
 		grid-row: 2/3;
 	}
 
-	sidebar {
+	aside {
 		grid-column: 1/4;
 		grid-row: 3/4;
 	}
 	
-	sidebar div {
+	aside div {
 		width: 100%;
 		margin: 10px;
 

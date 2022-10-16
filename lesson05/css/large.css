@@ -40,7 +40,7 @@
     
     }
     
-    sidebar {
+    aside {
         grid-column: 4/5;
         grid-row: 1/4;
         display: flex;
@@ -48,7 +48,7 @@
         height: 100%;
     }
     
-    sidebar div {
+    aside div {
         margin: 0;
         margin-bottom: 10px;
 
