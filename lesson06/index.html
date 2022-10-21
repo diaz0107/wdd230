@@ -18,7 +18,7 @@
     <header>
 
         <div class="headname">
-           <img class="logo" src="images/chamberlogo.png" alt="Ottawa Chamber of Commerce">
+           <img class="logo" src="images/chamberlogo.webp" alt="Ottawa Chamber of Commerce">
            <h1 class="header-title">Ottawa Chamber of Commerce</h1>
         </div>
         <div class="social">
@@ -47,8 +47,13 @@
     </header>
     <main>
         <div class="hero">
-            <img class="banner" src="./images/ottawa.jpg" alt="Ottawa Canal">
-                   <button class="call-to-action">Join the OCC</button>
+            <picture class="optipic">
+                <source media="(max-width: 300px)" srcset="images/wdd230-org500x300.webp">
+                <source media="(max-width: 500px)" srcset="images/wdd230-org800x500.webp">
+                <source media="(max-width: 800px)" srcset="images/wdd230-org1200x800.webp">
+                <img src="images/wdd230-org.webp" alt="Lesson 06">
+            </picture>
+            <button class="call-to-action">Join the OCC</button>
         </div>
 
            <div class="event">
