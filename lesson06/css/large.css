@@ -55,13 +55,8 @@
     }
     .spotlight3 {
         display: block;
-  /*      margin-bottom: 0px; */
     }
-        
-    sidemenu div {
-        margin: 10px auto;
-    }
-    
+   
     .hero {
         grid-column: 2/4;
         grid-row: 1/3;

@@ -1,16 +1,18 @@
 /***********************************************/
-/** Media Queries for larger views *************/
+/** Media Queries for Medium views *************/
 /***********************************************/
 
 @media (min-width: 37.5em) {
 	
-	sidemenu {
+	aside {
 		display: flex;
 		flex-direction: row;
 	}
-	sidemenu div {
+
+	aside div {
 		width: 100%;
 		margin: 10px;
+
 	}
 
 	main div {
@@ -38,11 +40,7 @@
 		grid-row: 3/4;
 	}
 	
-	aside div {
-		width: 100%;
-		margin: 10px;
 
-	}
 	.join {
 		grid-column: 1/4;
 		grid-row: 4/5;
@@ -120,6 +118,5 @@
 	.join-us:hover{
 		background-color: #c5b205;
 	}
-
 }
 
