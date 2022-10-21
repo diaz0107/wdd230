@@ -1,4 +1,27 @@
-document.querySelector('#©').textContent = new Date(Date.now()).getFullYear();
+function set_weather_data(){
+    const T = parseFloat(document.querySelector('#el-temperature').textContent);
+    const V = parseFloat(document.querySelector('#el-windspeed').textContent);
+    
+    const el_wind_chill = document.querySelector('#el-windchill');
+
+    let windchill = 0; 
+
+    if (T <= 10 && V > 4.8){
+
+        windchill = 13.12 + 0.6215 * T - 11.37 * V ** 0.16 + 0.3965 * T * V ** 0.16;
+        windchill = windchill.toFixed(1);
+
+    }else{
+        windchill = "N/A";
+    }
+    
+    el_wind_chill.textContent = windchill;
+}
+
+set_weather_data();
+
+date = new Date(Date.now());
+document.querySelector('#©').textContent = date.getFullYear();
 
 const opciones = 
 { weekday: 'long', 
@@ -17,7 +40,7 @@ day: 'numeric' };
 
 
 document.querySelector('#datetime').textContent = 
-new Date(Date.now()).toLocaleString('en-US',opciones2);
+new Date(Date.now()).toLocaleString('en-UK',opciones2);
 
 
 
@@ -30,26 +53,12 @@ const x = document.getElementById('hamburguerBtn');
 
 x.onclick = toggleMenu;
 
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '12f6046a72msh59ae55138319343p19cf09jsn97e6bcbec7ef',
-		'X-RapidAPI-Host': 'yahoo-weather5.p.rapidapi.com'
-	}
-};
+article = document.querySelector('#message');
 
-fetch('https://yahoo-weather5.p.rapidapi.com/weather?location=sunnyvale&format=json&u=f', options)
-	.then(response => response.json())
-	.then(response => set_weather_data(response))
-	.catch(err => console.error(err));
+weekday = date.getDay();
 
-    function set_weather_data(response){
-        const el_temperature = document.querySelector('#temperature');
-        const el_description_temperature = document.querySelector('#description-temperature');
-        const el_wind_speed = document.querySelector('#wind-speed');
-    
-        el_temperature.textContent = response.current_observation.condition.temperature + "°C";
-        el_description_temperature.textContent = response.current_observation.condition.text;
-        el_wind_speed.textContent = "Wind speed: " + response.current_observation.wind.speed + " km/h";
-    
-    }
+if (weekday === 1 || weekday === 2){
+    article.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+    article.setAttribute('class', 'banner-message');
+}
+
