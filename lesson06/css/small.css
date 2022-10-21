@@ -279,15 +279,15 @@ span {
     font-size: 20px;
 }
 
-.weater-div {
+.weather-div {
     display: inline;
 }
 
-.weater-div {
+.weather-div {
     position: relative;
 }
 
-.weater-div picture img {
+.weather-div picture img {
     width: 90px;
     position: absolute;
 }
