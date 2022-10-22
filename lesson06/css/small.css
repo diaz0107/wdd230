@@ -248,6 +248,18 @@ span {
     min-height: 100%;
 }
 
+.join-us {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #18c6f1;
+    border-radius: 5px;
+    border: none;
+}
+
+.join-us:hover{
+    background-color: #ff7d00;
+}
 .call-to-action {
     position: absolute;
     bottom: 8px;
