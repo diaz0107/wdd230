@@ -66,6 +66,10 @@ footer {
     color: white;
 }
 
+.title-footer h2 {
+color: white;
+}
+
 header,
 nav,
 main,
@@ -215,6 +219,7 @@ footer p {
     flex-direction: column;
     text-align: center;
 }
+
 
 
 .date-header {
