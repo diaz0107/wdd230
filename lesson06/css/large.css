@@ -57,6 +57,10 @@
         display: block;
     }
    
+    .joinbutton {
+		grid-column: 1/2;
+		grid-row: 3/3;
+	}
     .hero {
         grid-column: 2/4;
         grid-row: 1/3;

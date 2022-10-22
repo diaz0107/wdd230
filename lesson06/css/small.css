@@ -306,6 +306,8 @@ span {
 
 .weather-div {
     position: relative;
+ /*   padding: 0; */
+    padding-bottom: 0.5px;
 }
 
 .weather-div picture img {
