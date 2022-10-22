@@ -221,7 +221,8 @@ footer p {
 }
 
 #wind-speed, #wind-chill {
-    margin-left: 0;
+    margin-left: 5px;
+    padding: 2px;
     }
 
 .date-header {
