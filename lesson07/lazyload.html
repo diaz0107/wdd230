@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Lazy Loading</title>
+    <meta name="W07 Lazy Loading - Ben Diaz" content="Lazy Loading of Images">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Progressive Loading of Images</h1>
+
+    <main>
+        <picture>
+            <img src='images/placeholder.png' data-src="images/ottawa1_300x400.jpg" alt="City of Ottawa 1" />
+        </picture>
+
+        <picture>
+            <img src='images/placeholder.png' data-src="images/ottawa2_300x400.jpg" alt="City of Ottawa 2" />
+        </picture>
+
+        <picture>
+            <img src='images/placeholder.png' data-src="images/ottawa3_300x400.jpg" alt="City of Ottawa 3" />
+        </picture>
+
+        <picture><img src='images/placeholder.png' data-src="images/ottawa4_300x400.jpg" alt="City of Ottawa 4" />
+        </picture>
+
+        <picture>
+            <img src='images/placeholder.png' data-src="images/ottawa5_300x400.jpg" alt="City of Ottawa 4" />
+        </picture>
+
+    </main>
+    <script src="js/imagehandling.js"></script>
+</body>
+</html>
