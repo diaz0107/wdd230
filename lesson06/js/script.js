@@ -58,7 +58,7 @@ article = document.querySelector('#message');
 weekday = date.getDay();
 
 if (weekday === 1 || weekday === 2){
-    article.textContent = "Come and meet with the Ottawa Chamber to discuss your business needs this coming Wednesday at 7:00 p.m.";
+    article.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
     article.setAttribute('class', 'banner-message');
 }
 
