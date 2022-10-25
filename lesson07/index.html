@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ottawa Chamber of Commerce Home Page</title>
+</head>
+<body>
+    <div id="message"></div>
+    <header>
+
+        <div class="headname">
+           <img class="logo" src="images/chamberlogo.webp" alt="Ottawa Chamber of Commerce">
+           <h1 class="header-title">Ottawa Chamber of Commerce</h1>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
+          </div>
+        
+        <div>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+        <div class="date-header">
+            <p id="datetime"></p>
+        </div>
+                          
+    </header>
+    <main>
+        <div class="hero">
+            <picture class="optipic">
+                <source media="(max-width: 400px)" srcset="images/wdd230-org-small.webp">
+                <source media="(max-width: 600px)" srcset="images/wdd230-org-medium.webp">
+                <source media="(max-width: 800px)" srcset="images/wdd230-org-large.webp">
+                <img src="images/wdd230-org-large.webp" alt="Lesson 06">
+            </picture>
+            <button class="call-to-action">Join the OCC</button>
+        </div>
+
+        <div class="event">
+				<b>Ribbon Cutting.</b><br>
+                A ribbon cutting ceremony was held Thursday morning for the 18-hole disc golf course at Fox River Park. 
+				The course has been reconfigured and upgraded. New features include tee pads, targets and signage. 
+        </div>
+
+        <div class="weather"><h3>Ottawa Weather</h3>
+
+            <div class="weather-div">
+             <picture>
+                <img src="images/cloud_day_forecast.webp" alt="Weather-icon">
+            </picture>
+            <h3 id="temperature"><span id="el-temperature">9</span>°C</h3>
+            </div>
+            <h4 id="description-temperature">Partly Cloudy</h4>
+            <hr>
+            <p id="wind-speed">Wind Speed: <span id="el-windspeed">16</span> km/h</p>
+            <p id="wind-chill">Wind Chill: <span id="el-windchill"></span></p>
+        </div>
+
+        <div class="news">
+            <span id="news-date"><b>Oct. 21, 2022</b></span>
+            <p>Small Business Resilience Critical for Ontario’s Economic Growth
+                Emerging from the pandemic, supporting small business resilience and growth has never been more important 
+				and is a key theme for the Ontario Chamber of Commerce’s (OCC) annual Small Business: Too Big To Ignore campaign. 
+				The OCC is proud to partner with Desjardins to underscore the importance of small business success to support 
+				the province’s economic prosperity during Canadian Small Business Week from October 24-28, 2022.
+            </p>
+        </div>
+
+        <div class="joinbutton">
+            <button class="join-us">Join Us!</button>
+            <p class="text-join">Discover how to join the Ottawa Chamber of Commerce and how it will benefit your business. </p>
+        </div>
+
+        <aside class="aside">
+        <div>
+            <b>OC Transpo Ottawa</b><br><br>
+            OC Transpo operates buses and Ottawa’s light rail train (O-Train) on the Ontario side of the Ottawa River. 
+            Tickets and day passes can be purchased on the bus with cash, at all O-Train stations with credit card or cash, 
+            or at select pharmacies, grocery stores, and the CF Rideau Centre.
+        </div>
+
+        <div> 
+            <b>Code Ottawa.</b><br> This is an abstract coding overview meant to help people get started programming without prior experience. 
+            Be aware that all pieces of information within are programming concepts, not actual code. 
+        </div>
+
+        <div class="spotlight3"><b>What is Plant a Billion Trees?</b>
+            The Nature Conservancy's Plant a Billion Trees campaign is a major forest restoration program for the Ottawa's Capital Region. 
+            Our goal is to plant a billion trees across the planet to slow the connected crises of climate change and biodiversity loss.
+        </div>
+    </aside>
+
+    </main>
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="./images/logo.webp" alt="Ottawa Logo image">
+                </div>
+                <div class="title-footer">
+                    <h2>Ottawa Chamber of Commerce</h2>
+                </div>
+                <div class="contact">
+                    <p>dia20010@byui.edu</p>
+                    <p>+(1) 613 8534807</p>
+                    <a href="https://www.google.com/maps/place/811+Connaught+Ave,+Ottawa,+ON+K2B+8K3/@45.3633937,-75.7865587,17z/data=!3m1!4b1!4m5!3m4!1s0x4cce01d6658241c9:0x66a49ac2304b21dd!8m2!3d45.36339!4d-75.78437">
+                        📍 Location
+                        </a>
+                            <br><br>
+                    </div>
+                <div class="info">  
+                        <span>  &nbsp; &nbsp; &copy;<span id="©">
+                        </span>  &nbsp; Ottawa Chamber of Commerce &nbsp;</span> |  &nbsp; Benjamin Diaz &nbsp; |  &nbsp; WDD 230 Project &nbsp;|  &nbsp; Last modification: &nbsp;  &nbsp; <span id="dateMod"></span>
+                    
+                </div>            
+            </footer>
+            <script src="js/script.js"></script>
+        </body>
+        </html>
