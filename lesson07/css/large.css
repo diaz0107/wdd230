@@ -1,5 +1,12 @@
 @media (min-width: 48em) {
 	
+    header,
+    main,
+    footer,
+    nav {
+        max-width: auto;
+    }
+
     header div button {
         display: none;
     }
@@ -123,7 +130,7 @@
     }
 
     .mygallery img {
-        max-width: 100%;
+        max-width: auto;
     }
 
        .mygallery figcaption {
