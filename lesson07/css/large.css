@@ -119,7 +119,7 @@
     .mygallery figcaption {
         background-color: #FFECD1;
         border: thin silver solid;
-        padding: 5px;
+        padding: 1px;
         text-align: center;
         font-family: 'Lato', sans-serif;
     }
@@ -127,4 +127,3 @@
         box-shadow: 0 0 50px black;
     }
 
-}
