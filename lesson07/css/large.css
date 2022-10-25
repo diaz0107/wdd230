@@ -107,7 +107,7 @@
     .mygallery {
         display: grid;
         grid-template-columns: 200px 200px 200px;
-        grid-gap: 10px;
+        grid-gap: 5px;
         justify-content: center;
 
     }
@@ -116,7 +116,7 @@
         max-width: 100%;
     }
 
-    .mygallery figcaption {
+       .mygallery figcaption {
         background-color: #FFECD1;
         border: thin silver solid;
         padding: 1px;
