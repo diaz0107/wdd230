@@ -124,6 +124,7 @@
 		background-color: #ff7d00;
 	}
 }
+
 .mygallery {
 	display: grid;
 	grid-template-columns: 200px 200px;
