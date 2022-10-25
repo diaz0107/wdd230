@@ -249,7 +249,9 @@ span {
 .hero {
     position: relative;
     padding: 0; 
+
 }
+
 .banner {
     position: relative;
     margin: 0;
@@ -337,7 +339,7 @@ picture.optipic {
 }
 
 .mygallery {
-    margin: 0 auto;
+    margin: 0 2%;
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: 300px;
@@ -348,7 +350,9 @@ picture.optipic {
 }
 
 figure{
-    margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin: 0 2%;
 }
 
 img[data-src] {
