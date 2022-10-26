@@ -1,11 +1,12 @@
+
 const imagesToLoad = document.querySelectorAll('img[data-src]'); //This line of code finds all the images. The data-src reference all the images with lazy loading.
 //images to load=list of items.
 
 //intersectionObserver let you know when an observed element enters or exits the browser's viewport(tracks elements scrolling into view.)
 
 const imgOptions = { //this code is telling the system when to load the images.This two properties are part of the Observer.
-    threshold: 0, // is a pass/fail criteria used to specify the performance expectations of the system under test. 
-    rootMargin: "0px 0px 50px 0px" //top, right, bottom, left
+    threshold: 0.5, // is a pass/fail criteria used to specify the performance expectations of the system under test. 
+    rootMargin: "0px 0px 0px 0px" //top, right, bottom, left
 
 };
 
