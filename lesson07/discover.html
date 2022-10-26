@@ -9,24 +9,24 @@
     <link rel="stylesheet" href="./css/small.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Ottawa Chamber of Commerce Home Page</title>
 </head>
 <body>
     <div id="message"></div>
     <header>
+
         <div class="headname">
            <img class="logo" src="images/chamberlogo.webp" alt="Ottawa Chamber of Commerce">
            <h1 class="header-title">Ottawa Chamber of Commerce</h1>
-        </div>
-        <div>
-            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
         </div>
         <div class="social">
             <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
             <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
           </div>
         
-        <div class="menu">
+		<div class="menu">
             <nav>
                 <ul id="primaryNav">
                     <li> <a href="../lesson06/index.html">Home</a></li>
@@ -42,18 +42,41 @@
         </div>
                           
     </header>
-
     <main>
-        <div class="news">
-            <span id="news-date"><b>Quick Facts</b></span>
-            <p><b>Ottawa Ontario, The Capital of Canada</b>
-                <br>
-                As the capital of Canada, the City of Ottawa is home to close to one million people 
-                and is the fourth largest municipality in the country. With a vibrant technology sector, 
-                high median household income and affordable living costs, Ottawa is a great place to live, 
-                work and play. Here are some quick facts about Ottawa.
-            </p>
+        <div class="hero">
+            <img class="banner" src="./images/ottawa.jpg" alt="Parliament Hill, Ottawa">
         </div>
+
+           <div class="event">
+				<b>Ottawa Demographics</b><br><br>
+                Among the six largest cities in Canada, Ottawa had the third highest proportion of households with an after-tax income
+				over $100,000 in 2016. Compared to 32% in Ottawa, Calgary had 39%, Edmonton 33%, Toronto 24%, Vancouver 24% and Montréal
+				12%. Moreover, compared to those same cities, at 9%, Ottawa has one of the smaller proportions of households earning less
+				than $20,000.
+            
+        </div>
+        <div class="joinbutton">
+            <button class="join-us">Local Storage</button>
+            <p class="text-join">display the amount of time in days </p>
+        </div>
+
+        <aside class="aside">
+            <div>
+                <b>Ottawa, Capital of Canada</b><br><br>
+                    As the capital of Canada, the City of Ottawa is home to close to one million people 
+                    and is the fourth largest municipality in the country. With a vibrant technology sector, 
+                    high median household income and affordable living costs, Ottawa is a great place to live, 
+                    work and play. Here are some quick facts about Ottawa. located on the south bank of the Ottawa River, and its
+                confluence of three major rivers of the Ottawa River,
+            </div>
+
+            <div class="spotlight3"><b>Population distribution by age</b><br>
+                Ottawa population in 2022 is estimated to be 1.18 million, covers city area of 2,790.30 sq km (1,077.34 sq mi), fourth largest city in Canada. According
+                to statcan data Ottawa population in 2020 estimates are 1,111,773 people. Ottawa refers from Ottawa River, from the Algonquin
+                language Odawa, means trade.
+            </aside>
+
+        <div>
         <h1 class="header-title">Ottawa Gallery</h1>
             <hr>
             <div class="mygallery">
@@ -68,7 +91,7 @@
             </picture>
    
             <picture>
-                <img class="shadow" src="images/placeholder.png" data-src="images/ottawa3_300x400.jpg" alt="Ottawa Canal">
+                <img class="shadow" src="images/placeholder.png" data-src="./images//ottawa3_300x400.jpg" alt="Ottawa Canal">
                 <figcaption>Ottawa Canal in the Winter</figcaption>
             </picture>
          
@@ -91,7 +114,7 @@
     </main>
     <footer>
         <div class="logo-footer">
-            <img class="logo-footer" src="./images/logo.webp" alt="Ottawa Logo image">
+            <img class="logo-footer" src="./images/logo.jpg" alt="Ottawa Logo image">
                 </div>
                 <div class="title-footer">
                     <h2>Ottawa Chamber of Commerce</h2>
@@ -110,13 +133,8 @@
                     
                 </div>            
             </footer>
-                <script src="./js/script.js"></script>
-                <!--This is the function that helps my hamburger menu open and close-->
-                <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-                <!--Font loading-->
-                <script src="./js/webfontload.js"></script>
-                <!--lazy loading-->
-                <script src="./js/imagehandling.js"></script>
-
+            <script src="js/script.js"></script>
+            <script src="js/imagehandling.js"></script>
+            <script src="js/webfontload.js"></script>
         </body>
         </html>
