@@ -339,7 +339,7 @@ main picture.optipic img {width: 100%;}
 picture.optipic {
     display: block;
     width: 96%;
-    margin: 0 2%;
+    margin: 0 3%;
 }
 
 .mygallery {
@@ -349,7 +349,7 @@ picture.optipic {
     grid-auto-rows: 300px;
     justify-content: center;
     grid-row-gap: 40px;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: auto;
 }
 
@@ -365,7 +365,7 @@ img[data-src] {
 .mygallery figcaption {
     background-color: #FFECD1;
     border: thin silver solid;
-    padding: px;
+    padding: 5px;
     text-align: center;
     font-family: 'Lato', sans-serif;
    }
