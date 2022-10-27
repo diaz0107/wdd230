@@ -161,5 +161,20 @@
     .mygallery :hover {
         box-shadow: 0 0 50px black;
     }
+
+    .label {
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+    }
+    
+    #visits {
+        color: navy;
+        font-weight: bolder;
+        font-size: larger;
+    }
+    
+    .today {
+        color: tomato;
+    }
 }
 
