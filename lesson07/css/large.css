@@ -165,12 +165,14 @@
     .label {
         font-family: Arial, sans-serif;
         font-weight: 700;
+        padding-left: 0;
     }
-    
     #visits {
         color: navy;
         font-weight: bolder;
         font-size: larger;
+        position: relative;
+
     }
     
     .today {
