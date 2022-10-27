@@ -165,18 +165,19 @@
     .label {
         font-family: Arial, sans-serif;
         font-weight: 700;
-        padding-left: 0;
+        text-align: right;
     }
+
     #visits {
         color: navy;
         font-weight: bolder;
         font-size: larger;
-        position: relative;
+        text-align: right;
 
     }
     
     .today {
-        color: tomato;
+       color: tomato;
     }
 }
 
