@@ -1,22 +1,11 @@
-/* function set_weather_data(){
-    const T = parseFloat(document.querySelector('#el-temperature').textContent);
-    const V = parseFloat(document.querySelector('#el-windspeed').textContent);
-    
-    const el_wind_chill = document.querySelector('#el-windchill');
+//Script for Windshill
+const temp = parseFloat(document.querySelector("#temp").textContent);
+const sspeed = parseFloat(document.querySelector("#speed").textContent);
+const f = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
+if (temp <= 50 && speed > 3) {
+windchill= f.toFixed(1);
+document.getElementById("windchill").innerHTML = windchill
 
-    let windchill = 0; 
-
-    if (T <= 10 && V > 4.8){
-
-        windchill = 13.12 + 0.6215 * T - 11.37 * V ** 0.16 + 0.3965 * T * V ** 0.16;
-        windchill = windchill.toFixed(1);
-
-    }else{
-        windchill = "N/A";
-    }
-    
-    el_wind_chill.textContent = windchill;
-}
 
 set_weather_data();
 
@@ -54,7 +43,8 @@ x.onclick = toggleMenu;
 article = document.querySelector('#message');
 
 weekday = date.getDay();
-*/
+
+/* Banner */
 
 if (weekday === 1 || weekday === 2){
     article.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
