@@ -1,8 +1,8 @@
 //Script for Windshill
 const temp = parseFloat(document.querySelector("#temp").textContent);
 const speed = parseFloat(document.querySelector("#speed").textContent);
-const f = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
-if (temp <= 50 && speed > 3) {
+const f = 13.12 + 0.6215 * temp - 11.37 * speed ** 0.16 + 0.3965 * temp * speed ** 0.16
+if (temp <= 10 && speed > 4.8) {
 windchill= f.toFixed(1);
 document.getElementById("windchill").innerHTML = windchill;
 }
