@@ -161,9 +161,5 @@
     .mygallery :hover {
         box-shadow: 0 0 50px black;
     }
-    .row {
-    grid-row: 1/3;
-
-    }
 }
 
