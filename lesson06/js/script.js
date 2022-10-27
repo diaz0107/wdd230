@@ -1,4 +1,4 @@
-function set_weather_data(){
+/* function set_weather_data(){
     const T = parseFloat(document.querySelector('#el-temperature').textContent);
     const V = parseFloat(document.querySelector('#el-windspeed').textContent);
     
@@ -42,8 +42,6 @@ day: 'numeric' };
 document.querySelector('#datetime').textContent = 
 new Date(Date.now()).toLocaleString('en-UK',opciones2);
 
-
-
 function toggleMenu() {
     document.getElementById('primaryNav').classList.toggle('open');
     document.getElementById('hamburguerBtn').classList.toggle('open');
@@ -56,6 +54,7 @@ x.onclick = toggleMenu;
 article = document.querySelector('#message');
 
 weekday = date.getDay();
+*/
 
 if (weekday === 1 || weekday === 2){
     article.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
