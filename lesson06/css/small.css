@@ -304,9 +304,10 @@ span {
     display: inline;
 }
 
-.weather-div {
+.weather p {
     position: relative;
     padding-left: 0;
+    margin-left: 0;
     padding-bottom: 0.5px;
 }
 
