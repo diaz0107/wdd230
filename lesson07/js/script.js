@@ -1,24 +1,3 @@
-function set_weather_data(){
-    const T = parseFloat(document.querySelector('#el-temperature').textContent);
-    const V = parseFloat(document.querySelector('#el-windspeed').textContent);
-    
-    const el_wind_chill = document.querySelector('#el-windchill');
-
-    let windchill = 0; 
-
-    if (T <= 10 && V > 4.8){
-
-        windchill = 13.12 + 0.6215 * T - 11.37 * V ** 0.16 + 0.3965 * T * V ** 0.16;
-        windchill = windchill.toFixed(1);
-
-    }else{
-        windchill = "N/A";
-    }
-    
-    el_wind_chill.textContent = windchill;
-}
-
-set_weather_data();
 
 date = new Date(Date.now());
 document.querySelector('#©').textContent = date.getFullYear();
