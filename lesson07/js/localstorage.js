@@ -1,7 +1,6 @@
 // initialize display elements
 const todayDisplay = document.querySelector(".today");
 const visitsDisplay = document.querySelector(".visits");
-todayDisplay.textContent = (Date.now()/1000/60/60/24).toFixed(0);
 
 
 // get the stored value in localStorage
@@ -19,7 +18,6 @@ numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
 // show todays date.
-todayDisplay.textContent = Date.now();
-
+todayDisplay.textContent = (Date.now()/1000/60/60/24).toFixed(0);
 
 
