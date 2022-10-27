@@ -235,11 +235,6 @@ footer p {
     text-align: center;
 }
 
-#wind-speed, #wind-chill {
-    margin-left: 5px;
-    padding: 2px;
-    }
-
 .date-header {
     text-align: center;
 }
@@ -315,7 +310,7 @@ span {
     margin: 0 auto;
 }
 
-#temperature {
+#temp {
     text-align: right;
     font-size: 30px;
     right: 10px;
