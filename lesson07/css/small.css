@@ -372,6 +372,18 @@ img[data-src] {
     filter: blur(3px);
 }
 
+.localstorage {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #18c6f1;
+    border-radius: 5px;
+    border: black;
+}
+
+.localstorage:hover{
+    background-color: #ff7d00;
+}
 .mygallery figcaption {
     background-color: #FFECD1;
     border: thin silver solid;
