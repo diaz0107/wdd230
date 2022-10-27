@@ -376,6 +376,9 @@ img[data-src] {
     max-width:100%; 
 }
 
+picture{
+    margin: 0 auto;
+}
 #copy {
     font-size: 20px;
 }
