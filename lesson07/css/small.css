@@ -263,6 +263,10 @@ span {
     height: auto;
 }
 
+.herodiscover {
+    position: relative;
+    padding: 0; 
+}
 .bannerdiscover {
     position: relative;
     margin: 0;
