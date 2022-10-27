@@ -263,6 +263,12 @@ span {
     height: auto;
 }
 
+.bannerdiscover {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
 .join-us {
     width: 100%;
     margin-top: 20px;
