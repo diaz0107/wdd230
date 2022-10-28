@@ -340,7 +340,6 @@ main figure.myphoto figcaption {text-align: center; font-size: .75rem;}
 
 main picture.optipic img {width: 100%;}
 
-
 picture.optipic {
     display: block;
     width: 96%;
@@ -352,7 +351,6 @@ figure{
 }
 
 img[data-src] {
-    /*it goes from bluring to not bluring above after 2 seconds. By specificity order this code takes priority over the img above. */
     filter: blur(3px);
 }
 
