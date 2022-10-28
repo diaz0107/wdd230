@@ -11,7 +11,6 @@ else {
 document.getElementById("windchill").innerHTML = windchill;
 
 
-set_weather_data();
 
 date = new Date(Date.now());
 document.querySelector('#©').textContent = date.getFullYear();

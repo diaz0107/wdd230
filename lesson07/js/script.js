@@ -21,7 +21,14 @@ day: 'numeric' };
 document.querySelector('#datetime').textContent = 
 new Date(Date.now()).toLocaleString('en-UK',opciones2);
 
+function toggleMenu() {
+    document.getElementById('primaryNav').classList.toggle('open');
+    document.getElementById('hamburguerBtn').classList.toggle('open');
+}
 
+const x = document.getElementById('hamburguerBtn');
+
+x.onclick = toggleMenu;
 
 
 
