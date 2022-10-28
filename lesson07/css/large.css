@@ -190,5 +190,8 @@
         padding-top: 10px;
         padding: 5px;
     }
+    herodiscover, .event, .lazyloading {
+        grid-row:1/2
+    }
 }
 
