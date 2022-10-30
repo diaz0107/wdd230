@@ -23,5 +23,4 @@ if (lastVisit !== 0) {
 } else {
 	visitsDisplay.textContent = `This is your first visit!`;
     localStorage.setItem("last-visit",  Date.now());
-
-
+}
