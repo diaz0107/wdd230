@@ -18,12 +18,12 @@ table,
 th,
 td {
     border-collapse: collapse;
-    max-width: 450px;
+    max-width: 350px;
 }
 
 thead {
     background-color: #105f27d2;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -60,7 +60,7 @@ th {
 }
 
 table {
-    box-shadow: 9px 9px 25px #628ca6;
+    box-shadow: 8px 8px 15px #628ca6;
 }
 
 body {
