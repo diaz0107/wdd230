@@ -18,7 +18,7 @@ table,
 th,
 td {
     border-collapse: collapse;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 thead {
@@ -31,7 +31,7 @@ thead {
 }
 
 .subheading {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     background-color: #63ad75;
     color: black;
