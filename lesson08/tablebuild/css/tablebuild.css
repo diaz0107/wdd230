@@ -18,7 +18,7 @@ table,
 th,
 td {
     border-collapse: collapse;
-    max-width: 350px;
+    max-width: 300px;
 }
 
 thead {
