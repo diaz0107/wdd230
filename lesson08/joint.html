@@ -48,51 +48,30 @@
     </header>
     <main>
     <div class="registration">
-        <h2>Registration Form</h2>
+        <h1>Chamber of Commerce Registration Form</h1>
         <hr>
         <form method="get" action="thanks.html">
             <fieldset class="form">
                 <legend>Membership Information</legend>
-                <!--First name-->
-                <label class="top" for="name">First Name*
+                    <label class="top" for="name">First Name*
                     <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
-                <!--I need to add more here, see the requirement page-->
-                    <br>
-                <label class="top" for="lastname">Last Name*
-                    <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
-                <!--I need to add more here, see the requirement page-->
-                    <br>
+                    <label class="top" for="lastname">Last Name*
+                    <input class="box" type="text" id="name" name="user_lastname" pattern="[A-Z a-z]{5,}" required></label>
                     <label class="top" for="position">Business Title*
-                        <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
-                    <!--I need to add more here, see the requirement page-->
-                    <br>
-                <!--email-->
-                <label class="top" for="mail">E-mail Address
+                    <input class="box" type="text" id="name" name="user_position" pattern="[A-Z a-z]{5,}" required></label>
+                    <label class="top" for="mail">E-mail Address
                     <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
-
-                    <br>
-                <!--phone number-->
-                <label class="top" for="phone">Phone Number*
-                    <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
-                        required></label>
-                    <br>
-
-                <!--zip code-->
-                <label class="top" for="busname">Business Name*
+                    <label class="top" for="phone">Phone Number*
+                    <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"  required></label>
+                    <label class="top" for="busname">Business Name*
                     <input class="box" type="number" id="zip" name="businessname" required></label>
 
             </fieldset>
-
-            <!--Membership -->
-            <fieldset class="form">
-                <legend>Membership Level</legend>
-                <!--Membership date-->
-                <label class="middle">Membership Start Date
+                <fieldset class="form">
+                    <legend>Membership Level</legend>
+                    <label class="middle">Membership Start Date
                     <input class="smallbox" type="date" id="member_date" name="member_date" required></label>
-
-                    <br>
-                <!--membership level -->
-                <label class="middle" for="member-level-choice">Membership Levels
+                    <label class="middle" for="member-level-choice">Membership Levels
                     <input class="box" list="member-types" id="member-type-choice" name="member-type-choice"></label>
                 <datalist id="member-types">
                     <option value="NP Membership">
@@ -100,23 +79,15 @@
                     <option value="Silver Membership">
                     <option value="Gold Membership">
                 </datalist>
-
-
-
             </fieldset>
-            <!--Additional information or comments-->
+
             <fieldset>
                 <legend>Additional Information</legend>
-                <label class="submitButton" for="msg">Comments</label>
-                <textarea class="commentsBox" id="msg" name="user_message"></textarea>
+                    <label class="submitButton" for="msg">Comments</label>
+                    <textarea class="commentsBox" id="msg" name="user_message"></textarea>
             </fieldset>
-
-            <!--form submission button-->
             <input class="button" type="submit" value="Send Registration Form">
-
-
         </form>
-        <!--end contact form-->
     </div>
     
     </main>

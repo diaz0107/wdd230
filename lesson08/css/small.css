@@ -415,13 +415,17 @@ picture{
 /*-----------------------FORM-------------------*/
 main {
     max-width: 100%;
-    width: 700px;
+    width: 500px;
     margin: 0 auto;
 }
 
 .registration {
-    
+display:block;
+max-width: 100%;
+width: 700px;
+margin: 0 auto;
 }
+
 
 h3 {
     font-family: 'Yusei Magic', sans-serif;
