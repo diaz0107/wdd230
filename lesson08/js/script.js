@@ -29,6 +29,7 @@ function toggleMenu() {
 const x = document.getElementById('hamburguerBtn');
 
 x.onclick = toggleMenu;
-
+const hidden = document.getElementById('member_date');
+hidden.value = date;
 
 
