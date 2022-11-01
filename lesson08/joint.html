@@ -55,17 +55,17 @@
             <fieldset class="form">
                 <legend>Membership Information</legend>
                     <label class="top" for="name">First Name*
-                    <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
+                    <input class="box" type="text" id="name" name="user_name"  required minlength="3" maxlength="10" size="12"></label>
                     <label class="top" for="lastname">Last Name*
-                    <input class="box" type="text" id="name" name="user_lastname" pattern="[A-Z a-z]{5,}" required></label>
+                    <input class="box" type="text" id="name" name="user_lastname" required minlength="3" maxlength="10" size="12"></label>
                     <label class="top" for="position">Business Title*
-                    <input class="box" type="text" id="name" name="user_position" pattern="[A-Z a-z]{5,}" required></label>
+                    <input class="box" type="text" id="name" name="user_position" required minlength="3" maxlength="10" size="12"></label>
                     <label class="top" for="mail">E-mail Address
                     <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
                     <label class="top" for="phone">Phone Number*
                     <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"  required></label>
                     <label class="top" for="busname">Business Name*
-                    <input class="box" type="number" id="zip" name="businessname" required></label>
+                    <input class="box" type="text" id="businessname" name="businessname" required></label>
 
             </fieldset>
                 <fieldset class="form">
