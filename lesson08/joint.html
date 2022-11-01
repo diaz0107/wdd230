@@ -59,7 +59,7 @@
                     <label class="top" for="lastname">Last Name*
                     <input class="box" type="text" id="lastname" name="user_lastname" required minlength="3" maxlength="10" size="12"></label>
                     <label class="top" for="position">Business Title*
-                    <input class="box" type="text" id="position" name="user_position" required minlength="3" maxlength="10" size="12"></label>
+                    <input class="box" type="text" id="position" name="user_position" pattern="[A-Z a-z-' ']{7,}" required></label>
                     <label class="top" for="mail">E-mail Address
                     <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
                     <label class="top" for="phone">Phone Number*
@@ -88,7 +88,7 @@
 
             <fieldset>
                 <legend>Additional Information</legend>
-                    <label class="submitButton" for="msg">Comments</label>
+                    <label class="submitButton" for="msg">Business Deescription</label>
                     <textarea class="commentsBox" id="msg" name="user_message"></textarea>
             </fieldset>
             <input class="button" type="submit" value="Send Registration Form">
