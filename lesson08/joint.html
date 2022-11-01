@@ -65,7 +65,7 @@
                     <label class="top" for="phone">Phone Number*
                     <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"  required></label>
                     <label class="top" for="busname">Business Name*
-                    <input class="box" type="text" id="businessname" name="businessname" required></label>
+                    <input class="box" type="text" id="businessname" name="business_name" required minlength="3" maxlength="10" size="12"></label>
 
             </fieldset>
                 <fieldset class="form">
@@ -73,7 +73,7 @@
                     <label class="middle">Membership Start Date
                     <input class="smallbox" type="date" id="member_date" name="member_date" required></label>
                     <label class="middle" for="member-level-choice">Membership Levels
-                    <input class="box" list="member-types" id="member-type-choice" name="member-type-choice"></label>
+                    <input class="box" list="member-types-choice" id="member-type-choice" name="member-type-choice"></label>
                 <datalist id="member-types">
                     <option value="NP Membership">
                     <option value="Bronze Membership">
