@@ -70,12 +70,15 @@
             </fieldset>
                 <fieldset class="form">
                     <legend>Membership Level</legend>
+                    <!--Registration date-->
                     <label class="middle">Membership Joint Date
                     <input class="smallbox" type="date" id="member_date" name="member_date" required></label>
+                    
+                    <!--Registration type-->
                     <label class="middle" for="member-level-choice">Membership Levels
-                    <input class="box" list="member-types" id="member-types-choice" name="member-types-choice"></label>
+                    <input class="box" list="member-level" id="member-level-choice" name="member-level-choice"></label>
 
-                    <datalist id="member-types">
+                    <datalist id="member-level">
                     <option value="NP Membership">
                     <option value="Bronze Membership">
                     <option value="Silver Membership">
