@@ -18,8 +18,4 @@ if (lastVisits !== 0) {
     localStorage.setItem("lastdate-ls",Date.now());
 }
 
-// increment the number of visits.
-numVisits++;
-// store the new number of visits value
-
 
