@@ -8,7 +8,7 @@ let lastVisits = Number(window.localStorage.getItem("lastdate-ls"));
 // determine if this is the first visit or display the number of visits.
 
 if (lastVisits !== 0) {
-    const time=date.now();
+    const time=Date.now();
     let diff=time-lastVisits;
     let difference=(diff/1000/60/60/24);
     localStorage.setItem("lastdate-ls", time);
