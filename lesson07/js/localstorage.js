@@ -6,7 +6,10 @@ const visitsDisplay = document.querySelector(".visits");
 let lastVisits = Number(window.localStorage.getItem("lastdate-ls"));
 
 // determine if this is the first visit or display the number of visits.
+
 if (lastVisits !== 0) {
+    const time=date.now();
+    localStorage.setItem("lastdate-ls", numVisits);
     visitsDisplay.textContent = numVisits;
 } else {
     visitsDisplay.textContent = `This is your first visit!`;
@@ -15,5 +18,5 @@ if (lastVisits !== 0) {
 // increment the number of visits.
 numVisits++;
 // store the new number of visits value
-localStorage.setItem("visits-ls", numVisits);
+
 
