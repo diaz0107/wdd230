@@ -450,6 +450,16 @@ form fieldset {
     max-width: 100%;
 }
 
+form .mform {
+    margin: 20px 0;
+    border: 2px solid silver;
+    padding: 10px;
+    font: 30px;
+    display: block;
+    background-color: #FFECD1;
+    max-width: 100%;
+}
+
 legend {
     font-family: 'Yusei Magic', sans-serif;
     font-weight: bold;
