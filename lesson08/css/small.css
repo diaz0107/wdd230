@@ -455,7 +455,8 @@ form .mform {
     border: 2px solid silver;
     padding: .75rem;
     font-size: 15px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: #FFECD1;
     max-width: 100%;
 }
