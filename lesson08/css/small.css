@@ -451,10 +451,10 @@ form fieldset {
 }
 
 form .mform {
-    margin: 20px 0;
+    margin: 10px 0;
     border: 2px solid silver;
-    padding: 10px;
-    font: 30px;
+    padding: .75rem;
+    font-size: 15px;
     display: block;
     background-color: #FFECD1;
     max-width: 100%;
