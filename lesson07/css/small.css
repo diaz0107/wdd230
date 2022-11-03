@@ -262,7 +262,7 @@ span {
     position: relative;
     padding: 0; 
 }
-.bannerdiscover {
+.bannerdiscover, p {
     position: relative;
     margin: 0;
     width: 100%;
