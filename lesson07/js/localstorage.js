@@ -9,10 +9,13 @@ let lastVisits = Number(window.localStorage.getItem("lastdate-ls"));
 
 if (lastVisits !== 0) {
     const time=date.now();
-    localStorage.setItem("lastdate-ls", numVisits);
-    visitsDisplay.textContent = numVisits;
+    let diff=time-lastVisits;
+    let difference=(diff/1000/60/60/24);
+    localStorage.setItem("lastdate-ls", time);
+    visitsDisplay.textContent = difference.toFixed(0);
 } else {
     visitsDisplay.textContent = `This is your first visit!`;
+    localStorage.setItem("lastdate-ls",Date.now());
 }
 
 // increment the number of visits.
