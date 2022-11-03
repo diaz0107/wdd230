@@ -409,7 +409,7 @@ picture{
 .letter {
     display:block;
     max-width: 100%;
-    width: 550px;
+    width: 6000px;
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -485,12 +485,7 @@ label.submitButton {
     border: 1px solid #999;
     padding: .75rem;
     width: 250px;
-    height: 200px;
-}
-
-#ratingvalue {
-    margin: 0 15px;
-    color: black;
+    height: 120px;
 }
 
 .button {

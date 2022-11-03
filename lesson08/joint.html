@@ -52,41 +52,38 @@
         <hr>
         <br>
         <form method="get" action="thanks.html">
+
             <fieldset class="form">
-                <legend>Membership Information</legend>
+            <Legend> Member Registration</Legend>
                     <label class="top" for="name">First Name*
                     <input class="box" type="text" id="name" name="user_name"  required minlength="3" maxlength="10" size="12"></label>
                     <label class="top" for="lastname">Last Name*
                     <input class="box" type="text" id="lastname" name="user_lastname" required minlength="3" maxlength="10" size="12"></label>
-                    <label class="top" for="position">Business Title*
+                    <label class="top" for="position">Business Position*
                     <input class="box" type="text" id="position" name="user_position" pattern="[A-Z a-z-' ']{7,}" required></label>
                     <label class="top" for="mail">E-mail Address
                     <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
-                    <label class="top" for="phone">Phone Number*
+                    <label class="top" for="phone">Cell Phone Number*
                     <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"  required></label>
                     <label class="top" for="busname">Business Name*
                     <input class="box" type="text" id="busname" name="bus_name" required minlength="3" maxlength="20" size="22"></label>
-
             </fieldset>
-                <fieldset class="form">
-                    <legend>Membership Level</legend>
+ 
+            <fieldset class="rform">
+            <legend>Membership Level</legend>
                     <!--Registration date-->
                     <input class="smallbox" type="hidden" id="member_date" name="member_date" value="" required></label>
-                    
-                    <!--Registration type-->
-                    <label class="middle" for="member-level-choice">Membership Levels
-                    <input class="box" list="member-level" id="member-level-choice" name="member-level-choice"></label>
+                    </label><br>  
+                    <input type="radio" name="np"/> NP Membership <br><br>  
+                    <input type="radio" name="bronze"/> Bronze Membership <br><br>
+                    <input type="radio" name="silver"/> Silver Membership <br><br>
+                    <input type="radio" name="gold"/> Gold Membership <br>
+                    <br>  
+                    <br>  
+                </fieldset>
 
-                    <datalist id="member-level">
-                    <option value="NP Membership">
-                    <option value="Bronze Membership">
-                    <option value="Silver Membership">
-                    <option value="Gold Membership">
-                </datalist>
-            </fieldset>
-
-            <fieldset>
-                <legend>Additional Information</legend>
+                <fieldset class="form">
+                <legend>Additional Business Information</legend>
                     <label class="submitButton" for="msg">Business Description</label>
                     <textarea class="commentsBox" id="msg" name="user_message"></textarea>
             </fieldset>
