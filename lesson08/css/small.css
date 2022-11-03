@@ -438,14 +438,13 @@ h3 {
 
 form legend {
     color: #445ba9;
-    margin: 15px;
     padding: 10px;
 }
 
 form fieldset {
     margin: 20px 0;
     border: 2px solid silver;
-    padding: 5px;
+    padding: 10px;
     background-color: #FFECD1;
     max-width: 100%;
 }
@@ -459,6 +458,10 @@ form .mform {
     flex-direction: column;
     background-color: #FFECD1;
     max-width: 100%;
+}
+
+.mform label {
+    padding: 5px;
 }
 
 legend {
