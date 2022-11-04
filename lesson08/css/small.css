@@ -462,6 +462,11 @@ form .mform {
 
 .mform label {
     padding: 5px;
+    margin-left: 10px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
 }
 
 legend {
@@ -500,6 +505,7 @@ label.submitButton {
     padding: .75rem;
     width: 250px;
     height: 120px;
+    margin-left: 10px;
 }
 
 .button {
