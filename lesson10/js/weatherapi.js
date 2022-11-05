@@ -1,9 +1,4 @@
-/* In your "weatherapi.js" file, first create an "apiURL" variable using const that stores the 'https://api.openweathermap.org/...' URL as demonstrated in OpenWeatherMap: How to start (Links to an external site.).
-
-Use weather versus forecast data. 
-The querystring name/value pair settings in the URL should be: a city id for Ottawa, Ontario, Canada,
-temperature units in Fahrenheit (imperial), and your own APPID.
-The city ID variable at OpenWeatherMap for Ottawa, Ontario is 6094817.*/
+/*The city ID variable at OpenWeatherMap for Ottawa, Ontario is 6094817.*/
 
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
 
