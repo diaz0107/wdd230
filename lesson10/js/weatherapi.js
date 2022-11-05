@@ -1,13 +1,11 @@
 /* In your "weatherapi.js" file, first create an "apiURL" variable using const that stores the 'https://api.openweathermap.org/...' URL as demonstrated in OpenWeatherMap: How to start (Links to an external site.).
 
 Use weather versus forecast data. 
-The querystring name/value pair settings in the URL should be:
-a city id for Ottawa, Ontario, Canada,
+The querystring name/value pair settings in the URL should be: a city id for Ottawa, Ontario, Canada,
 temperature units in Fahrenheit (imperial), and your own APPID.
 The city ID variable at OpenWeatherMap for Ottawa, Ontario is 6094817.*/
 
-/* const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=96658d9a7e75c72252f06d47773c60d7"; */
-const apiURL = "hhtps://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=57a90726feca2b322037cd9ee293fb56";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
 
 /* Use fetch() to request the given apiURL.
  It is OK to not use a lot of error checking in this activity with fetch().
