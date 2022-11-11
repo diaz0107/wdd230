@@ -16,7 +16,7 @@ function buildBusinessCards(info, type) {
     p.innerHTML = `${business.address}`;
     p2.innerHTML = `${business.phone}`;
     a.innerHTML = `${business.site}`;
-    a.setAttribute("href", `${business.website}`);
+    a.setAttribute("href", `${business.site}`);
 
     if (type == "grid") {
       let img = document.createElement("img");
