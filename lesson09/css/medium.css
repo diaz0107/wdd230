@@ -154,19 +154,19 @@
 }
 
 .list section h2 {
-	width: 300px;
+	width: 400px;
   }
 
   .list section a {
-	width: 200px;
+	width: 300px;
   }
 
   .list section p:nth-child(2) {
-	width: 160px;
+	width: 200px;
   }
 
   .list section p:nth-child(3) {
-	width: 200px;
+	width: 300px;
   }
 }
 }
