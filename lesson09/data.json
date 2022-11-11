@@ -76,7 +76,7 @@
         "name": "Canadian Tire Center",
         "address": "1000 Palladium Dr, Ottawa, ON K1N 7G1",
         "phone": "(613) 599-0100",
-        "site URLs": "https://www.canadiantirecentre.com/",
+        "site": "https://www.canadiantirecentre.com/",
         "photo": "https://diaz0107.github.io/wdd230/lesson09/images/centre.jpg",
         "membership": "Bronze",
         "motto": "Great Hockey Team."
