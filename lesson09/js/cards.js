@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/diaz0107/wdd230/tree/main/directory/scripts/data.json';
+const requestURL = 'https://github.com/diaz0107/wdd230/tree/main/lesson09/js/data.json';
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
