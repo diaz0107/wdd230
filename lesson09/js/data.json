@@ -1,94 +1,86 @@
 {
-    "businesses": [
-        {
-            "name": "Supermercado Pingo Doce",
-            "address": "Rua Actor António Silva n.º7 1649-033 Lisboa",
-            "phone":"+351212410874",
-            "website": "https://www.pingodoce.pt/",
-            "site": "www.pingodoce.pt",
-            "imageurl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
-            "membership": "Gold",
-            "moto": "Sabe bem pagar tão pouco"
-        },
-        {
-            "name": "Hospital Professor Doutor Fernando Fonseca",
-            "address": "Hospital Prof. Doutor Fernando Fonseca E.P.E . IC 19, 2720-276 Amadora",
-            "phone": "+351214348200",
-            "website": "https://hff.min-saude.pt/",
-            "site": "www.hff.min-saude.pt",
-            "imageurl": "https://hff.min-saude.pt/wp-content/uploads/2021/06/cropped-lofotipo-HFF-web_logotipo-HFF-cor-1.png",
-            "membership": "Bronze",
-            "moto": "Unidade de saúde que combina a excelência profissional com as mais modernas prátics médicas"
-        },
-        {
-            "name": "Paróquia da Reboleira",
-            "address": "Largo da Igreja da Reboleira 2720-296, Amadora",
-            "phone": "+351214953361",
-            "website": "http://www.paroquia-reboleira.pt/",
-            "site": "www.paroquia-reboleira.pt",
-            "imageurl": "https://paroquia-reboleira.pt/images/logo_paroquia/logo_nossa_senhora/logo_ns_192x192.png",
-            "membership": "NP",
-            "moto": "Paróquia de N.Sra. da Boa Nova"
-        },
-        {
-            "name": "Camara Municipal da Amadora",
-            "address": "Av. Movimento das Forças Armadas, 1 - Mina de Água, 2700-595 Amadora",
-            "phone": "+351214369000",
-            "website": "https://www.cm-amadora.pt/",
-            "site": "www.cm-amadora.pt",
-            "imageurl": "https://www.cm-amadora.pt/templates/ja_magz_ii/images/logo.png",
-            "membership": "Gold",
-            "moto": "Pensar global, agir local"
-        },
-        {
-            "name": "Continente Hipermercado",
-            "address": "Largo Dr. Dário Gandra Nunes 3 3A, 2700-279 Lisboa",
-            "phone": "+351218247247",
-            "website": "https://www.continente.pt/",
-            "site": "www.continente.pt",
-            "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Logo_Continente.svg/2560px-Logo_Continente.svg.png",
-            "membership": "Gold",
-            "moto": "Compras Online"
-        },
-        {
-            "name": "Fnac",
-            "address": "Rua Professor Carlos Alberto Mota Pinto nr 9 - 6, B, 1070-374 Lisboa",
-            "phone": "+351211536000",
-            "website": "https://www.fnac.pt/",
-            "site": "www.fnac.pt",
-            "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Fnac_Logo.svg/1984px-Fnac_Logo.svg.png",
-            "membership": "Silver",
-            "moto": "Cultura, Tecnologia, Lazer"
-        },
-        {
-            "name": "Worten",
-            "address": "Rua Guarda Nacional Republicana CC Continente Amadora Loja Nº 35, EN249 1, 2724-520 Amadora",
-            "phone": "+351210155222",
-            "website": "https://www.worten.pt/",
-            "site": "www.worten.pt",
-            "imageurl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Logotipo_Worten.jpg",
-            "membership": "Silver",
-            "moto": "Tudo o que precisas em Worten.pt"
-        },
-        {
-            "name": "Music Factory",
-            "address": "R. Proletariado 15-A, 2790-138 Carnaxide",
-            "phone": "+351968671724",
-            "website": "http://www.musicfactory.pt/",
-            "site": "www.musicfactory.pt",
-            "imageurl": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0020/2226/brand.gif?itok=iDH5feXm",
-            "membership": "Bronze",
-            "moto": "É favor tocar em tudo"
-        },
-        {
-            "name": "Generis Farmacêutica",
-            "address": "Rua João de Deus, nº 19 - Venda Nova 2700-487 Amadora",
-            "phone": "+351214967120",
-            "website": "https://www.generis.pt/",
-            "site": "www.generis.pt",
-            "imageurl": "https://www.empregoestagios.com/wp-content/uploads/2020/02/Generis.png",
-            "membership": "Gold",
-            "moto": "Medicamentos genéricos da mais elevada qualidade, a um preço acessível."
-        }
+    "Businesses": [
+      {
+        "name": "Ahora Restauranr",
+        "address": "307 Dalhousie St, Ottawa, ON K1N 7E8",
+        "phone": "613) 562-2081",
+        "site": "http://www.ahora.ca/",
+        "photo": "https://github.com/diaz0107/wdd230/tree/main/lesson09/images/ahora.jpg",
+        "membership": "Bronze",
+        "motto":  "Best Mexican Food in Town."
+      },
+      {
+        "name": "BeaverTails Byward Market",
+        "address": "69 George St, Ottawa, ON K1N 1K1",
+        "phone": "(613) 241-1230",
+        "site": "https://beavertails.com/",
+        "photo": "https://github.com/diaz0107/wdd230/tree/main/lesson09/images/beavertails.jpg",
+        "membership": "Bronze",
+        "motto": "Just Like Your Traditions."
+      },
+      {
+        "name": "Bell Media Ottawa",
+  
+        "address": "87 George St, Ottawa, ON K1N 9H7",
+        "phonenumber": "613-723-1111",
+        "site": "https://bellmedia.ca/",
+        "photo": "https://github.com/diaz0107/wdd230/tree/main/lesson09/images/bellmedia.jpg",
+        "membership": "Gold",
+        "motto": "Canada's Leader In Out-of-Home Advertising."
+      },
+      {
+        "name": "Burger Factory",
+        "address": "293 Dalhousie St #101, Ottawa, ON K1N 7E5",
+        "phone": "(613) 562-4993",
+        "site": "https://zaubee.com/biz/burger-factory-dj539lr0",
+        "photo": "https://github.com/diaz0107/wdd230/tree/main/lesson09/images/BurgerFactory.jpg",
+        "membershi": "Bronze",
+        "motto": "Best Burgers Food in Town."
+      },
+      {
+        "name": "Canadian National Institute Of Health",
+        "address": "303 Dalhousie St, Ottawa, ON K1N 7E8",
+        "phone": "(613) 726-2644",
+        "site": "https://www.cnih.ca/",
+        "photo": "https://github.com/diaz0107/wdd230/tree/main/lesson09/images/CNIH.jpg",
+        "membership": "Silver",
+        "motto": "Graduate Employment rate 100%."
+      },
+      {
+        "name": "Courtyard by Marriott",
+        "address": "200 Coventry Rd, Ottawa, ON K1K 4S3",
+        "phone": "(613) 741-9862",
+        "site": "https://courtyard.marriott.com/",
+        "photo": "https://github.com/diaz0107/wdd230/tree/main/lesson09/images/courtyard.jpg",
+        "membership": "Gold",
+        "motto": "We are at the Heart of it."
+      },
+      {
+        "name": "Dunns Restaurant",
+        "address": "355 Dalhousie St, Ottawa, ON K1N 7G1",
+        "phone": "(613) 562-4966",
+        "site": "https://dunnsfamousottawa.com/",
+        "photo": "https://github.com/diaz0107/wdd230/tree/main/lesson09/images/dunn_s.jpg",
+        "membership": "Bronze",
+        "motto": "Best Food in Town."
+      },
+      {
+        "name": "Canadian Tire",
+        "address": "2165 Carling Ave, Ottawa, ON K2A 1H2",
+        "phonenumber": "(613) 725-3111",
+        "website URLs": "https://www.canadiantire.ca/en.html",
+        "photo": "https://github.com/diaz0107/wdd230/tree/main/lesson09/images/1_6079667.jpg.jpg",
+        "membership": "Bronze",
+        "motto": "If you can find it, we have it"
+      },
+      {
+        "name": "Canadian Tire Center",
+        "address": "1000 Palladium Dr, Ottawa, ON K1N 7G1",
+        "phonenumber": "(613) 599-0100",
+        "website URLs": "https://www.canadiantirecentre.com/",
+        "photo": "https://github.com/diaz0107/wdd230/tree/main/lesson09/images/Canadian tire centre.jpg",
+        "membership": "Bronze",
+        "motto": "Great Hockey Team."
+      }
     ]
-}
+  }
