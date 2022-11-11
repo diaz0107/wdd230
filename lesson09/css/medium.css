@@ -158,11 +158,11 @@
   }
 
   .list section a {
-	width: 300px;
+	width: 400px;
   }
 
   .list section p:nth-child(2) {
-	width: 200px;
+	width: 300px;
   }
 
   .list section p:nth-child(3) {
