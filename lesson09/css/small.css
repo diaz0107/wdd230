@@ -520,7 +520,7 @@ label.submitButton {
   }
 
   section a {
-    padding: 10px;
+    padding: 5px;
     font-size: 18px;
     color: blue;
   }
@@ -530,7 +530,7 @@ label.submitButton {
     word-wrap: break-word;
   }
 
-  section p{
+  section p, section h3 {
     padding-top: 0;
   }
   
