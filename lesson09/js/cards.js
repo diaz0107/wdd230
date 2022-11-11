@@ -20,7 +20,7 @@ function buildBusinessCards(info, type) {
 
     if (type == "grid") {
       let img = document.createElement("img");
-      img.setAttribute("src", `${business.imageurl}`);
+      img.setAttribute("src", `${business.photo}`);
       img.setAttribute("alt", `${business.name}`);
       img.setAttribute("loading", "lazy");
       card.append(img);
