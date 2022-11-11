@@ -504,6 +504,7 @@ label.submitButton {
 /* Directory */
 .directorymenu {
     margin-top: 15px;
+    text-align: center;
   }
   
   .directorymenu,
@@ -519,6 +520,11 @@ label.submitButton {
   
   article {
     margin: 15px 0;
+  }
+
+  section a {
+    font-size: 18px;
+    color: blue;
   }
   
   section a,
