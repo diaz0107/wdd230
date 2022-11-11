@@ -406,8 +406,6 @@ picture{
 }
 
 
-
-
 /*-----------------------FORM-------------------*/
 main {
     max-width: 100%;
@@ -522,6 +520,7 @@ label.submitButton {
   }
 
   section a {
+    padding: 10px;
     font-size: 18px;
     color: blue;
   }
