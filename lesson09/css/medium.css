@@ -153,4 +153,20 @@
 	border: thin silver solid;
 }
 
+.list section h2 {
+	width: 300px;
+  }
 
+  .list section a {
+	width: 200px;
+  }
+
+  .list section p:nth-child(2) {
+	width: 160px;
+  }
+
+  .list section p:nth-child(3) {
+	width: 200px;
+  }
+}
+}

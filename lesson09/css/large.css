@@ -193,4 +193,11 @@
         grid-row:1/2
     }
 }
+.list section a {
+    width: 210px;
+  }
+
+  .list section p:nth-child(2) {
+    width: 300px;
+  }
 
