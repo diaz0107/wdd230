@@ -529,6 +529,10 @@ label.submitButton {
   .spots h3 {
     word-wrap: break-word;
   }
+
+  section p{
+    padding-top: 0;
+  }
   
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
