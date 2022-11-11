@@ -40,7 +40,7 @@ function buildBusinessCards(info, type) {
 }
 
 async function getBusinesses(type) {
-  let response = await fetch(URL);
+  let response = await fetch(requestURL);
   if (response.ok) {
     let data = await response.json();
     buildBusinessCards(data, type);
