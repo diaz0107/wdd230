@@ -24,6 +24,9 @@ function buildBusinessCards(info, type) {
       img.setAttribute("alt", `${business.name}`);
       img.setAttribute("loading", "lazy");
       card.append(img);
+      let h3 = document.createElement("h3");
+      h3.innerHTML = `${business.name}`;
+      card.append(h3);
     } else {
       let h2 = document.createElement("h2");
       h2.innerHTML = `${business.name}`;
