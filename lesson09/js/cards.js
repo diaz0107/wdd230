@@ -39,15 +39,19 @@ function buildBusinessCards(info, type) {
   });
 }
 
-async function getBusinesses(type) {
-  let response = await fetch(requestURL);
-  if (response.ok) {
-    let data = await response.json();
-    buildBusinessCards(data, type);
-  } else {
-    throw Error(response.statusText);
-  }
-}
+fetch(requestURL,
+  {    
+      //mode: 'no-cors', // no-cors, *cors, same-origin
+      headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*'
+      },
+  }).then(
+      response=>{
+          console.log(response);
+          
+      }
+      );
 
 function deleteItems() {
   for (let i = 0; i < 9; i++) {
