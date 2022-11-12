@@ -175,6 +175,21 @@
 	margin: 0 auto;
   }
 
+  .registration {
+	grid-column: 1/2;
+  }
+
+  .mplevels {
+	display:block;
+    max-width: 300%;
+    padding-top: -10px;
+    padding-left: 0px;
+    width: 290px;
+    background-color: white;
+    margin: 0 auto;
+	grid-column: 2/3;
+  }
+
   @media (min-width: 40em) {
 	.list,
 	.list section {
