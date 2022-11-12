@@ -586,7 +586,7 @@ label.submitButton {
 }
 
 .list section {
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: left;
 }
 

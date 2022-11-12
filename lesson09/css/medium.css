@@ -168,3 +168,7 @@
   .list section p:nth-child(3) {
 	width: 300px;
   }
+
+  .list section {
+	flex-direction: row;
+  }
