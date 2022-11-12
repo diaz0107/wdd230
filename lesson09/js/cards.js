@@ -55,13 +55,15 @@ async function getBusinesses(type) {
 getBusinesses("grid");
 
 gridbutton.addEventListener("click", () => {
+
     display.classList.add("grid");
     display.classList.remove("list");
-  }
-);
+  
+});
 
 listbutton.addEventListener("click", () => {
+
     display.classList.add("list");
     display.classList.remove("grid");
-  }
+  
 });
