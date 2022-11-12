@@ -532,6 +532,7 @@ label.submitButton {
 
   section p, section h3 {
     padding-top: 0;
+    padding-bottom: 5px;
   }
   
   .grid {
