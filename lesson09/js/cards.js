@@ -54,14 +54,14 @@ async function getBusinesses(type) {
 
 function deleteItems() {
   for (let i = 0; i < 9; i++) {
-    document.getElementById("section").remove();
+    document.getElementById(".section").remove();
   }
 }
 
 getBusinesses("grid");
 
 gridbutton.addEventListener("click", () => {
-  if (display.classList.value == "cards list") {
+  if (display.classList.value == "list") {
     deleteItems();
     display.classList.remove("list");
     getBusinesses("grid");
@@ -69,7 +69,7 @@ gridbutton.addEventListener("click", () => {
 });
 
 listbutton.addEventListener("click", () => {
-  if (display.classList.value == "cards grid") {
+  if (display.classList.value == "grid") {
     deleteItems();
     display.classList.remove("grid");
     getBusinesses("list");
