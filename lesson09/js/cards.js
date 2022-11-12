@@ -62,9 +62,8 @@ getBusinesses("grid");
 
 gridbutton.addEventListener("click", () => {
   if (display.classList.value == "list") {
-    deleteItems();
+    display.classList.add("grid");
     display.classList.remove("list");
-    getBusinesses("grid");
   }
 });
 
