@@ -168,5 +168,6 @@
   .list section p:nth-child(3) {
 	width: 300px;
   }
-}
+.directory {
+	display: block;
 }
