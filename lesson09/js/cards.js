@@ -1,4 +1,4 @@
-const requestURL = 'https://diaz0107.github.io/wdd230/lesson09/data.json';
+const reqtURL = 'https://diaz0107.github.io/wdd230/lesson09/data.json';
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
@@ -43,7 +43,7 @@ function buildBusinessCards(info, type) {
 }
 
 async function getBusinesses(type) {
-  let response = await fetch(requestURL);
+  let response = await fetch(reqtURL);
   if (response.ok) {
     let data = await response.json();
     buildBusinessCards(data, type);
