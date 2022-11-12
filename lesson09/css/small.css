@@ -557,6 +557,10 @@ label.submitButton {
   section h3 {
     font-size: 24px;
   }
+
+  .list h3, .list p{
+    width: 100%;
+  }
   .directory {
     display: block;
     width: auto;
