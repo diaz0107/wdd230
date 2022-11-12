@@ -52,12 +52,6 @@ async function getBusinesses(type) {
   }
 }
 
-function deleteItems() {
-  for (let i = 0; i < 9; i++) {
-    document.querySelector(".section").remove();
-  }
-}
-
 getBusinesses("grid");
 
 gridbutton.addEventListener("click", () => {
