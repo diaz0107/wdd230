@@ -153,4 +153,58 @@
 	border: thin silver solid;
 }
 
+.join .section {
+	grid-template-rows: repeat(4, auto);
+  }
+
+  .contact {
+	grid-template-columns: repeat(2, 1fr);
+  }
+
+  form fieldset {
+	margin: 15px auto;
+  }
+
+  form input.joinBtn {
+	margin: 0px 12px 15px 12px;
+  }
+
+  section h2,
+  section p,
+  section a {
+	margin: 0 auto;
+  }
+
+  @media (min-width: 40em) {
+	.list,
+	.list section {
+	  display: flex;
+	}
+
+	.list {
+	  flex-direction: column;
+	}
+
+	.list section {
+	  justify-content: left;
+	  align-items: center;
+	}
+
+	.list section h2 {
+	  width: 200px;
+	}
+
+	.list section a {
+	  width: 150px;
+	}
+
+	.list section p:nth-child(2) {
+	  width: 160px;
+	}
+
+	.list section p:nth-child(3) {
+	  width: 100px;
+	}
+  }
+
 

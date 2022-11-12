@@ -193,4 +193,28 @@
         grid-row:1/2
     }
 }
+.main {
+    grid-template-columns: 200px 340px 1fr;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 130px 131px 1fr;
+  }
+
+  .footer p:nth-child(3) {
+    border-style: solid;
+    border-width: 0 2px 0 0;
+  }
+
+  .join {
+    grid-template-columns: 600px 1fr;
+  }
+
+  .list section a {
+    width: 210px;
+  }
+
+  .list section p:nth-child(2) {
+    width: 300px;
+  }
 

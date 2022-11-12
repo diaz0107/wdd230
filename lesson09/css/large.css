@@ -193,6 +193,11 @@
         grid-row:1/2
     }
 }
+
+.join {
+    grid-template-columns: 600px 1fr;
+  }
+  
 .list section a {
     width: 210px;
   }
@@ -200,4 +205,5 @@
   .list section p:nth-child(2) {
     width: 300px;
   }
+
 

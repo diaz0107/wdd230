@@ -47,7 +47,7 @@
     </header>
     <main>
     <div class="registration">
-        <h1>Ottawa Chamber of Commerce Registration</h1>
+        <h1>Chamber of Commerce Registration</h1>
         <hr>
         <br>
         <form method="get" action="thanks.html">
@@ -59,8 +59,6 @@
                     <input class="box" type="text" id="name" name="user_name"  required minlength="3" maxlength="10" size="12"></label>
                     <label class="top" for="lastname">Last Name*
                     <input class="box" type="text" id="lastname" name="user_lastname" required minlength="3" maxlength="10" size="12"></label>
-                    <label class="top" for="position">Business Position*
-                    <input class="box" type="text" id="position" name="user_position" pattern="[A-Z a-z-' ']{7,}" required></label>
                     <label class="top" for="mail">E-mail Address
                     <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
                     <label class="top" for="phone">Cell Phone Number*
@@ -88,6 +86,45 @@
             <input class="button" type="submit" value="Send Registration Form">
         </form>
     </div>
+   
+        <div class="mplevels">
+          <div class="membership bronze">
+            <h2>Bronze Membership</h3>
+            <h3 class="fee">$50/month</h3>
+            <p>
+              Bronze membership is for businesses with less than 50 employees that are for profit. 
+              Benefits include:
+              access to the Nepean Chamber of Commerce network, attend virtual events. 
+            </p>
+          </div>
+    
+          <div class="membership silver">
+            <h2>Silver Membership</h2>
+            <h3 class="fee">$100/month</h3>
+            <p>
+              Silver membership is for businesses with less than 250 employees that are for profit. It includes
+              all the benefits of the bronze membership and in addition of access to all chamber events.
+            </p>
+
+          </div>
+    
+          <div class="membership gold">
+            <h2>Gold Membership</h2>
+            <h3 class="fee">$140/month</h3>
+            <p>
+              Gold membership is for businesses with more than 250 employees that are for profit. It includes
+              all the benefits of silver membership and the opportunity to serve on the Board of Directors.
+            </p>
+            </div>
+
+          <div class="membership nonprofit">
+            <h2>NonProfit Members</h2>
+            <h3 class="fee">No fee</h3>
+            <p> Nonprofit membership is for businesses that are not for profit and are not self-employed.
+            </p>
+          </div>
+          </div>
+        </div>
     
     </main>
     <footer>
@@ -115,5 +152,6 @@
             <script src="js/adjust.js"></script>
             <script src="js/webfontload.js"></script>
             <script src="js/selectresponse.js"></script>
+            <script src="js/silver-gold-members.js"></script>
         </body>
         </html>
