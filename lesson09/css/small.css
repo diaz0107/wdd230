@@ -535,6 +535,7 @@ label.submitButton {
   }
   
   .grid {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     column-gap: 15px;
     row-gap: 15px;
@@ -557,6 +558,7 @@ label.submitButton {
   }
   .directory {
     display: block;
+    width: auto;
   }
 
   section img {
