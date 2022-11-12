@@ -55,14 +55,12 @@ async function getBusinesses(type) {
 getBusinesses("grid");
 
 gridbutton.addEventListener("click", () => {
-  if (display.classList.value == "list") {
     display.classList.add("grid");
     display.classList.remove("list");
   }
 });
 
 listbutton.addEventListener("click", () => {
-  if (display.classList.value == "grid") {
     display.classList.add("list");
     display.classList.remove("grid");
   }
