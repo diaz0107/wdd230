@@ -136,7 +136,6 @@
 	.join-us:hover{
 		background-color: #ff7d00;
 	}
-}
 
 .mygallery {
 	display: grid;
@@ -172,3 +171,5 @@
   .list section {
 	flex-direction: row;
   }
+
+}
