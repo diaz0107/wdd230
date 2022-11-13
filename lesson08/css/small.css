@@ -515,7 +515,7 @@ label.submitButton {
 
 .button {
     display: grid;
-    border: none;
+    border: none;.directory
     background-color: #15616D;
     color: white;
     border-radius: 10px;
@@ -529,10 +529,10 @@ label.submitButton {
     text-align: center;
 }
 
-* Directory */
+
 .directorymenu {
-  margin-top: 15px;
-}
+    margin-top: 15px;
+  }
 
 .directorymenu, .section img, .socialMedia svg:nth-child(1) {
   padding: 10px 0;
