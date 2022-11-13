@@ -136,8 +136,6 @@
 	.join-us:hover{
 		background-color: #ff7d00;
 	}
-}
-
 .mygallery {
 	display: grid;
 	grid-template-columns: 200px 200px;
@@ -220,6 +218,24 @@
 	.list section p:nth-child(3) {
 	  width: 100px;
 	}
+	div.membership {
+		box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
+		border-radius: 24px;
+		border: 1px solid rgba(11, 43, 158, 0.15);
+		padding: 16px;
+		margin: 15px 0;
+		height: 24%;
+		width: 100%;
+	  }
+	  
+	  div.membership h2 {
+		font-weight: bold;
+		font-size: 26px;
+	  }
+	  
+	  div.membership ul li {
+		list-style: none;
+	  }
   }
 
 
