@@ -23,7 +23,7 @@
 
 	}
 
-	main div >{
+	main div > {
 		height: 100%;
 	}
 
@@ -180,7 +180,7 @@
   .mplevels {
 	display:block;
     max-width: 300%;
-    padding-top: -10px;
+    padding-top: 0px;
     padding-left: 0px;
 	padding-right: 0px;
     width: 290px;
@@ -192,7 +192,7 @@
   .main-joint{
     display: grid;
     grid-template-columns: 1fr 300px;
-	margin-right: center;
+	margin-right:auto;
 }
 
   @media (min-width: 40em) {
@@ -244,6 +244,3 @@
 	  div.membership ul li {
 		list-style: none;
 	  }
-  }
-
-
