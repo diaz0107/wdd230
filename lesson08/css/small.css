@@ -534,9 +534,7 @@ label.submitButton {
   margin-top: 15px;
 }
 
-.directorymenu,
-section img,
-.socialMedia svg:nth-child(1) {
+.directorymenu, .section img, .socialMedia svg:nth-child(1) {
   padding: 10px 0;
 }
 
