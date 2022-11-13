@@ -424,15 +424,12 @@ main {
 }
 
 .main-joint{
-    display: grid;
-    grid-template-columns: auto;
+    width: 100%;
 }
 
 .registration {
-display:block;
-max-width: 100%;
-width: 670px;
-margin: 0 auto;
+    display:block;
+    max-width: 100%;
 }
 
 .mplevels {
