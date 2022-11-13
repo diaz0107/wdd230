@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-
-
 .colored {
     background-color: white;
     color: #f4f7f5;
@@ -502,7 +500,6 @@ label.submitButton {
     width: 250px;
 }
 
-
 .commentsBox {
     display: block;
     font-size: 15px;
@@ -515,7 +512,7 @@ label.submitButton {
 
 .button {
     display: grid;
-    border: none;.directory
+    border: none;
     background-color: #15616D;
     color: white;
     border-radius: 10px;
@@ -528,7 +525,6 @@ label.submitButton {
     max-width: 20rem;
     text-align: center;
 }
-
 
 .directorymenu {
     margin-top: 15px;
@@ -591,4 +587,4 @@ div.membership {
   div.membership ul li {
     list-style: none;
   }
-  
+
