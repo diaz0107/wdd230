@@ -2,6 +2,9 @@
 
 const api_key = "57a90726feca2b322037cd9ee293fb56"
 const imgURL = "https://openweathermap.org/img/w/"
+const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
 const k2f = (K) => {
     return (K - 273.15)* 1.8000 + 32.00
 }
@@ -22,6 +25,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?id=6094817&appid='+api_ke
         document.querySelector('#imagesrc').textContent = imageURL
         document.querySelector('#icon').setAttribute('alt',imageDesc)
         document.querySelector('#icon').setAttribute('src',imageURL)
+
     })
     
     /* async function apiFetch(https://api.openweathermap.org/data/2.5/weather?id=6094817&appid='+api_key) {
