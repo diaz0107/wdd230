@@ -8,7 +8,7 @@ const k2f = (K) => {
 const rnd = (n,d) => {
     return (Math.round(n*10**d)/10**d)
 }
-/*
+
 fetch('https://api.openweathermap.org/data/2.5/weather?id=6094817&appid='+api_key)
     .then(res => {
         return res.json()
@@ -20,11 +20,11 @@ fetch('https://api.openweathermap.org/data/2.5/weather?id=6094817&appid='+api_ke
         let imageURL = imgURL+jsonData.weather[0].icon+'.png'
         let imageDesc = jsonData.weather[0].description
         document.querySelector('#imagesrc').textContent = imageURL
-        document.querySelector('#icon').setAttribute('src',imageURL)
         document.querySelector('#icon').setAttribute('alt',imageDesc)
+        document.querySelector('#icon').setAttribute('src',imageURL)
     })
-    */
-    async function apiFetch(https://api.openweathermap.org/data/2.5/weather?id=6094817&appid='+api_key) {
+    
+    /* async function apiFetch(https://api.openweathermap.org/data/2.5/weather?id=6094817&appid='+api_key) {
         try {
           const response = await fetch(url);
           if (response.ok) {
@@ -39,4 +39,4 @@ fetch('https://api.openweathermap.org/data/2.5/weather?id=6094817&appid='+api_ke
         }
       }
       
-      apiFetch();
+      apiFetch(); */
