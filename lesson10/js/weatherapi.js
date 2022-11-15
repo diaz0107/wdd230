@@ -30,17 +30,6 @@ Set the alt attribute for the <img> for accessibility. See below:*/
 
 
 
-/*As I checked the console this is what it showed for console.log(jsObject) on :
-
-{coord: {…}, weather: Array(1), base: "stations",
- main: {…}, visibility: 10000, …}base: "stations"
- clouds: {all: 1}cod: 200
- coord: {lon: -111.8766, lat: 42.0963}dt: 1615271471id: 5604473
- main: {temp: 38.89, feels_like: 24.91, temp_min: 37.4, temp_max: 39.99, pressure: 1013, …}name: "Preston"
- sys: {type: 1, id: 4701, country: "US", sunrise: 1615211448, sunset: 1615253150}timezone: -25200visibility: 10000
- weather: [{…}]wind: {speed: 18.41, deg: 350}
- __proto__: Object*/
-
  function  displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
   
