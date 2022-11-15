@@ -1,6 +1,6 @@
 /*The city ID variable at OpenWeatherMap for Ottawa, Ontario is 6094817.*/
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
+const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
 
 /* Use fetch() to request the given apiURL.
  It is OK to not use a lot of error checking in this activity with fetch().
@@ -9,7 +9,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units
 
 
 
-fetch(apiURL)
+fetch(url)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject); /*see my notes below at the bottom of the page*/
