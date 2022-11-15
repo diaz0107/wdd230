@@ -6,6 +6,7 @@ header h1 {
     font-weight: bold;
     text-align: center;
     font-family: 'Merriweather', 'serif';
+    display: block;
 
 }
 
@@ -45,8 +46,7 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     font-family: 'serif';
-    font-size: 18px;
-    padding: 10px;
+    font-size: 25px;
     line-height: 25px;
 }
 
