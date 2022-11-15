@@ -1,7 +1,5 @@
 /*The city ID variable at OpenWeatherMap for Ottawa, Ontario is 6094817.*/
 
-const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
-
 const api_key = "57a90726feca2b322037cd9ee293fb56"
 const imgURL = "https://openweathermap.org/img/w/"
 const k2f = (K) => {
@@ -10,7 +8,7 @@ const k2f = (K) => {
 const rnd = (n,d) => {
     return (Math.round(n*10**d)/10**d)
 }
-
+/*
 fetch('https://api.openweathermap.org/data/2.5/weather?id=6094817&appid='+api_key)
     .then(res => {
         return res.json()
@@ -25,3 +23,20 @@ fetch('https://api.openweathermap.org/data/2.5/weather?id=6094817&appid='+api_ke
         document.querySelector('#icon').setAttribute('src',imageURL)
         document.querySelector('#icon').setAttribute('alt',imageDesc)
     })
+    */
+    async function apiFetch(https://api.openweathermap.org/data/2.5/weather?id=6094817&appid='+api_key) {
+        try {
+          const response = await fetch(url);
+          if (response.ok) {
+            const data = await response.json();
+            console.log(data); // this is for testing the call
+            // displayResults(data);
+          } else {
+              throw Error(await response.text());
+          }
+        } catch (error) {
+            console.log(error);
+        }
+      }
+      
+      apiFetch();
