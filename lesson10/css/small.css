@@ -546,3 +546,11 @@ figure img {
     filter: blur(0em);
     transition: filter 0.5s;
   }
+  contact {
+    background-color: #B7E4C7;
+    text-align: left;
+}
+
+.contact-info img {
+    height: 50px;
+}
