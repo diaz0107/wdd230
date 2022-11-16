@@ -194,18 +194,6 @@
     }
 }
 
-.weatherBox {
-    top: 40%;
-    left: 30%;
-}
-
-.weatherBox h1 {
-    font-size: 2rem;
-}
-
-.weatherBox p {
-    font-size: 1.2rem;
-}
 
 .description, #high, #chill, .humidity, #speed, .symbol {
     font-size: 1.2rem;
@@ -221,9 +209,3 @@
     box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
 
-#map {
-    display: block;
-    width: 100%;
-    height: 300px;
-    max-width: 450px;
-}

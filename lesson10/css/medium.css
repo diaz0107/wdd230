@@ -218,24 +218,6 @@ h1, h2 {
 	text-align: left;
 }
 
-#map {
-	padding: 0;
-	display: flex;
-	border: 1px solid black;
-}
-
-.weatherBox {
-	top: 45%;
-	left: 10%;
-}
-
-.weatherBox h1 {
-	font-size: 1.7rem;
-}
-
-.weatherBox p {
-	font-size: .9rem;
-}
 
 .description, #high, #chill, .humidity, #speed, .symbol {
 	font-size: .9rem;

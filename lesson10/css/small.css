@@ -508,27 +508,6 @@ label.submitButton {
     text-align: center;
 }
 
-.weatherBox {
-    background-color: black;
-    opacity: 70%;
-    padding: 0rem;
-    top: 27%;
-    left: 7%;
-    display: block;
-    position: absolute;
-    color: white;
-    
-}
-
-.weatherBox h1 {
-    margin: 0;
-    font-size: 1.1rem;
-}
-
-.weatherBox p {
-    font-size: 0.8rem;
-}
-
 .description, #high, #chill, .humidity, #speed, .symbol {
     color: yellow;
     font-weight: bold;
