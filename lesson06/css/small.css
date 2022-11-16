@@ -286,31 +286,35 @@ span {
     margin: 0 auto;
 }
 
-#temp {
-    text-align: right;
-    font-size: 30px;
-    right: 10px;
-} 
-
 .contact a {
     font-size: 20px;
 }
 
+
 .weather-div {
     display: inline;
+
 }
 
-.weather p {
-    position: relative;
-    padding-left: 0;
-    margin-left: 0;
-    padding-bottom: 0.5px;
-}
+.weather h2 {
+    text-align: center;
+    font-size: 1.8em;
+    padding-bottom: 2px;
+  }
 
-.weather-div picture img {
-    width: 90px;
-    position: absolute;
-}
+  #temp {
+     font-size: 25px;
+    padding-bottom: 0px;
+    text-align: left;
+} 
+
+#figcaption {
+    text-align: right;
+    font-size: 20px;
+    right: 5px;
+    padding-bottom: 0px;
+} 
+
 
 main figure.myphoto img {width: 100%;}
 main figure.myphoto figcaption {text-align: center; font-size: .75rem;}
@@ -323,3 +327,5 @@ picture.optipic {
     width: 96%;
     margin: 0 2%;
 }
+ 
+ 

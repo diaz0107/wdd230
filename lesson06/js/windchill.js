@@ -1,8 +1,5 @@
-/*The city ID variable at OpenWeatherMap for Ottawa, Ontario is 6094817.*/
-const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
-
-const windchill = (temperature, wind) => {
-const windDegree = document.querySelector("#windDegree");
+const windchill = (temp, wind) => {
+  const windDegree = document.querySelector("#windDegree");
 
   if (temp <= 50 && wind >= 3) {
     let chill = Math.round(
@@ -18,11 +15,11 @@ const windDegree = document.querySelector("#windDegree");
   }
 };
 
-const currentTemp = parseFloat(document.querySelector("#current-temp").textContent);
+const temperature = parseFloat(document.querySelector("#temp").textContent);
 const windSpeed = parseFloat(document.querySelector("#wind").textContent);
 windchill(temperature, windSpeed);
 
-
+const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
 
 async function apiFetch() {
   try {
@@ -41,13 +38,13 @@ async function apiFetch() {
 
 apiFetch();
 
-function displayResults(weatherData) {
+function displayResults(data) {
   // Select elements
-  const currentTemp = document.querySelector("#current-temp");
-  const weatherIcon = document.querySelector("#weather-icon");
+  const temp = document.querySelector("#temp");
+  const wind = document.querySelector("#wind");
+  const weatherIcon = document.querySelector("#weathericon");
   const figcaption = document.querySelector("#figcaption");
   const windChill = document.querySelector("#windchill");
-  const wind = document.querySelector("#wind");
 
   const temperature = data.main.temp;
   const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
@@ -57,7 +54,7 @@ function displayResults(weatherData) {
   // Set values
   temp.textContent = temperature;
   wind.textContent = windSpeed;
-  weatherIcon.setAttribute("src", iconsrc);
+  weatherIcon.setAttribute("src", iconSrc);
   weatherIcon.setAttribute("alt", desc);
   figcaption.textContent = desc;
   windChill.textContent = windchill(temperature, windSpeed);
