@@ -27,16 +27,15 @@ const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=im
       return `${string.charAt(0).toUpperCase()}${string.slice(1)}`;
     }
 
-      /* Display Results */
     function  displayResults(weatherData) {
         const currentTemp = document.querySelector('#current-temp');
         const weatherIcon = document.querySelector('#weather-icon');
-        const Description = document.querySelector('#currently');
+  
+        const captionDesc = document.querySelector('figcaption');
         currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
       
         const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-                const desc = weatherData.weather[0].description;
-                iconsrc.alt =`Icon of the current weather condition at Ottawa which is ${desc}`;
+        const desc = weatherData.weather[0].description;
       
         weatherIcon.setAttribute('src', iconsrc);
         weatherIcon.setAttribute('alt', desc);
