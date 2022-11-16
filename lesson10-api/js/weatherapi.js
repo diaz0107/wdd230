@@ -23,8 +23,6 @@ const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=im
   }
     apiFetch();
 
- 
-
     function  displayResults(weatherData) {
         const currentTemp = document.querySelector('#current-temp');
         const weatherIcon = document.querySelector('#weather-icon');
