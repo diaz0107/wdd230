@@ -219,19 +219,6 @@ h1, h2 {
 }
 
 
-.description, #high, #chill, .humidity, #speed, .symbol {
-	font-size: .9rem;
-} 
-
-.gallerygrid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.gallery img{
-	display: flex;
-	width: 100%;
-}
 
 
 

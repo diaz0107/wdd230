@@ -508,22 +508,6 @@ label.submitButton {
     text-align: center;
 }
 
-.description, #high, #chill, .humidity, #speed, .symbol {
-    color: yellow;
-    font-weight: bold;
-    font-size: 0.8rem;
-    margin: 0;
-} 
-
-#saturday {
-    background-color: yellow;
-    color: black;
-    text-align: center;
-    display: block;
-    padding: 1rem;
-    margin: 0 auto;
-}
-
 .gallerygrid figure{
     justify-self: center;
     justify-content: center;
@@ -535,7 +519,7 @@ label.submitButton {
 
 figcaption {
     font-family: 'Rubik';
-    text-align: center;
+    text-align: center;.direco
 }
 
 figure img[data-src] {
@@ -553,4 +537,11 @@ figure img {
 
 .contact-info img {
     height: 50px;
+}
+.section {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.dir h1 {
+    text-align: center;
 }
