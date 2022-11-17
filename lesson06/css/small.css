@@ -200,6 +200,9 @@ aside {
     padding: 10px;
 }
 
+aside img {
+    width: 100%;
+}
 main div {
     background-color: #DEE5E5;
     margin-bottom: 10px;
@@ -299,25 +302,28 @@ span {
 .weather-div p {
     padding-top: 0;
     padding-bottom: 0;
-    font-size: 1.3em;
+    font-size: 1.2em;
     width: 100%;
     margin-left: 25px;
 
 }
 .weather h2 {
     font-size: 1.8em;
-    padding-top: 0;
+    padding-top: 0%;
+    text-align: center;
+
   }
 
   #temp {
-     font-size: 30px;
-     width: 70%;
+     font-size: 25px;
+     padding-top: 10%;
 } 
 
 #figcaption {
     font-size: 15px;
+    text-align: right;
     padding-bottom: 0;
-    width: 60%;
+    width: 100%;
 }
 
 .weather-container {
@@ -329,17 +335,25 @@ span {
 }
 
 .weather-container h2 {
-    width: 550%;
+    width: 100%;
     text-align: center;
-    padding-top: 0;
+    padding: 0;
 
 }
 
 .weather-container figure {
     width: 100%;
-    text-align: center;
+    text-align: right;
     padding-top: 0;
 
+}
+
+.weather-link {
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    color: blue;
+    text-decoration: underline;
 }
 
 main figure.myphoto img {width: 100%;}
