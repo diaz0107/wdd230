@@ -308,19 +308,21 @@ span {
 
 }
 .weather h2 {
-    font-size: 1.8em;
-    padding-top: 0;
+    font-size: 2em;
+    padding-top: 10%;
   }
 
   #temp {
-     font-size: 30px;
-     width: 70%;
+     font-size: 25px;
+     width: 68%;
+     padding-top: 10%;
 } 
 
 #figcaption {
     font-size: 15px;
+    text-align: right;
     padding-bottom: 0;
-    width: 60%;
+    width: 100%;
 }
 
 .weather-container {
@@ -332,7 +334,7 @@ span {
 }
 
 .weather-container h2 {
-    width: 55%;
+    width: 60%;
     text-align: center;
     padding-top: 0;
 
@@ -340,17 +342,16 @@ span {
 
 .weather-container figure {
     width: 100%;
-    text-align: center;
+    text-align: right;
     padding-top: 0;
 
 }
 
 .weather-link {
+    display: block;
     width: 100%;
-    font-size: 12px;
-    text-align: center;
+    font-size: 13px;
     color: blue;
-    padding-left: 0%;
     text-decoration: underline;
 }
 
