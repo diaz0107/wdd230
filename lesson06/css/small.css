@@ -200,6 +200,9 @@ aside {
     padding: 10px;
 }
 
+aside img {
+    width: 100%;
+}
 main div {
     background-color: #DEE5E5;
     margin-bottom: 10px;
