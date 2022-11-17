@@ -292,6 +292,7 @@ span {
 
 .weather-div {
     display: inline;
+    padding-bottom: 0;
 
 }
 
@@ -299,7 +300,7 @@ span {
     padding-top: 0;
     padding-bottom: 0;
     font-size: 1.3em;
-    width: 1000%;
+    width: 100%;
 
 }
 .weather h2 {
