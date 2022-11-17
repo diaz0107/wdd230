@@ -330,7 +330,11 @@ picture.optipic {
     max-height: 100px;
 }
 
-weather-container h2 {
-	width: 60%;
+.weather-container h2 {
+    width: 60%;
+    text-align: left;
+
 }
+
+
  
