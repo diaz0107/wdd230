@@ -335,6 +335,13 @@ span {
 
 }
 
+.weather-container figure {
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+
+}
+
 main figure.myphoto img {width: 100%;}
 main figure.myphoto figcaption {text-align: center; font-size: .75rem;}
 
