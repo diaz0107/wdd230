@@ -301,6 +301,7 @@ span {
     padding-bottom: 0;
     font-size: 1.3em;
     width: 100%;
+    margin-left: 3;
 
 }
 .weather h2 {
@@ -310,12 +311,13 @@ span {
 
   #temp {
      font-size: 20px;
-     width: 60%;
+     width: 70%;
 } 
 
 #figcaption {
-    font-size: 13px;
+    font-size: 10px;
     padding-bottom: 0;
+    width: 60%;
 }
 
 .weather-container {
@@ -323,10 +325,11 @@ span {
     flex-direction: row;
     max-height: 100px;
     padding-top: 0;
+    margin-left: 10;
 }
 
 .weather-container h2 {
-    width: 40%;
+    width: 60%;
     text-align: center;
     padding-top: 0;
 
