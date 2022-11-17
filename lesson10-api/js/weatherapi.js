@@ -2,10 +2,6 @@
 
 const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
 
- /* Use fetch() to request the given url.
- It is OK to not use a lot of error checking in this activity with fetch().
-  Convert the string response to a JavaScript object (.json) and print the results to the console
-   in order test and evaluate what is available to use. Use arrow functions. See below: */
 
    async function apiFetch() {
     try {
@@ -22,11 +18,6 @@ const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=im
     }
   }
     apiFetch();
-    /* Capitalize */
-    function capitalize(string) {
-      return `${string.charAt(0).toUpperCase()}${string.slice(1)}`;
-    }
-
     function  displayResults(weatherData) {
         const currentTemp = document.querySelector('#current-temp');
         const weatherIcon = document.querySelector('#weather-icon');
