@@ -306,7 +306,7 @@ span {
     background-color: #ff7d00;
     color: #DEE5E5;
     padding: 8px;
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -530,6 +530,7 @@ figure img {
     filter: blur(0em);
     transition: filter 0.5s;
   }
+
   contact {
     background-color: #B7E4C7;
     text-align: left;
