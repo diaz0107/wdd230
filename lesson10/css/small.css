@@ -423,10 +423,9 @@ main {
 }
 
 .contact {
-display:block;
+display: flex;
+flex-direction: column;
 max-width: 100%;
-width: 750px;
-margin: 0 auto;
 }
 
 
@@ -548,6 +547,11 @@ figure img {
 .board-contacts{
     display: block;
     padding-top: 10;
+}
+
+.info {
+    display: block;
+    width: 100%;
 }
 
 .board {

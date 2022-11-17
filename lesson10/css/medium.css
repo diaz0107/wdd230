@@ -209,15 +209,11 @@ h1, h2 {
 
 .contact {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .contact-info {
 	padding: 10px;
 	text-align: left;
 }
-
-
-
-
 
