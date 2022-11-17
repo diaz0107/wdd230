@@ -576,3 +576,8 @@ figure img {
     font-size: 20px;
     text-align: center;
 }
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+}
