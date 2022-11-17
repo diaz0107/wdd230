@@ -290,7 +290,6 @@ span {
     font-size: 20px;
 }
 
-
 .weather-div {
     display: inline;
 
@@ -300,6 +299,7 @@ span {
     text-align: center;
     font-size: 1.8em;
     padding-bottom: 1px;
+    padding-top: 0;
   }
 
   #temp {
@@ -334,6 +334,7 @@ picture.optipic {
 .weather-container h2 {
     width: 60%;
     text-align: left;
+    padding-top: 0;
 
 }
 
