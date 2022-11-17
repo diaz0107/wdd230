@@ -302,7 +302,7 @@ span {
 .weather-div p {
     padding-top: 0;
     padding-bottom: 0;
-    font-size: 1.3em;
+    font-size: 1.2em;
     width: 100%;
     margin-left: 25px;
 
@@ -343,6 +343,14 @@ span {
     text-align: center;
     padding-top: 0;
 
+}
+
+.weather-link {
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    color: black;
+    padding-top: 0;
 }
 
 main figure.myphoto img {width: 100%;}
