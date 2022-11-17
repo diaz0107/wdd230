@@ -308,12 +308,13 @@ span {
 
 }
 .weather h2 {
-    font-size: 2em;
-    padding-top: 10%;
+    font-size: 1.8em;
+    padding-top: 0%;
+    text-align: center;
   }
 
   #temp {
-     font-size: 25px;
+     font-size: 30px;
      width: 68%;
      padding-top: 10%;
 } 
