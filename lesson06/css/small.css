@@ -304,8 +304,6 @@ span {
 
   #temp {
      font-size: 20px;
-    padding-bottom: 0px;
-    text-align: left;
 } 
 
 #figcaption {
@@ -330,6 +328,7 @@ picture.optipic {
     display: flex;
     flex-direction: row;
     max-height: 100px;
+    width: 60%;
 
 }
  
