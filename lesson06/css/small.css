@@ -311,11 +311,11 @@ span {
     font-size: 1.8em;
     padding-top: 0%;
     text-align: center;
+
   }
 
   #temp {
-     font-size: 30px;
-     width: 68%;
+     font-size: 25px;
      padding-top: 10%;
 } 
 
@@ -335,9 +335,9 @@ span {
 }
 
 .weather-container h2 {
-    width: 60%;
+    width: 100%;
     text-align: center;
-    padding-top: 0;
+    padding: 0;
 
 }
 
