@@ -299,7 +299,7 @@ span {
 .weather h2 {
     text-align: center;
     font-size: 1.8em;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
   }
 
   #temp {
@@ -328,4 +328,9 @@ picture.optipic {
     margin: 0 2%;
 }
  
+.weather-container {
+    display: flex;
+    flex-direction: row;
+
+}
  
