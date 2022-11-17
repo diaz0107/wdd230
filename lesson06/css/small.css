@@ -303,7 +303,7 @@ span {
   }
 
   #temp {
-     font-size: 25px;
+     font-size: 20px;
     padding-bottom: 0px;
     text-align: left;
 } 
@@ -331,6 +331,7 @@ picture.optipic {
 .weather-container {
     display: flex;
     flex-direction: row;
+    max-height: 100px;
 
 }
  
