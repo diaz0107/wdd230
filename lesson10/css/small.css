@@ -546,6 +546,7 @@ figure img {
 
 .board-contacts{
     display: block;
+    padding-top: 10;
 }
 
 .board {
