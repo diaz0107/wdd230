@@ -328,6 +328,7 @@ picture.optipic {
     display: flex;
     flex-direction: row;
     max-height: 100px;
+    padding-top: 0;
 }
 
 .weather-container h2 {
