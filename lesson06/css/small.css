@@ -325,7 +325,7 @@ span {
     flex-direction: row;
     max-height: 100px;
     padding-top: 0;
-    margin-left: 10;
+    margin-left: 0;
 }
 
 .weather-container h2 {
