@@ -348,9 +348,10 @@ span {
 .weather-link {
     width: 100%;
     font-size: 12px;
-    text-align: left;
-    color: black;
-    padding-top: 0;
+    text-align: center;
+    color: blue;
+    padding-left: 0%;
+    text-decoration: underline;
 }
 
 main figure.myphoto img {width: 100%;}
