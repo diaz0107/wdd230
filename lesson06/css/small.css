@@ -354,6 +354,7 @@ span {
     font-size: 13px;
     color: blue;
     text-decoration: underline;
+    text-align: left;
 }
 
 main figure.myphoto img {width: 100%;}
