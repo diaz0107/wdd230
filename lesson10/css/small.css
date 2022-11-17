@@ -519,7 +519,7 @@ label.submitButton {
 
 figcaption {
     font-family: 'Rubik';
-    text-align: center;.direco
+    text-align: center;
 }
 
 figure img[data-src] {
@@ -535,9 +535,7 @@ figure img {
     text-align: left;
 }
 
-.contact-info img {
-    height: 50px;
-}
+
 .section {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -545,3 +543,16 @@ figure img {
 .dir h1 {
     text-align: center;
 }
+
+.contacts{
+    display: block;
+}
+
+.board {
+    display: block;
+    width: 100%;
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
