@@ -1,7 +1,8 @@
 /*The city ID variable at OpenWeatherMap for Ottawa, Ontario is 6094817.*/
 
 const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
-
+const url1 = "https://api.openweathermap.org/data/2.5/forecast/hourly?lat=45.112&lon=-75.6981&appid=57a90726feca2b322037cd9ee293fb56";
+/* https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=44.34&lon=10.99&appid={API key} */
 
    async function apiFetch() {
     try {
