@@ -1,8 +1,6 @@
 /*The city ID variable at OpenWeatherMap for Ottawa, Ontario is 6094817.*/
 
 const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
-const url1 = "https://api.openweathermap.org/data/2.5/forecast/hourly?lat=45.4112&lon=-75.6981&appid=11b8ce84c04107d87283e3f9607181fa";
-/* https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=44.34&lon=10.99&appid={API key} */
 
    async function apiFetch() {
     try {
@@ -22,18 +20,24 @@ const url1 = "https://api.openweathermap.org/data/2.5/forecast/hourly?lat=45.411
     function  displayResults(weatherData) {
         const currentTemp = document.querySelector('#current-temp');
         const weatherIcon = document.querySelector('#weather-icon');
-        const hourlyTemp = document.querySelector('#hourly-temp');
+        const minTemp = document.querySelector("#min");
+        const maxTemp = document.querySelector("#max");
+        const windDesc = document.querySelector("#wind-desc");
   
         const captionDesc = document.querySelector('figcaption');
-        currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-        /* hourlyTemp.innerHTML = `<strong>${weatherData.main.temp_max}</strong>`; */
-      
+        currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(1)}</strong>`;
+        minTemp.innerHTML = weatherData.main.temp_min.toFixed(1);
+        maxTemp.innerHTML = weatherData.main.temp_max.toFixed(1);
+
+        
         const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
         const desc = weatherData.weather[0].description;
       
+        const descwind = weatherData.wind.speed.toFixed(1);
         weatherIcon.setAttribute('src', iconsrc);
         weatherIcon.setAttribute('alt', desc);
         captionDesc.textContent = desc;
+        windDesc.innerHTML = descwind;
       }
 
 /*As I checked the console this is what it showed for console.log(jsObject) on :
