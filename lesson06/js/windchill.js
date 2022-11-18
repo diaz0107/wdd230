@@ -46,7 +46,7 @@ function displayResults(data) {
   const figcaption = document.querySelector("#figcaption");
   const windChill = document.querySelector("#windchill");
 
-  const temperature = data.main.temp.toFixed(0);
+  const temperature = data.main.temp.toFixed(1);
   const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
   const desc = data.weather[0].description;
   const windSpeed = data.wind.speed;
