@@ -76,7 +76,7 @@ header,
 nav,
 main,
 footer {
-	max-width: 960px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -306,7 +306,7 @@ span {
     background-color: #ff7d00;
     color: #DEE5E5;
     padding: 8px;
-    max-width: 1000px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
