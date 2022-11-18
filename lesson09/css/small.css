@@ -612,6 +612,12 @@ section a {
 	font-size: 0.9rem;
 }
 
+section p {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+    font-weight: bold;
+}
+
 img {
 	max-width: 100%;
 }
