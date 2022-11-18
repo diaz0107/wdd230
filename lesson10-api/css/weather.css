@@ -15,6 +15,13 @@ h1, h2 {
           font-size: 20px;
     }
 
-
+    .yellow-text-footer {
+      color:rgb(140, 0, 255);
+      margin-block: 5px;
+  }
+  
+  .footer-line {
+      margin-block: 5px;
+  }
     
     
