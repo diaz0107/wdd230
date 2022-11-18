@@ -14,7 +14,7 @@ function buildBusinessCards(info, type) {
 
     card.setAttribute("class", "section");
     p.innerHTML = `${business.address}`;
-    p2.innerHTML = `${business.phone}`;
+    p2.innerHTML = `${business.membership}`;
     a.innerHTML = `${business.site}`;
     a.setAttribute("href", `${business.site}`);
 
