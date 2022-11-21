@@ -9,22 +9,22 @@
     <link rel="stylesheet" href="./css/small.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
-
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Ottawa Chamber of Commerce Home Page</title>
 </head>
 <body>
+    <div id="message"></div>
     <header>
 
         <div class="headname">
-           <img class="logo" src="images/chamberlogo.png" alt="Ottawa Chamber of Commerce">
+           <img class="logo" src="images/chamberlogo.webp" alt="Ottawa Chamber of Commerce">
            <h1 class="header-title">Ottawa Chamber of Commerce</h1>
         </div>
-        <div class = "social">
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
-            <a href="https://mobile.twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
-            </div>
+        <div class="social">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
+          </div>
         
         <div>
             <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
@@ -33,35 +33,84 @@
             <nav>
                 <ul id="primaryNav">
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="#">Directory</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Contact</a></li> 
-                </ul>
+                    <li> <a href="../lesson07/discover.html">Discover</a></li>
+                    <li><a href="../lesson09/business.html">Directory</a></li>
+                    <li> <a href="../lesson08/joint.html">Joint</a></li>
+                    <li> <a href="../lesson10/contact.html">Contact</a></li>
+                 </ul>
             </nav>
         </div>
         <div class="date-header">
             <p id="datetime"></p>
         </div>
-        
-              
+                          
     </header>
     <main>
-        <div class="hero">Hero with site name call to action</div>
-        <div class="event">Event</div>
-        <div class="weather">Weather</div>
-        <div class="news">News Release</div>
-        <div class="join">Join</div>
+        <div class="hero">
+            <picture class="optipic">
+                <source media="(max-width: 600px)" srcset="images/ottawa-350x350.webp">
+                <source media="(max-width: 768px)" srcset="images/ottawa-medium.webp">
+                <source media="(max-width: 1024px)" srcset="images/ottawa-large.webp">
+                <img src="images/ottawa.webp" alt="Ottawa Canal">
+                <button class="join-us">Join the Ottawa Chamber of Commerce by clicking here!</button>
+            </picture>
+        </div>
+
+        <div class="event">
+				<br><b><center>Ottawa Chamber of Commerce</b>
+                Advocates for collaborative and sustainable community prosperity, Builds support for local businesses as they launch, pivot or grow
+                Champions the City of Ottawa as the best place to live, work and invest.
+        </div>
+
+        <div class="weather"><h2>Ottawa Weather</h2><hr>
+             <div class="weather-div">
+                    <div class="weather-container">
+                    <h2><span id="temp"></span>℉</h2>
+                    <figure>
+                    <img src="#" alt="" id="weathericon">
+                    <figcaption id="figcaption"></figcaption>
+                    </figure>
+                    </div>
+        <p>Wind: <span id="wind"></span> MPH</p>
+        <p>Wind Chill: <span id="windchill"></span><span id="windDegree"></span></p><br><hr>
+                  </div>
+                  <a class="weather-link"href="https://openweathermap.org/" target="_blank">Weather by OpenWeather</a>
+        </div>
+
+        <div class="news">
+            <span id="news-date"><b><br><br><center>November 21, 2022</b></span>
+            <p>Small Business Resilience Critical for Ontario’s Economic Growth
+                Emerging from the pandemic, supporting small business resilience and growth has never been more important 
+				and is a key theme for the Ontario Chamber of Commerce’s (OCC) annual Small Business: Too Big To Ignore campaign. 
+            </p>
+        </div>
+
+        <div class="joinbutton">
+           <button class="join-us">Join Us!</button>
+            <p class="text-join">Click join-us to become a member of the Ottawa Chamber of Commerce. </p>
+        </div>
 
         <aside class="aside">
-            <div>Spotlight 1</div>
-            <div>Spotlight 2</div>
-            <div class="spotlight3">Spotlight 3</div>
-        </aside>
+        <div>
+            <img src="https://diaz0107.github.io/wdd230/chamber/images/ottawa-bellmedia.webp">
+            <small> Ottawa Best TV - <strong>GOLD Membership</strong></small>
+        </div>
+
+        <div> 
+            <img src="https://diaz0107.github.io/wdd230/chamber/images/ottawa-courtyard.webp">
+            <small> Ottawa Best Hotel  - <strong>GOLD Membership</strong></small>
+        </div>
+
+        <div class="spotlight3">
+           <img src="https://diaz0107.github.io/wdd230/chamber/images/canadiantirecentre.webp">
+           <small>Ottawa Senators - <strong>GOLD Membership</strong></small>
+        </div>
+    </aside>
 
     </main>
     <footer>
         <div class="logo-footer">
-            <img class="logo-footer" src="./images/logo.jpg" alt="Ottawa Logo image">
+            <img class="logo-footer" src="./images/logo.webp" alt="Ottawa Logo image">
                 </div>
                 <div class="title-footer">
                     <h2>Ottawa Chamber of Commerce</h2>
@@ -69,16 +118,17 @@
                 <div class="contact">
                     <p>dia20010@byui.edu</p>
                     <p>+(1) 613 8534807</p>
-                    <a href="https://www.google.com/maps/place/811+Connaught+Ave,+Ottawa,+ON+K2B+8K3/@45.3633937,-75.7865587,17z/data=!3m1!4b1!4m5!3m4!1s0x4cce01d6658241c9:0x66a49ac2304b21dd!8m2!3d45.36339!4d-75.78437">📍 Location
+                    <a href="https://www.google.com/maps/place/811+Connaught+Ave,+Ottawa,+ON+K2B+8K3/@45.3633937,-75.7865587,17z/data=!3m1!4b1!4m5!3m4!1s0x4cce01d6658241c9:0x66a49ac2304b21dd!8m2!3d45.36339!4d-75.78437">
+                        &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;📍 Location<br>
                         </a>
-                            <br><br>
+
                     </div>
                 <div class="info">  
                         <span>  &nbsp; &nbsp; &copy;<span id="©">
-                        </span>  &nbsp; Ottawa Chamber of Commerce &nbsp;</span> |  &nbsp; Benjamin Diaz &nbsp; |  &nbsp; WDD 230 Project &nbsp;|  &nbsp; Last modification: &nbsp;  &nbsp; <span id="dateMod"></span>
-                    
-                </div>            
-            </footer>
+                        </span>  &nbsp; Ottawa Chamber of Commerce &nbsp;</span> |  &nbsp; Benjamin Diaz &nbsp; |  &nbsp; WDD 230 Project &nbsp;|  &nbsp; Last modification: &nbsp;  &nbsp; <span id="dateMod"></span>                      
+                </div>
+                    </footer>
             <script src="js/script.js"></script>
+            <script src="js/windchill.js"></script>
         </body>
         </html>

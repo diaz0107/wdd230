@@ -1,36 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-
-.primary {
-    background-color: #15616D;
-    color: #f4f7f5;
-    height: 300px;
-}
-.secondary {
-    background-color: #156160;
-    color: #f4f7f5;
-    height: 300px;
-}
-.accent1 {
-    background-color: #d10812;
-    color: #f4f7f5;
-    height: 300px;
-}
-.accent2 {
-    background-color: #dee5e5;
-    height: 300px;
-}
-.accent3 {
-    background-color: #f4f7f5;
-    height: 300px;
-}
-
 .colored {
     background-color: white;
     color: #f4f7f5;
 }
-
 
 * {
 	margin: 0;
@@ -52,9 +26,8 @@ header {
     grid-template-columns: 5fr 1fr 1fr;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
+	padding: 8px;
 	color: #f4f7f5;
-
 }
 
 header div {
@@ -88,19 +61,22 @@ footer {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-/*	padding: 1px; */
+	padding: 10px; 
     font-size: 15px;
     color: white;
+}
+
+.title-footer h2 {
+color: white;
 }
 
 header,
 nav,
 main,
 footer {
-	max-width: 960px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
-
 
 h1 {
 	font-size: 2rem;
@@ -109,7 +85,6 @@ h2 {
 	padding: .5rem;
 	color: black;
 }
-
 
 p {
 	padding: .5rem;
@@ -167,12 +142,13 @@ header div nav ul li a {
 }
 
 header div nav ul li.active a {
-    background-color: #7e7f9a;
-    color:#fff;
+    background-color: #ff7d00;
+    color: black;
 }
 
 header div nav ul li a:hover {
     background-color: #ff7d00;
+    color: black;
 }
 
 header div nav ul {
@@ -189,10 +165,7 @@ header div nav ul.open {
 #hamburguerBtn.open span:nth-child(1) {display: none}
 #hamburguerBtn.open span:nth-child(2) {display: block}
 
-
-
 main {
-	align-items: center;
 	justify-content: center;
 	font-size: 0.85rem;
     padding: 0.5rem;
@@ -209,11 +182,10 @@ header div nav {
 footer {
 	display: flex;
 	padding: 1rem;
-	justify-content:space-evenly;
-/*	font-weight: 200; */
+	justify-content:space-between;
+font-weight: 700; 
     margin-top: 1rem;
 }
-
 
 main h1, h2, h3, h4, p, li {
     padding: 10px;
@@ -223,14 +195,15 @@ li {
     margin-left: 40px;
 }
 
-
 aside {
     background-color: #7E7F9A;
     padding: 10px;
 }
 
+aside img {
+    width: 100%;
+}
 main div {
-    height: 150px;
     background-color: #DEE5E5;
     margin-bottom: 10px;
     padding: 10px;
@@ -250,6 +223,7 @@ footer p {
     text-align: center;
 }
 
+
 .date-header {
     text-align: center;
 }
@@ -261,3 +235,137 @@ footer p {
 span {
     display: inline-block;
 }
+
+.hero {
+    position: relative;
+    padding: 0; 
+}
+.banner {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.join-us {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #18c6f1;
+    border-radius: 5px;
+    border: none;
+}
+
+.join-us:hover{
+    background-color: #ff7d00;
+}
+.call-to-action {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    padding: 12px;
+    min-width: 100px;;
+    width: 50%;
+    background-color: #18c6f1;
+    box-shadow: 0 10px 30px #121335;
+    border: none;
+}
+
+.call-to-action:hover {
+    background-color: #ff7d00;
+}
+
+.text-join {
+    padding: 15px;
+    text-align: center;
+}
+
+.banner-message {
+    width: 100%;
+    background-color: #ff7d00;
+    color: #DEE5E5;
+    padding: 8px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact a {
+    font-size: 15px;
+}
+
+.weather-div {
+    display: inline;
+    padding-bottom: 0;
+
+}
+
+.weather-div p {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.2em;
+    width: 100%;
+    margin-left: 25px;
+
+}
+.weather h2 {
+    font-size: 1.8em;
+    padding-top: 0%;
+    text-align: center;
+
+  }
+
+  #temp {
+     font-size: 25px;
+     padding-top: 10%;
+} 
+
+#figcaption {
+    font-size: 15px;
+    text-align: right;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: row;
+    max-height: 100px;
+    padding-top: 0;
+    margin-left: 0;
+}
+
+.weather-container h2 {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+
+}
+
+.weather-container figure {
+    width: 100%;
+    text-align: right;
+    padding-top: 0;
+
+}
+
+.weather-link {
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    color: blue;
+    text-decoration: underline;
+    text-align: left;
+}
+
+main figure.myphoto img {width: 100%;}
+main figure.myphoto figcaption {text-align: center; font-size: .75rem;}
+
+main picture.optipic img {width: 100%;}
+
+
+picture.optipic {
+    display: block;
+    width: 96%;
+    margin: 0 2%;
+}
+ 
