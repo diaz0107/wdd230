@@ -207,6 +207,10 @@ h2 {
 	text-align: center;
 }
 
+.board-contacts h1{
+	text-align: center;
+}
+
 .contact {
 	display: flex;
 	flex-direction: column;
