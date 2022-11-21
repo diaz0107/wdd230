@@ -41,5 +41,10 @@ if (weekday === 1 || weekday === 2){
 }
 
 let joint=document.querySelectorAll('.join-us');
-joint.addEventListener("click",()=>{location.assign("https://diaz0107.github.io/wdd230/lesson08/joint.html");});
+
+joint.forEach(event);
+
+function event(element){
+    element.addEventListener("click",()=>{location.assign("https://diaz0107.github.io/wdd230/lesson08/joint.html");});
+}
 
