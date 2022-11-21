@@ -40,6 +40,6 @@ if (weekday === 1 || weekday === 2){
     article.setAttribute('class', 'banner-message');
 }
 
-let joint=document.querySelector('.join-us');
+let joint=document.querySelectorAll('.join-us');
 joint.addEventListener("click",()=>{location.assign("https://diaz0107.github.io/wdd230/lesson08/joint.html");});
 
