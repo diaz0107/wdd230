@@ -11,7 +11,6 @@ function buildBusinessCards(info) {
   data.forEach((business) => {
     let card = document.createElement("div");
     let h2 = document.createElement("h2");
-    let picture = document.createElement("picture");
     let img = document.createElement("img");
     let h3 = document.createElement("h3");
     let a = document.createElement("a");
