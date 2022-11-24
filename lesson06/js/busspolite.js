@@ -1,4 +1,4 @@
-const URL = "https://diaz0107.github.io/wdd230/chamber/json/data.json";
+const URL = "https://diaz0107.github.io/wdd230/lesson06/data.json";
 
 const display = document.getElementById("aside");
 
