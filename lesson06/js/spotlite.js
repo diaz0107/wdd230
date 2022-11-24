@@ -29,13 +29,13 @@ function buildBusinessCards(info) {
     img.setAttribute("alt", `${business.name}`);
 
     card.appendChild(h2);
-    card.appendChild(picture);
     picture.appendChild(img);
+    card.appendChild(picture);
     card.appendChild(h3);
     card.appendChild(a);
     card.appendChild(p);
 
-    display.innerHTML = card;
+    display.appendChild(card);
     num += 1;
   });
 }
