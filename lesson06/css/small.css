@@ -202,7 +202,9 @@ aside {
 
 aside img {
     width: 100%;
-    max-width: 100px;
+    max-width: 150px;
+    display:block;
+    margin: 0 auto;
 }
 
 aside a {
