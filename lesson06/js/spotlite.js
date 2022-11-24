@@ -20,11 +20,11 @@ function buildBusinessCards(info) {
     card.setAttribute("class", `section spot${num}`);
     h2.innerHTML = `${business.name}`;
 
-    h3.innerHTML = `${business.moto}`;
+    h3.innerHTML = `${business.motto}`;
     a.innerHTML = `${business.site}`;
     p.innerHTML = `${business.phone}`;
 
-    a.setAttribute("href", `${business.website}`);
+    a.setAttribute("href", `${business.site}`);
     img.setAttribute("src", `${business.imageurl}`);
     img.setAttribute("alt", `${business.name}`);
 
