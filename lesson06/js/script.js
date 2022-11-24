@@ -47,4 +47,10 @@ joint.forEach(event);
 function event(element){
     element.addEventListener("click",()=>{location.assign("https://diaz0107.github.io/wdd230/lesson08/joint.html");});
 }
+document.querySelector('.logo-footer').addEventListener('click',() => {location.assign('https://diaz0107.github.io/wdd230/lesson06/index.html/');});
+document.querySelector('.logo').addEventListener('click',() => {location.assign('https://diaz0107.github.io/wdd230/lesson06/index.html/');});
+document.querySelector('.header-title').addEventListener('click',() => {location.assign('https://diaz0107.github.io/wdd230/lesson06/index.html/');});
+
+document.querySelector('.logo').alt = "Ottawa Chamber of Commerce, Logo";
+document.querySelector('div .logo-footer').alt = "Ottawa Logo image, Logo";
 
