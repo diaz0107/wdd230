@@ -1,6 +1,6 @@
 const URL = "https://diaz0107.github.io/wdd230/lesson06/data.json";
 
-const display = document.getElementByClassName("aside");
+const display = document.getElementsByClassName("aside");
 
 function buildBusinessCards(info) {
   let data = info.businesses.filter((p) => p.membership == "Gold" || p.membership == "Silver");
