@@ -35,7 +35,7 @@ function buildBusinessCards(info) {
     card.appendChild(a);
     card.appendChild(p);
 
-    display.appendChild(card);
+    display.innerHTML = card;
     num += 1;
   });
 }
