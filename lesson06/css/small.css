@@ -203,6 +203,13 @@ aside {
 aside img {
     width: 100%;
 }
+
+aside a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+    color: blue;
+}
+
 main div {
     background-color: #DEE5E5;
     margin-bottom: 10px;
