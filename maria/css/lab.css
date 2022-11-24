@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Baloo Tamma 2', helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px #777;
+  text-align: center;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px #777;
+  padding: 5px;
+  background: radial-gradient(circle, rgba(7, 40, 60, 1), rgba(7, 40, 60, 0.5));
+  color: #fff;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+header,
+nav,
+main,
+footer {
+  margin: 0px auto;
+  max-width: 87em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 0.25rem;
+  background: rgb(238, 238, 238);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #222;
+  overflow: auto;
+  font-size: 0.9rem;
+}
+
+section {
+  padding: 0.5rem;
+  white-space: unset;
+  word-wrap: break-word;
+}
+
+section p {
+  margin: 0 15px;
+  padding: 15px;
+}
+
+footer {
+  color: #000;
+  padding-top: 1.2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 1.5pt;
+  clear: both;
+}
+
+.smaller {
+  font-size: 0.75rem;
+  color: rgba(14, 14, 95, 0.9);
+}
+
+.gridone {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.gridone ul {
+  margin-left: 3rem;
+  list-style: none;
+}
+
+.gridone li {
+  padding: 3px;
+  font-size: larger;
+}
+
+.gridone li::before {
+  content: '🎦';
+}
+
+#currentDate {
+  text-align: center;
+  font-size: 0.8rem;
+  font-variant: small-caps;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+  margin: 0 auto;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  padding: 0.25rem;
+  width: fit-content;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 0.5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #bbb;
+  max-width: 600px;
+}
+
+.info p {
+  grid-column: 1/3;
+  padding: 0;
+}
+
+.label {
+  font-weight: 700;
+  text-align: right;
+}
+
+.callout {
+  margin: 1rem auto;
+  background-color: #dbf3fa;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  font-size: 0.9rem;
+  color: #000;
+  max-width: 85%;
+}
+
+.smallnote {
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+@media only screen and (min-width: 48em) {
+  section {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .gridone ul {
+    margin-left: 4rem;
+  }
+
+  .abso {
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+  }
+
+  .note {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.95rem;
+  }
+}
