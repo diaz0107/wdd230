@@ -25,7 +25,7 @@ function buildBusinessCards(info) {
     p.innerHTML = `${business.phone}`;
 
     a.setAttribute("href", `${business.site}`);
-    img.setAttribute("src", `${business.imageurl}`);
+    img.setAttribute("src", `${business.photo}`);
     img.setAttribute("alt", `${business.name}`);
 
     card.appendChild(h2);
