@@ -207,6 +207,28 @@ aside img {
     margin: 0 auto;
 }
 
+aside h2 {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+aside h3 {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+aside p {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
 aside a {
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.9rem;
