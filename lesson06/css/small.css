@@ -227,6 +227,7 @@ aside p {
     text-align: center;
     padding-bottom: 5px;
     font-weight: bold;
+    margin-left: 0;
 }
 
 aside a {
