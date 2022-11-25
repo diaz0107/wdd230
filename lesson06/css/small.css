@@ -197,36 +197,26 @@ li {
 
 aside {
     background-color: #7E7F9A;
-    padding: 10px;
+    padding: 5px;
 }
 
 aside img {
-    width: 100%;
-    max-width: 150px;
+    width: 1000%;
+    max-width: 200px;
     display:block;
     margin: 0 auto;
-    padding-top: 0;
 }
 
 aside h2 {
     width: 100%;
     max-width: 300px;
     text-align: center;
-    padding-bottom: 5px;
-}
-
-aside h3 {
-    width: 100%;
-    max-width: 300px;
-    text-align: center;
-    padding-bottom: 5px;
 }
 
 aside p {
     width: 100%;
     max-width: 200px;
     text-align: center;
-    padding-bottom: 5px;
     font-weight: bold;
     margin-left: 0;
 }
