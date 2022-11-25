@@ -206,7 +206,7 @@ aside div {
 
 aside img {
     width: 1000%;
-    max-width: 200px;
+    max-width: 150px;
     display:block;
     margin: 0 auto;
 }
@@ -222,6 +222,7 @@ aside p {
     max-width: 200px;
     text-align: center;
     font-weight: bold;
+    margin: 0 auto;
     padding-bottom: 10px 0;
 }
 
