@@ -41,7 +41,7 @@ async function getBusinesses() {
   if (response.ok) {
     let data = await response.json();
     buildBusinessCards(data);
-    aside.lastChild.classList.add('spotlight3');
+    display.lastChild.classList.add('spotlight3');
   } else {
     throw Error(response.statusText);
   }
