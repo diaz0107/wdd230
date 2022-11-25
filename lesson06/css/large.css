@@ -46,6 +46,7 @@
         display: flex;
         flex-direction: column;
         height: 100%;
+        margin: 7px;
     }
     
     aside div {
@@ -56,6 +57,7 @@
 
     .spotlight3 {
         display: block;
+        margin-bottom: 0;
     }
    
     .joinbutton {
