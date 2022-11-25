@@ -1,11 +1,12 @@
 const URL = "https://diaz0107.github.io/wdd230/lesson06/data.json";
 
 const display = document.querySelector(".aside");
+let array = [];
 
 function buildBusinessCards(info) {
   let data = info.businesses.filter((p) => p.membership == "Gold");
   for (let i = 0; i <= 2; i++) {
-    data.splice(Math.floor(Math.random() * data.length), 1);
+    array.push(Math.floor(Math.random() * data.length), 1);
   };
   let num = 1;
   data.forEach((business) => {
