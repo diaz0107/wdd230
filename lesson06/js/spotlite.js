@@ -5,7 +5,6 @@ const display = document.querySelector(".aside");
 function buildBusinessCards(info) {
   let data = info.businesses.filter((p) => p.membership == "Gold");
   for (let i = 0; i <= 2; i++) {
-    
     data.splice(Math.floor(Math.random() * data.length), 1);
   };
   let num = 1;
