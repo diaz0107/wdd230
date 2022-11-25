@@ -223,6 +223,7 @@ aside p {
     font-weight: bold;
     margin: 0 auto;
     padding-bottom: 10px 0;
+    padding-top: 0px;
 }
 
 aside a {
