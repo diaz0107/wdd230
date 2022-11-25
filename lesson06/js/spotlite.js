@@ -13,14 +13,12 @@ function buildBusinessCards(info) {
     let card = document.createElement("div");
     let h2 = document.createElement("h2");
     let img = document.createElement("img");
-    let h3 = document.createElement("h3");
     let a = document.createElement("a");
     let p = document.createElement("p");
 
     card.setAttribute("class", `section spot${num}`);
     h2.innerHTML = `${business.name}`;
 
-    h3.innerHTML = `${business.motto}`;
     a.innerHTML = `${business.site}`;
     p.innerHTML = `${business.phone}`;
 
@@ -30,7 +28,6 @@ function buildBusinessCards(info) {
 
     card.appendChild(h2);
     card.appendChild(img);
-    card.appendChild(h3);
     card.appendChild(a);
     card.appendChild(p);
 

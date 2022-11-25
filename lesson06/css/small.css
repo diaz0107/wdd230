@@ -232,9 +232,12 @@ aside p {
 }
 
 aside a {
+    display: inherit;
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.9rem;
     color: blue;
+    text-align: center;
+    margin: 0;
 }
 
 main div {
