@@ -135,7 +135,8 @@ section {
 section.grid {
     padding: 1rem;
     display: grid;
-    grid-template-columns: 256px 1fr;
+    grid-template-columns: 1200px 1fr;
+    padding-left: 150px;
 }
 section.grid > img {
     width: 73%; /* I just had to match this percent
