@@ -310,9 +310,9 @@ footer a:hover {
     padding-top: 0.5rem;
     display: block;
     font-size: 0.9rem;
-    color: var(--secondary-color);
+    color: yellow;
 }
-
-#too-small {
-    display: none;
+.yellow-text-footer {
+    color:yellow;
+    margin-block: 5px;
 }
