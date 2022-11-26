@@ -307,13 +307,6 @@ footer a {
 footer a:hover {
     text-shadow: 1px 1px 10px var(--secondary-color);
 }
-.last-updated {
-    padding-top: 0.5rem;
-    display: block;
-    font-size: 0.9rem;
-    color: yellow;
-}
-.yellow-text-footer {
-    color:yellow;
-    margin-block: 5px;
+#lastUpdated {
+    color: gold;
 }
