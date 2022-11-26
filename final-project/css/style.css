@@ -68,6 +68,7 @@ header > span {
     color: var(--secondary-color);
     padding-bottom: 1rem;
 }
+
 h1 {
     color: var(--default-light);
     margin-bottom: 0.75rem;
