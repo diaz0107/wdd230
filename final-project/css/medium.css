@@ -17,7 +17,3 @@ body {
 #typo-wrapper {
     grid-template-columns: 1fr 1fr;
 }
-.yellow-text-footer {
-    color:yellow;
-    margin-block: 5px;
-}

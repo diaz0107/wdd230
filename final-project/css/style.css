@@ -135,12 +135,11 @@ section {
 section.grid {
     padding: 1rem;
     display: grid;
-    grid-template-columns: 1200px 1fr;
+    grid-template-columns: 1500px 1fr;
     padding-left: 150px;
 }
 section.grid > img {
-    width: 73%; /* I just had to match this percent
-                   with the temperature on the logo */
+    width: 73%; 
     align-self: center;
     justify-self: center;
 }
@@ -307,6 +306,13 @@ footer a {
 footer a:hover {
     text-shadow: 1px 1px 10px var(--secondary-color);
 }
-#lastUpdated {
-    color: gold;
+.last-updated {
+    padding-top: 0.5rem;
+    display: block;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}
+
+#too-small {
+    display: none;
 }
