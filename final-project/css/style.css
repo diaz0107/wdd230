@@ -317,3 +317,8 @@ footer a:hover {
 #too-small {
     display: none;
 }
+.logo {
+    width: 6rem;
+    display: block;
+    margin-left: 8px;
+}
