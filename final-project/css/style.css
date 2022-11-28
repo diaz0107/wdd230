@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 :root {
     --main-color: #2e8b57;
@@ -211,6 +213,10 @@ a {
     margin-top: 10px;
     text-align: center;
     padding: 0.5rem;
+}
+
+.colors {
+    width: 100%;
 }
 
 #typo-wrapper {
