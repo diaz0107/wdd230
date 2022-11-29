@@ -145,19 +145,7 @@ section.grid > img {
     align-self: center;
     justify-self: center;
 }
-table {
-    margin: 0 auto;
-}
-table.more-spacing {
-    margin-left: 0;
-    border-spacing: 10px;
-}
-table.more-spacing th {
-    text-align: right;
-}
-table.more-spacing thead th {
-    text-align: center;
-}
+
 ul.more-spacing-bottom > li {
     padding-bottom: 1rem;
 }
