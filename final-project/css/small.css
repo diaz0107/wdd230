@@ -161,27 +161,7 @@ table.more-spacing thead th {
 ul.more-spacing-bottom > li {
     padding-bottom: 1rem;
 }
-.bgGreen {
-    background-color: var(--main-color);
-}
-.bgDark {
-    background-color: var(--default-dark);
-}
-.bgBlue {
-    background-color: var(--secondary-color);
-}
-.cGreen {
-    color: var(--main-color);
-}
-.cWhite {
-    color: var(--default-light);
-}
-.cDark {
-    color: var(--default-dark);
-}
-.cBlue {
-    color: var(--secondary-color);
-}
+
 h2.typography {
     text-align: center;
 }
