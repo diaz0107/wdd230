@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 :root {
-    --main-color: #8fdf9b;
+    --main-color: #AEC3B0;
     --secondary-color: #cac6c6;
-    --accent-color: #008000;
-    --default-light: #ffffff;
+    --accent-color: #598392;
+    --default-light: #EFF6E0;
     --default-dark: #6b6968;
 
     --header-font: 'Exo 2', sans-serif;
@@ -50,8 +50,8 @@ header {
     padding: .5rem;
     position: relative;
     text-align: center;
-    background-color: #8fdf9b;
-    box-shadow: 0 0 10px #8fdf9b;
+    background-color: #AEC3B0;
+    box-shadow: 0 0 10px #AEC3B0;
 }
 header > span {
     display: block;
@@ -73,7 +73,7 @@ nav > ul {
     display: grid;
     list-style: none;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    box-shadow: 0 0 10px #156160;
+    box-shadow: 0 0 10px #598392;
     font-size: 15px;
 }
 nav a {
@@ -90,19 +90,19 @@ nav a, span.navR {
     position: relative;
     text-decoration: none;
     color: white;
-    background-color: #156160;
-    box-shadow: 0 0 10px #156160;
+    background-color: #598392;
+    box-shadow: 0 0 10px #598392;
 }
 nav a.at, nav a:active, span.navA {
-    background-color: #8fdf9b;
-    box-shadow: 0 0 10px #8fdf9b;
+    background-color: #AEC3B0;
+    box-shadow: 0 0 10px whitesmoke;
     font-weight: bold;
     padding: 1em 0;
     z-index: 9;
 }
 nav a:hover, span.navH {
     background-color: #FF7D00;
-    color: #156160;
+    color: #598392;
     font-weight: bold;
     padding: 1em 0;
     z-index: 7;
@@ -111,13 +111,13 @@ nav a:hover, span.navH {
 /* Styles for the main and the children of main */
 main {
     padding: 1px 1em;
-    background-color: white;
+    background-color: whitesmoke ;
 }
 h2 {
-    color: #156160;
+    color: #01161E;
 }
 h3, h4 {
-    color: black;
+    color: #01161E;
 }
 section {
     padding: 0 1em;
@@ -149,7 +149,7 @@ ul {
 .color-li {
     width: 100%;
     margin-top: 10px;
-    border: 1px solid black;
+    border: 1px solid #01161E;
 }
 
 .bold {
@@ -159,14 +159,14 @@ ul {
 .hex {
     width: 80px;
     font-weight: 600;
-    border-right: 1px solid black;
+    border-right: 1px solid #01161E;
 }
 
 .color-dot {
     height: 32px;
     width: 32px;
     margin-right: 10px;
-    border-right: 1px solid black;
+    border-right: 1px solid #01161E;
 }
 
 
@@ -203,7 +203,7 @@ h2.typography {
     text-align: center;
 }
 a {
-    color: #8fdf9b;
+    color: #598392;
 }
 
 #color-scheme-wrapper {
@@ -215,8 +215,8 @@ a {
     align-items: stretch;
 }
 .color-scheme {
-    box-shadow: 2px 2px 5px #6b6968;
-    border: solid 2px #8fdf9b;
+    box-shadow: 2px 2px 5px #AEC3B0;
+    border: solid 2px #EFF6E0;
     border-radius: 5px;
     padding: 0.5rem;
 }
@@ -225,7 +225,7 @@ a {
     margin: 1rem 0;
 }
 .s-color {
-    border: solid 1px #6b6968;
+    border: solid 1px #AEC3B0;
     margin-top: 10px;
     text-align: center;
     padding: 0.5rem;
@@ -246,17 +246,17 @@ h4 + p {
 
 /* Styles for the footer and it's child elements */
 footer {
-    box-shadow: 0 0 10px #6b6968;
-    background-color: #8fdf9b;
+    box-shadow: 0 0 10px #01161E;
+    background-color: #AEC3B0;
     font-family: var(--paragraph-font);
-    color: var(yellow);
+    color: #01161E ;
     text-align: center;
     position: relative;
     padding: 1rem;
     z-index: 10;
 }
 footer a {
-    color: var(--default-light);
+    color: #01161E;
     text-decoration: underline #cac6c6;
 }
 footer a:hover {
@@ -266,7 +266,7 @@ footer a:hover {
     padding-top: 0.5rem;
     display: block;
     font-size: 0.9rem;
-    color: var(yellow);
+    color: yellow;
 }
 
 #too-small {
