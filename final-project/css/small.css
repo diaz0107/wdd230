@@ -123,13 +123,13 @@ nav a:hover, span.navH {
 /* Styles for the main and the children of main */
 main {
     padding: 1px 1em;
-    background-color: var(--default-light);
+    background-color: white;
 }
 h2 {
-    color: var(--accent-color);
+    color: #156160;
 }
 h3, h4 {
-    color: var(--default-dark);
+    color: black;
 }
 section {
     padding: 0 1em;
