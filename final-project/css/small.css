@@ -138,6 +138,57 @@ ul.more-spacing-bottom > li {
     padding-bottom: 1rem;
 }
 
+.color-li {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.hex {
+    width: 80px;
+    font-weight: 600;
+    border-right: 1px solid black;
+}
+
+.color-dot {
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+    border-right: 1px solid black;
+}
+
+
+#colors {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    line-height: 2em;
+} 
+
+#_01161E {
+    background-color: #01161E;
+}
+
+#_124559 {
+    background-color: #124559;
+}
+
+#_598392 {
+    background-color: #598392;
+}
+
+#_AEC3B0 {
+    background-color: #AEC3B0;
+}
+
+#_EFF6E0 {
+    background-color: #EFF6E0;
+}
+
 h2.typography {
     text-align: center;
 }
