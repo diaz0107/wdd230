@@ -3,13 +3,13 @@
 
 :root {
     --main-color: #AEC3B0;
-    --secondary-color: #cac6c6;
+    --secondary-color: #EFF6E0;
     --accent-color: #598392;
     --default-light: #EFF6E0;
-    --default-dark: #6b6968;
+    --default-dark: #01161E ;
 
-    --header-font: 'Exo 2', sans-serif;
-    --paragraph-font: 'Comfortaa', sans-serif;
+    --header-font: 'Yusei Magic', sans-serif;
+    --paragraph-font: 'Lato', sans-serif;
 }
 
 /* Random styling for html and body */
@@ -111,13 +111,13 @@ nav a:hover, span.navH {
 /* Styles for the main and the children of main */
 main {
     padding: 1px 1em;
-    background-color: whitesmoke ;
+    background-color: white ;
 }
 h2 {
-    color: #01161E;
+    color: #598392;
 }
 h3, h4 {
-    color: #01161E;
+    color: #598392;
 }
 section {
     padding: 0 1em;
