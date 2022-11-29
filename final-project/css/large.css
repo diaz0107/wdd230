@@ -1,18 +1,23 @@
-@media only screen and (min-width: 60em) {
+:root {
+    --main-color: #2e8b57;
+    --secondary-color: #add8e6;
+    --accent-color: #90ee90;
+    --default-light: #ffffff;
+    --default-dark: #2f2f2f;
 
-    li {
-        width: 25%;
-    }
+    --header-font: 'Exo 2', sans-serif;
+    --paragraph-font: 'Comfortaa', sans-serif;
+}
 
-    ul {
-        max-width: 900px;
-    }
+body {
+    grid-template-columns: auto 90% auto;
+}
 
-    main {
-        padding: 0;
-    }
 
-    #domain-image {
-        display: block;
-    }
+#typo-wrapper {
+    grid-template-columns: 1fr 1fr ;
+}
+.headname {
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
