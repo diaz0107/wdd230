@@ -50,12 +50,12 @@ header {
     padding: .5rem;
     position: relative;
     text-align: center;
-    background-color: var(--main-color);
-    box-shadow: 0 0 10px var(--main-color);
+    background-color: #8fdf9b;
+    box-shadow: 0 0 10px #8fdf9b;
 }
 header > span {
     display: block;
-    color: var(--default-dark);
+    color: #6b6968;
     padding-bottom: 1rem;
 }
 
@@ -94,8 +94,8 @@ nav a, span.navR {
     box-shadow: 0 0 10px #156160;
 }
 nav a.at, nav a:active, span.navA {
-    background-color: var(--main-color);
-    box-shadow: 0 0 10px var(--main-color);
+    background-color: #8fdf9b;
+    box-shadow: 0 0 10px #8fdf9b;
     font-weight: bold;
     padding: 1em 0;
     z-index: 9;
@@ -142,7 +142,7 @@ h2.typography {
     text-align: center;
 }
 a {
-    color: var(--main-color);
+    color: #8fdf9b;
 }
 
 #color-scheme-wrapper {
@@ -154,8 +154,8 @@ a {
     align-items: stretch;
 }
 .color-scheme {
-    box-shadow: 2px 2px 5px var(--default-dark);
-    border: solid 2px var(--main-color);
+    box-shadow: 2px 2px 5px #6b6968;
+    border: solid 2px #8fdf9b;
     border-radius: 5px;
     padding: 0.5rem;
 }
@@ -164,7 +164,7 @@ a {
     margin: 1rem 0;
 }
 .s-color {
-    border: solid 1px var(--default-dark);
+    border: solid 1px #6b6968;
     margin-top: 10px;
     text-align: center;
     padding: 0.5rem;
@@ -185,8 +185,8 @@ h4 + p {
 
 /* Styles for the footer and it's child elements */
 footer {
-    box-shadow: 0 0 10px var(--default-dark);
-    background-color: var(--main-color);
+    box-shadow: 0 0 10px #6b6968;
+    background-color: #8fdf9b;
     font-family: var(--paragraph-font);
     color: var(yellow);
     text-align: center;
@@ -196,10 +196,10 @@ footer {
 }
 footer a {
     color: var(--default-light);
-    text-decoration: underline var(--secondary-color);
+    text-decoration: underline #cac6c6;
 }
 footer a:hover {
-    text-shadow: 1px 1px 10px var(--secondary-color);
+    text-shadow: 1px 1px 10px #cac6c6;
 }
 .last-updated {
     padding-top: 0.5rem;
