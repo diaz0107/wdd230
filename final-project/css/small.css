@@ -197,15 +197,6 @@ ul {
     background-color: #EFF6E0;
 }
 
-
-
-h2.typography {
-    text-align: center;
-}
-a {
-    color: #598392;
-}
-
 #color-scheme-wrapper {
     display: grid;
     margin: 5px auto;
@@ -328,6 +319,3 @@ th {
     font-size: 18px;
 }
 
-.colors {
-    width: 100%;
-}
