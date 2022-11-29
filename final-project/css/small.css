@@ -102,7 +102,6 @@ nav a.at, nav a:active, span.navA {
 }
 nav a:hover, span.navH {
     background-color: #FF7D00;
-    box-shadow: 0 0 10px var(--default-light), inset 0 0 10px var(--main-color);
     color: #156160;
     font-weight: bold;
     padding: 1em 0;
