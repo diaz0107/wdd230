@@ -1,19 +1,9 @@
-:root {
-    --main-color: #2e8b57;
-    --secondary-color: #add8e6;
-    --accent-color: #90ee90;
-    --default-light: #ffffff;
-    --default-dark: #2f2f2f;
-
-    --header-font: 'Exo 2', sans-serif;
-    --paragraph-font: 'Comfortaa', sans-serif;
-}
-
+@media only screen and (min-width: 768px) {
 body {
     grid-template-columns: auto 95% auto;
 }
 header {
-    box-shadow: 0 0 10px var(--default-dark);
+    box-shadow: 0 0 10px #6b6968;
     
 }
 header h1 {
@@ -46,4 +36,4 @@ section.grid img {
     width: 90%;
     margin: 0 auto;
 }
-
+}
