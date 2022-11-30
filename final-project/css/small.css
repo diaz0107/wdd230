@@ -128,6 +128,7 @@ section.personas {
     display: block;
     grid-template-columns: 1100px 1fr;
     padding-left: 50px;
+    padding-right: 150px;
 }
 
 section.colorscheme {
@@ -152,7 +153,6 @@ section.typography {
     padding-right: 150px;
 }
 
-}
 ul.more-spacing-bottom > li {
     padding-bottom: 1rem;
 }
