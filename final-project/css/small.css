@@ -13,7 +13,7 @@
 }
 
 /* Random styling for html and body */
-html { background-color: var(--secondary-color); }
+html { background-color: #EFF6E0; }
 body {
     margin: 0;
     display: grid;
@@ -38,10 +38,10 @@ h4 {
     font-size: 1.1em;
 }
 h1, h2, h3, h4, th {
-    font-family: var(--header-font);
+    font-family: 'Yusei Magic', sans-serif;
 }
 p, span, div, li, td, a {
-    font-family: var(--paragraph-font);
+    font-family: 'Lato', sans-serif;
 }
 
 /* Styles for the header and elements inside the header */
@@ -261,7 +261,7 @@ h4 + p {
 footer {
     box-shadow: 0 0 10px #01161E;
     background-color: #AEC3B0;
-    font-family: var(--paragraph-font);
+    font-family: 'Lato', sans-serif;
     color: #01161E ;
     text-align: center;
     position: relative;
