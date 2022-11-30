@@ -39,10 +39,6 @@ nav {
     color: rgb(46, 120, 139);
 }
 
-
-
-
-
 h1 {
     font-size: 30px;
 }
@@ -112,13 +108,11 @@ nav ul li a {
     font-size: 1rem;
 }
 
-
 nav a:hover {
     background-color: #FF7D00;
 
     color: black;
 }
-
 
 .byu {
     color: white;
