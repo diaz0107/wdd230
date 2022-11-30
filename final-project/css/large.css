@@ -1,7 +1,7 @@
 @media only screen and (min-width: 992px) {
 
 body {
-    grid-template-columns: auto 90% auto;
+    grid-template-columns: auto 70% auto;
 }
 
 
@@ -44,22 +44,11 @@ header > img {
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
 }
-main {
-    /* width: 97%; */
-    height: calc(100% - 5em - 6em - 4em + 5px);
-    margin: 25px 25px 25px 25px;
-    position: relative;
+
 }
 h2 {
     margin-bottom: 0;
     width: 95%;
-}
-ul {
-    margin: 0;
-    padding-top: 10px;
-    /* width: calc(100% - 40px); */
-    height: 94%;
-    overflow-y: auto;
 }
 
 a {

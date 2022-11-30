@@ -6,7 +6,7 @@ html { background-color: #EFF6E0; }
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: auto 70% auto;
+    grid-template-columns: auto 60% auto;
 }
 body > * {
     grid-column: 2;
@@ -116,18 +116,17 @@ section.grid {
     display: block;
     grid-template-columns: 1100px 1fr;
     padding-right: 50px;
+    margin-left: 50px;
 }
 section.grid > img {
-    width: 100%; 
-    align-self: center;
-    justify-self: center;
+    padding-right: 150px;
 }
 
 section.personas {
     padding: 1rem;
     display: block;
     grid-template-columns: 1100px 1fr;
-    padding-left: 50px;
+    margin-left: 50px;
     padding-right: 150px;
 }
 
@@ -135,7 +134,7 @@ section.colorscheme {
     padding: 1rem;
     display: block;
     grid-template-columns: 1100px 1fr;
-    padding-left: 50px;
+    margin-left: 50px;
     width: 100%;
 }
 
