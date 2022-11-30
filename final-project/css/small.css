@@ -146,6 +146,7 @@ section.colorscheme {
     display: block;
     grid-template-columns: 1100px 1fr;
     padding-left: 100px;
+    width: 100%;
 }
 
 section.typography {
@@ -166,8 +167,8 @@ ul {
     flex-wrap: wrap;
 }
 
-.color-li {
-    width: 100%;
+.color-list {
+    width: 300%;
     margin-top: 10px;
     border: 1px solid #01161E;
 }
@@ -176,17 +177,17 @@ ul {
     font-weight: 600;
 }
 
-.hex {
-    width: 80px;
+.hex-number {
+    width: 100%;
     font-weight: 600;
     border-right: 1px solid #01161E;
 }
 
-.color-dot {
+.color-scheme {
     height: 32px;
     width: 32px;
-    margin-right: 10px;
-    border-right: 1px solid #01161E;
+    margin-right: 80px;
+    border-right: 10px solid #01161E;
 }
 
 
