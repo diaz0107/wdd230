@@ -23,9 +23,7 @@ section.grid {
 section.grid img {
     max-width: 300px;
 }
-#color-scheme-wrapper {
-    grid-template-columns: 1fr;
-}
+
 .color-scheme {
     width: 70%;
     max-width: 400px;
