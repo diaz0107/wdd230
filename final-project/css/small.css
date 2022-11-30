@@ -293,7 +293,7 @@ footer a:hover {
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid #01161E;
     border-collapse: collapse;
     padding: 2px;
 }
@@ -304,14 +304,14 @@ th {
 
 .sample1 {
     font-family: 'Yusei Magic', sans-serif;
-    background-color: #001524;
+    background-color: #AEC3B0;
     color: white;
     font-size: 30px;
 }
 
 .sample2 {
     font-family: 'Lato', sans-serif;
-    background-color: #156160;
+    background-color: #598392;
     color: white;
     font-size: 25px;
 
@@ -319,25 +319,25 @@ th {
 
 .sample3 {
     font-family: 'Yusei Magic', sans-serif;
-    color: black;
+    color: #01161E;
     font-size: 25px;
 }
 
 .sample4 {
     font-family: 'Yusei Magic', sans-serif;
-    color: black;
+    color: #01161E;
     font-size: 22px;
 }
 
 .sample5 {
     font-family: 'Yusei Magic', sans-serif;
-    color: #156160;
+    color: #598392;
     font-size: 20px;
 }
 
 .sample6 {
     font-family: 'Lato', sans-serif;
-    color: black;
+    color: #01161E;
     font-size: 18px;
 }
 
