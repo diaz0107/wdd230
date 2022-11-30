@@ -17,11 +17,42 @@ nav {
 nav > ul {
     grid-template-columns: 1fr;
 }
-section.grid {
+/* section.grid {
     grid-template-columns: 1fr;
-}
+} */
+
 section.grid img {
     max-width: 300px;
+}
+
+section {
+    padding: 0 1em;
+}
+section.grid {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1100px 1fr;
+    padding-left: 100px;
+}
+section.grid > img {
+    width: 100%; 
+    align-self: center;
+    justify-self: center;
+}
+
+section.personas {
+    padding: 1rem;
+    display: block;
+    grid-template-columns: 1100px 1fr;
+    padding-left: 100px;
+}
+
+section.colorscheme {
+    padding: 1rem;
+    display: block;
+    grid-template-columns: 1100px 1fr;
+    padding-left: 150px;
+    width: 100%;
 }
 
 .color-scheme {
