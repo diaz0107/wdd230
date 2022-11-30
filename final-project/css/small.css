@@ -185,9 +185,6 @@ footer a:hover {
     color: yellow;
 }
 
-#too-small {
-    display: none;
-}
 .logo {
     width: 6rem;
     display: block;
