@@ -33,7 +33,7 @@ p, span, div, li, td, a {
     font-family: 'Lato', sans-serif;
 }
 
-/* Styles for the header and elements inside the header */
+/* Header styles and their elements */
 header {
     position: relative;
     text-align: center;
