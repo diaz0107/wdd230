@@ -130,8 +130,7 @@ section.wireframe {
 section.wireframe > img {
     display: block;
     margin-left: 5x;
-    padding-right: 350px;
-}
+  }
 
 section.personas {
     padding: 1rem;
