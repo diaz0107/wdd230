@@ -157,8 +157,6 @@ section.color-scheme > img {
     padding: 1rem;
     display: block;
     grid-template-columns: 1100px 1fr;
-    width: 50%;
-    padding-right: 150px;;
 }
 
 section.typography {
