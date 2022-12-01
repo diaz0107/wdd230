@@ -35,8 +35,6 @@ p, span, div, li, td, a {
 
 /* Styles for the header and elements inside the header */
 header {
-    z-index: 10;
-    padding: .5rem;
     position: relative;
     text-align: center;
     background-color: #AEC3B0;
