@@ -122,6 +122,17 @@ section.grid > img {
     padding-right: 150px;
 }
 
+section.wireframe {
+    padding: 1rem;
+    display: block;
+}
+
+section.wireframe > img {
+    display: block;
+    margin-left: 5x;
+    padding-right: 350px;
+}
+
 section.personas {
     padding: 1rem;
     display: block;
