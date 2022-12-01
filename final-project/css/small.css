@@ -37,7 +37,7 @@ p, span, div, li, td, a {
 header {
     position: relative;
     text-align: center;
-    background-color: #b4ec18;
+    background-color: #ee0a1d;
     box-shadow: 0 0 10px #AEC3B0;
 }
 header > span {
@@ -46,7 +46,7 @@ header > span {
 }
 
 h1 {
-    color: rgb(22, 22, 18);
+    color: rgb(245, 245, 11);
     margin-bottom: 0.75rem;
 }
 nav {
@@ -103,7 +103,7 @@ h3 {
 }
 
 h4 {
-    color: #d61414;
+    color: white;
 }
 section {
     padding: 0 1em;
