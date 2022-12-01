@@ -91,7 +91,6 @@ nav a:hover, span.navH {
     color: #598392;
     font-weight: bold;
     padding: 1em 0;
-    z-index: 7;
 }
 
 /* Styles for the main and the children of main */
@@ -130,7 +129,6 @@ section.wireframe > img {
     display: block;
     margin-left: 5x;
   }
-
 
 section.personas {
     padding: 1rem;
@@ -198,7 +196,6 @@ footer {
     text-align: center;
     position: relative;
     padding: 1rem;
-    z-index: 10;
 }
 footer a {
     color: #01161E;
