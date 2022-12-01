@@ -37,7 +37,7 @@ p, span, div, li, td, a {
 header {
     position: relative;
     text-align: center;
-    background-color: #AEC3B0;
+    background-color: #b4ec18;
     box-shadow: 0 0 10px #AEC3B0;
 }
 header > span {
@@ -46,7 +46,7 @@ header > span {
 }
 
 h1 {
-    color: #01161E;
+    color: rgb(22, 22, 18);
     margin-bottom: 0.75rem;
 }
 nav {
@@ -85,7 +85,7 @@ nav a.at, nav a:active, span.navA {
 
 nav a:hover, span.navH {
     background-color: #FF7D00;
-    color: #598392;
+    color: #b47630;
     font-weight: bold;
     padding: 1em 0;
 }
@@ -98,8 +98,12 @@ main {
 h2 {
     color: #598392;
 }
-h3, h4 {
+h3 {
     color: #598392;
+}
+
+h4 {
+    color: #d61414;
 }
 section {
     padding: 0 1em;
