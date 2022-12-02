@@ -130,6 +130,7 @@ section.wireframe {
 section.wireframe > img {
     display: block;
     margin-left: 5x;
+    max-width: 100%;
   }
 
 section.personas {
@@ -137,7 +138,8 @@ section.personas {
     display: block;
     grid-template-columns: 1100px 1fr;
     margin-left: 50px;
-    padding-right: 150px;
+    padding-right: 100px;
+    max-width: 100%;
 }
 
 section.color-scheme {
