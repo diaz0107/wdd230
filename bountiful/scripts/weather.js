@@ -7,48 +7,27 @@ fetch(currentRequestURL)
   .then((jsObject) => {
     //console.log(jsObject);
 
-    // the current condition description
+    // the current weather conditions in Carlsbad
     let current = jsObject.weather[0].main;
     let _c = document.getElementById('d-current');
     _c.textContent = current;
+    
     // current temperature(s) in Fahrenheit
     let temp = jsObject.main.temp;
     let _t = document.getElementById('d-temp');
     _t.textContent = parseInt(temp);
-    // the humidity
+   
+    // the humidity in Carlsbad
     let humidity = jsObject.main.humidity;
     let _h = document.getElementById('d-humid');
     _h.textContent = humidity;
-    // the wind speed
+    
+    // the wind speed in Carlsbad
     let wind = jsObject.wind.speed;
     let _w = document.getElementById('d-wind-s');
     _w.textContent = wind;
-
-    // calls the windchill function in windchill.js
-    windChill();
 });
 
-// calculate wind-chill
-function windChill() {
-    // create vars for the temp and wind speed
-    let temp = parseInt(document.querySelector('#d-temp').textContent);
-    let windSpeed = parseInt(document.querySelector('#d-wind-s').textContent);
-    // var for wind chill
-    let windChill = '';
-    
-    // check to see if windchill should be calculated
-    if (temp > 50 || windSpeed < 3) {
-        windChill = '-- ';
-    // if temp is below 50 and wind speed is more than 3 mph
-    } else {
-        windChill = parseInt((35.74 + (0.6215 * temp)) -
-        (35.75 * Math.pow(windSpeed, 0.16)) + 
-        (0.4275 * temp * Math.pow(windSpeed, 0.16)));
-    }
-
-    // output the windchill result
-    document.querySelector('#d-wind-c').textContent = windChill;
-}
 
 // Carlsbad Three day forcest
 fetch(threeDayRequestURL)
