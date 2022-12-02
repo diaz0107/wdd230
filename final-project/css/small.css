@@ -124,6 +124,7 @@ section.grid > img {
 section.wireframe {
     padding: 1rem;
     display: block;
+    max-width: 100%;
 }
 
 section.wireframe > img {
@@ -152,6 +153,7 @@ section.color-scheme > img {
     display: block;
     grid-template-columns: 1100px 1fr;
     padding-right: 550px;
+    max-width: 100%;
 }
 
     section.map > img {
@@ -159,6 +161,7 @@ section.color-scheme > img {
     display: block;
     padding-right: 550px;
     padding-left: 0;
+    max-width: 100%;
 }
 
 section.typography {
