@@ -1,4 +1,4 @@
-onst locationUnitsKey = '?id=5334223&units=imperial&appid=57a90726feca2b322037cd9ee293fb56';
+const locationUnitsKey = '?id=5334223&units=imperial&appid=57a90726feca2b322037cd9ee293fb56';
 const currentRequestURL = `https://api.openweathermap.org/data/2.5/weather${locationUnitsKey}`;
 const threeDayRequestURL = `https://api.openweathermap.org/data/2.5/forecast${locationUnitsKey}`;
 
