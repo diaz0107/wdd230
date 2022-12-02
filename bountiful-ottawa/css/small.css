@@ -6,7 +6,7 @@ html { background-color: #EFF6E0; }
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: auto 60% auto;
+    grid-template-columns: auto 80% auto;
 }
 body > * {
     grid-column: 2;
