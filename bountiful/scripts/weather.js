@@ -1,61 +1,114 @@
-const windchill = (temp, wind) => {
-    const windDegree = document.querySelector("#windDegree");
-  
-    if (temp <= 50 && wind >= 3) {
-      let chill = Math.round(
-        35.74 +
-          0.6215 * temp -
-          35.75 * Math.pow(wind, 0.16) +
-          0.4275 * temp * Math.pow(wind, 0.16)
-      );
-      windDegree.innerHTML = "&#8457;";
-      return chill.toFixed(0);
+onst locationUnitsKey = '?id=5334223&units=imperial&appid=57a90726feca2b322037cd9ee293fb56';
+const currentRequestURL = `https://api.openweathermap.org/data/2.5/weather${locationUnitsKey}`;
+const threeDayRequestURL = `https://api.openweathermap.org/data/2.5/forecast${locationUnitsKey}`;
+
+fetch(currentRequestURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    //console.log(jsObject);
+
+    // the current condition description
+    let current = jsObject.weather[0].main;
+    let _c = document.getElementById('d-current');
+    _c.textContent = current;
+    // current temperature(s) in Fahrenheit
+    let temp = jsObject.main.temp;
+    let _t = document.getElementById('d-temp');
+    _t.textContent = parseInt(temp);
+    // the humidity
+    let humidity = jsObject.main.humidity;
+    let _h = document.getElementById('d-humid');
+    _h.textContent = humidity;
+    // the wind speed
+    let wind = jsObject.wind.speed;
+    let _w = document.getElementById('d-wind-s');
+    _w.textContent = wind;
+
+    // calls the windchill function in windchill.js
+    windChill();
+});
+
+// calculate wind-chill
+function windChill() {
+    // create vars for the temp and wind speed
+    let temp = parseInt(document.querySelector('#d-temp').textContent);
+    let windSpeed = parseInt(document.querySelector('#d-wind-s').textContent);
+    // var for wind chill
+    let windChill = '';
+    
+    // check to see if windchill should be calculated
+    if (temp > 50 || windSpeed < 3) {
+        windChill = '-- ';
+    // if temp is below 50 and wind speed is more than 3 mph
     } else {
-      return "N/A";
+        windChill = parseInt((35.74 + (0.6215 * temp)) -
+        (35.75 * Math.pow(windSpeed, 0.16)) + 
+        (0.4275 * temp * Math.pow(windSpeed, 0.16)));
     }
-  };
-  
-  const temperature = parseFloat(document.querySelector("#temp").textContent);
-  const windSpeed = parseFloat(document.querySelector("#wind").textContent);
-  windchill(temperature, windSpeed);
-  
-  const url = "https://api.openweathermap.org/data/2.5/weather?id=6094817&units=imperial&appid=57a90726feca2b322037cd9ee293fb56";
-  
-  async function apiFetch() {
-    try {
-      const response = await fetch(url);
-      if (response.ok) {
-        const data = await response.json();
-        console.log(data);
-        displayResults(data);
-      } else {
-        throw Error(await response.text());
-      }
-    } catch (error) {
-      console.log(error);
+
+    // output the windchill result
+    document.querySelector('#d-wind-c').textContent = windChill;
+}
+
+// Carlsbad Three day forcest
+fetch(threeDayRequestURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    let forcast = jsObject.list;
+    // holds the icon & temp objects for the three day
+    let threeDay = [];
+
+    // loops through response
+    for(let i = 0; i < forcast.length; i++) {
+        // isolates the time
+        let time = parseInt(forcast[i].dt_txt.slice(10,13));
+        // if the time = 18:00 then add to the threeDay array
+        if(time == 18) {
+            // icon and temp obj
+            let w = {
+                wIcon: forcast[i].weather[0].icon,
+                wDesc: forcast[i].weather[0].description,
+                wTemp: parseInt(forcast[i].main.temp),
+                wDate: forcast[i].dt_txt.slice(0,10)
+            };
+            // pushes icon and temp object to the threeDay array
+            threeDay.push(w);
+        }
     }
-  }
-  
-  apiFetch();
-  
-  function displayResults(data) {
-    // Select elements
-    const temp = document.querySelector("#temp");
-    const wind = document.querySelector("#wind");
-    const weatherIcon = document.querySelector("#weathericon");
-    const figcaption = document.querySelector("#figcaption");
-    const windChill = document.querySelector("#windchill");
-  
-    const temperature = data.main.temp.toFixed(1);
-    const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    const desc = data.weather[0].description;
-    const windSpeed = data.wind.speed;
-  
-    // Set values
-    temp.textContent = temperature;
-    wind.textContent = windSpeed;
-    weatherIcon.setAttribute("src", iconSrc);
-    weatherIcon.setAttribute("alt", desc);
-    figcaption.textContent = desc;
-    windChill.textContent = windchill(temperature, windSpeed);
-  }
+    console.log(threeDay);
+    // loops through the threeDay array and outputs the data to the page
+    for(let i = 0; i < threeDay.length; i++) {
+        // set value for content output
+        let o_icon = `https://openweathermap.org/img/w/${threeDay[i].wIcon}.png`;
+        let o_desc = threeDay[i].wDesc;
+        let o_temp = threeDay[i].wTemp;
+        let o_date = threeDay[i].wDate;
+        // get html elements
+        let dayOutput = document.getElementById('day-output');
+        let weatherOutput = document.getElementById('weather-output');
+
+        // create elements
+        let dayTh = document.createElement('th');
+
+        // creates weather information content
+        let weatherInfo = 
+        `<td class="forecast-info">
+            <img src="${o_icon}" alt="${o_desc}" class="w-icon">
+            <span>${o_temp} &#176;F</span>
+        </td>`;
+
+        // add content to elements
+        dayTh.textContent = calcDayOfWeek(o_date);
+
+        // add elements to html
+        dayOutput.appendChild(dayTh);
+        weatherOutput.insertAdjacentHTML('beforeend', weatherInfo);
+    }
+
+    // returns a long string day of week based on date
+    function calcDayOfWeek(date) {
+        let dayOfWeek = new Date(date).toLocaleString('en-us', {weekday: 'long'});
+        return dayOfWeek;
+    }
+});
+
