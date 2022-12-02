@@ -45,12 +45,13 @@ header > span {
     color: #6b6968;
 }
 
+
 h1 {
     color: rgb(245, 245, 11);
     margin-bottom: 0.75rem;
 }
 nav {
-    position: sticky;
+    position: relative;
     top: 0;
 }
 nav > ul {
@@ -58,13 +59,14 @@ nav > ul {
     padding: 0;
     display: grid;
     list-style: none;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     box-shadow: 0 0 10px #598392;
+ 
     font-size: 15px;
 }
 nav a {
     height: calc(100% - 2em);
-}
+    }
 nav a, span.navR {
     padding: 1em 0;
     display: block;
