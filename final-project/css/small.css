@@ -134,9 +134,7 @@ section.wireframe > img {
   }
 
 section.personas {
-    padding: 1rem;
     display: block;
-    grid-template-columns: 1100px 1fr;
     max-width: 100%;
 }
 
