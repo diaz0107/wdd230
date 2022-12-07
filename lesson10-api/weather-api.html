@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./css/weather.css">
+
+    <title>W10 Weather API</title>
+    <style>
+      body {
+    font-family: 'Helvetica';
+          width: 80%;
+          margin-left: 10%;
+          font-weight: bold;
+          text-align: center;
+      }
+   </style>
+      <main> 
+        <div class="weather">
+                        <h1>OpenWeather.org - OpenWeatherMap Report - Ottawa, Canada</h1>
+                        <hr>
+                        <h2>The Current Temperature Forecast is:</h2>
+                        <p>The current temperature in Ottawa is: <span id="current-temp"></span> &deg;F</p>
+                        <hr>
+                        <h2>Today's Forecast for Minimun & Maximum Temperatures are:</h2>
+                        <p>The minimum temperature for today is <span id="min"></span>&deg;F</p>
+                        <p>The maximum temperature for today is <span id="max"></span>&deg;F</p>
+                        <hr>
+                        <h2>The Current Wind Speed is forecasted at:</h2>
+                        <p><span id="wind-desc"></span> MPH</p><hr>
+                        <h2>The Current Graphical Condition for Today is:</h2>
+                        <figure>
+                         <span id="imagesrc"></span> <img src="#" alt="" id="weather-icon">      
+                          <figcaption></figcaption>
+                        </figure>
+
+        </div>
+      </main>
+      <footer>
+        <script src="js/weatherapi.js"></script>  
+        <hr>
+          <div class="footer-line">&copy; 2022 <span id="currentyear"></span> | Ben Diaz | Ottawa, Canada | <a
+                  href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+          </div>
+ 
+      </footer>
+  </body>
+  
+  </html>
