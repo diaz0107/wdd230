@@ -11,7 +11,7 @@ function displayDrinks() {
         totalDrinks = 0;
     }
     dis.innerHTML = `<h3>Total Special Drinks Created : ${totalDrinks}</h3> <br>
-    Want a special drink just for you <a href="/fresh.html">click here</a>....
+    Want a special drink just for you <a href="./fresh.html">click here</a>....
     `;
 
 }
