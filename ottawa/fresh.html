@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Ottawa | Home</title>
+    <meta name="description" content="Bountifull Ottawa Foods - Fresh page">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" media="(min-width:0px) and (max-width:800px)">
+    <link rel="stylesheet" href="css/large.css" media="(min-width: 992px)">
+    <link rel="stylesheet" href="css/medium.css" media="(min-width: 800px) and (max-width:992px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="header-bountiful">
+            <a href="./index.html">
+                <picture>
+                    <source media="(min-width: 760px)" srcset="./images/bountiful-logo.webp">
+                    <img src="./images/bountiful-logo.webp" alt="Bountiful Ottawa logo">
+                </picture>
+            </a>
+            <h1>Bountiful Ottawa Foods</h1>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.google.com/" class="fa fa-google"></a>
+
+            <p class="subtext-title">
+                Offering signature site-made sandwiches and a selection of sweets each Saturday morning (8am to noon)
+                at the Laguna Beach Farmer's Market.</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="" href=".">Home</a></li>
+            <li><a class="#" href="./fresh.html">Fresh</a></li>
+            <li><a class="" href="./aboutus.html">About Us</a></li>
+            <li><a class="" href="./resources.html">Resources</a></li>
+
+        </ul>
+    </nav>
+    <main class="SpecDrink">
+        <form id="SpecialDrinkForm">
+            <h2>Make your Special Drink!</h2><br><br>
+            <div class="form-row">
+                <label for="firstName">First Name*</label>
+                <input type="text" class="input-text input-text-block w-100" id="firstName" name="firstName" required>
+            </div><br>
+            <div class="form-row">
+                <label for="email">Email*</label>
+                <input type="text" class="input-text input-text-block w-100" id="email" name="email" required>
+            </div><br>
+            <div class="form-row">
+                <label for="phone">Phone Number* (ex. 1234567890)</label>
+                <input type="text" class="input-text input-text-block w-100" id="phone" name="phone" required>
+            </div><br>
+            <div>
+                Select three option among available fruits:<br>
+
+                Fruit 1* &nbsp; <select name="fruit1" id="fruit1" required>
+                    <option value="">Please select fruit</option>
+                </select><br>
+                Fruit 2* &nbsp; <select name="fruit2" id="fruit2" required>
+                    <option value="">Please select fruit</option>
+                </select><br>
+                Fruit 3* &nbsp; <select name="fruit3" id="fruit3" required>
+                    <option value="">Please select fruit</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="extraNote">Special instruction (ex. Add more ice!!):</label><br>
+                <textarea class="input-text input-text-block w-100" id="extraNote" name="extraNote" rows="4"
+                    cols="40"></textarea>
+
+            </div><br>
+
+            <div class="form-row mx-auto">
+                <button type="submit" class="btn-submit" id="btn-submit" onclick="addDrink()">
+                    Submit
+                </button>
+            </div><br>
+        </form>
+
+        <div class="special-drink-result-wrapper">
+            Your Order Details:<br>
+            <div class="drink-result" id='drink-result' hidden>
+            </div>
+        </div>
+        <br>
+    </main>
+    <footer>
+        &copy;<span class="year"> 2022</span> | Benjamin Diaz| Ottawa, Canada | <a target="_blank"
+            href="https://byui.edu/online">BYUI Online Learning</a>
+        <span class="last-updated"></span>
+    </footer>
+    <script src="scripts/freshFruit.js"></script>
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
