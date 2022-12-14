@@ -160,7 +160,7 @@ function showResult(drinkDetail) {
     // }
     const todayDate = new Date();
     // x.removeAttribute("hidden");
-    var resultHTML = `<br> Frist Name : ${drinkDetail.firstname}`;
+    var resultHTML = `<br> First Name : ${drinkDetail.firstname}`;
     resultHTML += `<br> Email : ${drinkDetail.email}`;
     resultHTML += `<br> Phone : ${drinkDetail.phone}`;
     resultHTML += `<br> 1st Fruit selected : ${drinkDetail.fruit1name}`;
