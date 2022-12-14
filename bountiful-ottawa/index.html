@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Ottawa | Home</title>
+    <meta name="description" content="Bountifull Ottawa Foods landing page">
+    <meta name="author" content="Benjamin Diaz">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" media="(min-width:0px) and (max-width:768px)">
+    <link rel="stylesheet" href="css/large.css" media="(min-width: 992px)">
+    <link rel="stylesheet" href="css/medium.css" media="(min-width: 768px) and (max-width:992px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/favicon.ico" type="icon">
+</head>
+
+<body>
+    <header>
+        <div id="header-bountiful">
+            <a href="./index.html">
+                <picture>
+                    <source media="(min-width: 760px)" srcset="./images/bountiful-logo.png">
+                    <img src="./images/bountiful-logo.png" alt="Bountiful Ottawa logo">
+                </picture>
+            </a>
+            <h1>Bountiful Ottawa Foods</h1>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.google.com/" class="fa fa-google"></a>
+
+            <p class="subtext-title">
+                Offering signature site-made sandwiches and a selection of sweets each Saturday morning (8am to noon)
+                at the <a
+                    href="https://www.google.com/maps/dir//521+Forest+Ave,+Laguna+Beach,+CA+92651,+United+States/@33.5460873,-117.8514231,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80dce5caff4c7867:0x98529963616368eb!2m2!1d-117.781383!2d33.546107">Laguna
+                    Beach Farmers Market</a>.
+            </p>
+        </div>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a class="at" href="./index.html">Home</a></li>
+            <li><a class="" href="./fresh.html">Fresh</a></li>
+            <li><a class="" href="./aboutus.html">About Us</a></li>
+            <li><a class="" href="./resources.html">Resources</a></li>
+        </ul>
+    </nav>
+    <!-- <main> -->
+    <main class="full-width">
+        <h2 class="page-title">Bountifull Ottawa Foods</h2>
+
+        <div class="content-wrapper">
+            <div class="city-desc">
+
+                <picture>
+                    <a href="https://www.flickr.com/photos/jstephenconn/3162129694">
+                        <img class="imgAuto" src="./images/carlsbad-sign.webp" alt="Downtown Varlsbad hero image"></a>
+                </picture>
+                <!-- <i class="fas fa-external-link-alt"></i> -->
+                <p>Bountiful Foods is a well known organization in Carlsbad, California. As we can see the wether
+                    over here is always beautiful. As a result of which is attracts more tourist and fresh
+                    vegetables and fruits are also easily grown here. Dive into out own small but meaningful
+                    organization. Welcome to Bountiful Ottawa Foods!</p>
+
+            </div>
+
+            <div class="weather-summary">
+                <h3 class="ws-h3">Weather Summary</h3>
+                <table class="ws-table">
+                    <tr>
+                        <td class="title-data">Current Description: </td>
+                        <td class="sum-data"><span id="d-current"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="title-data">Temp: </td>
+                        <td class="sum-data"><span id="d-temp"></span> &#176;F</td>
+                    </tr>
+                    <tr>
+                        <td class="title-data">Humidity: </td>
+                        <td class="sum-data"><span id="d-humid"></span>%</td>
+                    </tr>
+ 
+                </table>
+            </div>
+
+            <div class="weather-forcast">
+                <h2 class="forcast-title">3 Day Forecast</h2>
+                <table class="forecast-table">
+                    <tr id="day-output">
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr id="weather-output">
+                        <td class="hidden"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="drinksDisplayParent">
+                <div id="totalDrinksDisplay">
+                    Want a special drink mix just for you <a href="./fresh.html">click here</a>....
+                    <!-- Total number of drinks here -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        &copy;<span class="year"> 2022</span> | Benjamin Diaz| Ottawa, Canada | <a target="_blank"
+            href="https://byui.edu/online">BYUI Online Learning</a>
+        <span class="last-updated"></span>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/indexScripts.js"></script>
+</body>
+
+</html>
