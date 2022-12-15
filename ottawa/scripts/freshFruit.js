@@ -20,7 +20,8 @@ function init() {
 
 function handleFruitSelect(selected) {
 
-    fetch(urlAllFruit)
+    fetch('https://api.allorigins.win/raw?url='+urlAllFruit)
+
         .then(res => {
             console.log("Fetching fruits information from API!");
             return res.json();
